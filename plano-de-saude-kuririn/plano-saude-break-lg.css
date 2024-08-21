@@ -6,10 +6,13 @@
         width: 50%;
     }
 
+    /* ----------------------------------- SECTION - 2ª PÁGINA - SELECIONE SUA ESPECIALIDADE ------------------------------------------*/
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991.08px) {
-    .cabeçalho{
+    .cabeçalho {
         height: 79px;
     }
 
@@ -20,15 +23,60 @@
     .titulo {
         font-size: 31px;
     }
+
     .text-busque-agende {
         font-size: 16px;
         width: 300px;
     }
 
+    .paragrafo-separado-footer {
+        margin-left: 0px;
+    }
+
+    /* ----------------------------------- SECTION - 2ª PÁGINA - SELECIONE SUA ESPECIALIDADE ------------------------------------------*/
+    
+    .titulo-e-navegação {
+        flex-wrap: wrap-reverse;
+    }
+
+    .titulo-section-segunda-pagina {
+        font-size: 31px;
+    }
+
+    .numero-identificação-principal {
+        width: 16px;
+    }
+
+    .numero-de-identificação {
+        width: 16px;
+    }
+
+    .item-principal {
+        font-size: 10px;
+    }
+
+    .item-lista-navegação {
+        font-size: 10px;
+    }
+
+    .barra-de-pesquisa-padding {
+        padding: 5px;
+    }
+
+    .input-de-busca {
+        width: 280px;
+    }
+
+    .lista-de-especialidades {
+        width: 310px;
+    }
+
+
+
 }
 
 @media (min-width: 576px) and (max-width: 768.08px) {
-    .cabeçalho{
+    .cabeçalho {
         height: 79px;
         background-image: rgb(41, 60, 100);
     }
@@ -59,15 +107,45 @@
         text-align: center;
         font-size: 36px;
     }
+
     .text-busque-agende {
         text-align: center;
         font-size: 20px;
         width: 345px;
     }
+
+    .paragrafo-separado-footer {
+        margin-left: 0px;
+    }
+
+    footer{
+        margin-top: 60px;
+    }
+    /* ---------------------------------- SECTION - 2ª PÁGINA - SELECIONE SUA ESPECIALIDADE ---------------------------------------*/
+    .titulo-e-navegação {
+        flex-wrap: wrap-reverse;
+    }
+
+    .conteudo-section-segunda-pagina {
+        align-items: center;
+    }
+
+    .especialidades-e-busca {
+        align-items: center;
+    }
+
+    .div-button-avancar {
+        justify-content: center;
+    }
+
+    .titulo-section-segunda-pagina {
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 576.08px) {
-    .cabeçalho{
+    .cabeçalho {
         height: 79px;
     }
 
@@ -79,7 +157,7 @@
         display: none;
     }
 
-    
+
     .conteudo-section {
         flex-wrap: wrap-reverse;
         justify-content: center;
@@ -102,10 +180,88 @@
         text-align: center;
         font-size: 32px;
     }
+
     .text-busque-agende {
         text-align: center;
         font-size: 18px;
         width: 300px;
     }
-}
 
+    .down-footer {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .paragrafo-separado-footer {
+        margin-left: 0px;
+    }
+
+    footer{
+        margin-top: 60px;
+    }
+
+    /* ----------------------------------- SECTION - 2ª PÁGINA - SELECIONE SUA ESPECIALIDADE --------------------------------------*/
+    .titulo-e-navegação {
+        flex-wrap: wrap-reverse
+    }
+
+    .titulo-e-navegação {
+        text-align: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .conteudo-section-segunda-pagina {
+        align-items: center;
+    }
+
+    .especialidades-e-busca {
+        align-items: center;
+    }
+
+    .div-button-avancar {
+        justify-content: center;
+    }
+
+    .titulo-e-navegação {
+        flex-wrap: wrap-reverse;
+        align-items: center;
+    }
+
+    .titulo-section-segunda-pagina {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .numero-identificação-principal {
+        width: 16px;
+    }
+
+    .numero-de-identificação {
+        width: 16px;
+    }
+
+    .item-principal {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .item-lista-navegação {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .barra-de-pesquisa-padding {
+        padding: 5px;
+    }
+
+    .input-de-busca {
+        width: 60px;
+    }
+
+    .lista-de-especialidades {
+        width: 230px;
+    }
+
+
+
+
+}

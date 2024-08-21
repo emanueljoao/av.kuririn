@@ -36,7 +36,7 @@
     <!-- MAIN -->
 
     <main>
-        <section>
+        <section class="d-none">
             <div class="conteudo-section container-xl d-flex flex-row">
 
                 <div class="texto-e-botao d-flex flex-column">
@@ -57,23 +57,94 @@
 
             </div>
         </section>
+
+                                    <!-- SECTION 2ª PÁGINA - SELECIONE A ESPECIALIDADE -->
+
+        <section>
+            <div class="conteudo-section conteudo-section-segunda-pagina  container-xl d-flex flex-md-row flex-column justify-content-md-between">
+
+                
+                <div class="titulo-e-navegação d-flex align-items-sm-center flex-md-row flex-column">
+                    <div class="lista-de-passos">
+
+                        <p class="links-initial-page-section d-md-none"><a href="#" class="text-decoration-none">HOME</a> | <a
+                            href="#" class="text-decoration-none">FACILIDADES</a> | <a href="#"
+                            class="text-decoration-none"> AGENDAMENTOS</a></p> 
+
+                        <ul class="lista-de-navegação-agenda list-unstyled d-none d-sm-block">
+
+                            <li class="item-principal d-flex flex-row"> <div class="numero-identificação-principal">1</div> Especialidade</li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">2</div> Selecione o Profissional</li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">3</div> Data e Hora</li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">4</div> Dados do Paciente</li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">5</div> Confirmação</li>
+
+                        </ul>
+
+                        <ul class="d-block d-sm-none d-flex flex-row">
+                            <li class="item-principal d-flex flex-row"> <div class="numero-identificação-principal">1</div></li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">2</div></li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">3</div></li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">4</div></li>
+                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">5</div></li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <h1 class="titulo-section-segunda-pagina">Selecione a <br> Especialidade</h1>
+                    </div>
+
+                </div>
+
+                <div class="especialidades-e-busca d-flex align-items-sm-end flex-column">
+                    <p class="links-initial-page-section d-md-block d-none"><a href="#" class="text-decoration-none">HOME</a> | <a
+                        href="#" class="text-decoration-none">FACILIDADES</a> | <a href="#"
+                        class="text-decoration-none"> AGENDAMENTOS</a></p>
+                    <div class="barra-de-pesquisa d-flex flex-row">
+                        <div class="barra-de-pesquisa-padding">
+                            <label class="label-lupa" for="id-busque-especialidade"><img src="imagens-e-icons/icone-lupa-para-busca.svg" alt="icone lupa de busca"></label>
+                            <input class="input-de-busca" type="text" name="busque-especialidade" id="id-busque-especialidade" placeholder="Buscar pela Especialidade na Lista">
+                        </div>
+                    </div>
+                    <div class="lista-de-especialidades">
+                        <ul class="especialidades list-unstyled me-3">
+                            <li class="item-especialidades">Especialidade 1</li>
+                            <li class="item-especialidades">Especialidade 2</li>
+                            <li class="item-especialidades">Especialidade 3</li>
+                            <li class="item-especialidades">Especialidade 4</li>
+                            <li class="item-especialidades">Especialidade 5</li>
+                            <li class="item-especialidades">Especialidade 6</li>
+                            <li class="item-especialidades">Especialidade 7</li>
+                            <li class="item-especialidades">Especialidade 8</li>
+                        </ul>
+                    </div>
+                    <div class="div-button-anvancar d-flex"><button class="button-agende-aqui btn">Avançar &gt;</button></div>
+                </div>
+
+            </div>
+        </section>              
+
     </main>
 
     <!-- FOOTER -->
 
     <footer>
         <div class="container-xl">
-            <div class="up-footer col-10 d-flex flex-row">
-                <div class="d-flex align-items-center"><img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital"></div>
+
+            <div class="img-logo-hospital-footer d-lg-none d-flex justify-content-center"><img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
+
+            <div class="up-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center">
+                <div class="img-up-footer d-none d-lg-flex align-items-center"><img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
 
                 <div class="d-flex flex-row align-items-center">
                     <img src="imagens-e-icons/icone-de-telefone.svg" alt="icone de um telefone" class="me-2">
-                    <p>33 3333 3333</p>
+                    <p class="paragrafos-footer">33 3333 3333</p>
                 </div>
 
                 <div class="d-flex flex-row align-items-center">
                     <img src="imagens-e-icons/icone-de-local.svg" alt="icone de ponto indicando o local do hospital" class="me-2">
-                    <address>
+                    <address class="paragrafos-footer">
                         Avenida Oxigenweb, 2009 - Vila Oxigenweb | Presidente Oxigenweb - SP <br>
                         CNPJ 00.000.000/0001-00
                     </address>
@@ -82,25 +153,23 @@
 
             <hr class="linha-footer">
 
-            <div class="down-footer col-10 d-flex flex-row align-items-baseline">
-
-                <p>&copy;2024 OxigenWeb Hospital. Criação: <img src="imagens-e-icons/logo-oxigenweb.svg"
-                    alt="logo da OxigenWeb"> 
-                </p>
-
-                <p class="paragrafo-separado-footer">
-                    Responsável técnico Plano de Saúde: <br>
-                    Dra. Jéssica Oxigenweb
-                </p>
-
-                <p>
-                    Responsável Hospital: <br>
-                    Dr. Nathan Oxigenweb
-                </p>
-
-            </div>
-            <div>
-                <img class="botao-chat-footer" src="imagens-e-icons/imagem-botao-de-chat.png" alt="logo da oxigenweb">
+            <div class="down-footer-e-botao-de-chat d-flex flex-row flex-wrap">
+                <div class="down-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center align-items-lg-baseline flex-nowrap">
+                    <p class="paragrafos-footer">&copy;2024 OxigenWeb Hospital. Criação: <img src="imagens-e-icons/logo-oxigenweb.svg"
+                        alt="logo da OxigenWeb">
+                    </p>
+                    <p class="paragrafo-separado-footer paragrafos-footer">
+                        Responsável técnico Plano de Saúde: <br>
+                        Dra. Jéssica Oxigenweb
+                    </p>
+                    <p class="paragrafos-footer">
+                        Responsável Hospital: <br>
+                        Dr. Nathan Oxigenweb
+                    </p>
+                </div>
+                <div class="div-botao-de-chat col-12 col-lg-2 d-flex align-items-lg-end justify-content-lg-end align-items-center justify-content-center">
+                    <img class="botao-chat-footer" src="imagens-e-icons/imagem-botao-de-chat.png" alt="logo da oxigenweb">
+                </div>
             </div>
         </div>
 

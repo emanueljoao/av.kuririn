@@ -118,6 +118,10 @@ address{
     margin: 0;
 }
 
+.linha-footer {
+    color: #C18E24;
+}
+
 .botao-chat-footer {
     margin-top: 0px;
     margin-left: 0px;

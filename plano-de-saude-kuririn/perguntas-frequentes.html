@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo-plano-de-saude.css">
     <link rel="stylesheet" href="plano-saude-break-lg.css">
     <title>Perguntas Frequentes</title>
 </head>
+
 <body>
-    
+    <!--############################################################## HEADER ########################################################-->
     <header>
         <nav>
-            <div class="cabeçalho d-flex">
+            <div class="cabeçalho d-flex col-12">
                 <div class="conjunto-header d-flex flex-row justify-content-between ms-5 flex-nowrap">
                     <img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid">
                     <hr class="linha-divisao-hospital-agendamento">
@@ -22,30 +29,601 @@
                 </div>
             </div>
         </nav>
+
+        <div>
+            <div class="header-image col-1 position-absolute d-none d-md-block"><img
+                    src="imagens-e-icons/header-img-page-faq.png" alt="imagem das bordas de meio retângulo"></div>
+            <div
+                class="d-flex justify-content-md-around flex-md-row flex-column-reverse align-items-md-start align-items-center">
+                <h1 class="titulo-faq">Perguntas Frequentes</h1>
+                <div class="paragrafo-links-header d-flex">
+                    <p class="links-header-page-faq"><a href="#" class="text-decoration-none">HOME</a> | <a href="#"
+                            class="text-decoration-none">CONTATO</a> | <a href="#" class="text-decoration-none">FAQ</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </header>
+    <!--################################################## FECHAMENTO HEADER #####################################################-->
 
-    <!-- MAIN -->
 
+
+
+    <!--####################################################### MAIN #############################################################-->
     <main>
-                 
+        <!--------------------------------------------------------- SECTION SUBTITULO ------------------------------------------------------>
+        <section class="section-subtitulo">
+            <div class="conteudo-section-subtitulo container-xl d-flex flex-column">
+                <h2 class="h2-section-subtitulo">Tire Suas Dúvidas sobre o Hospital e <br> Plano de Saúde</h2>
+                <p class="paragrafo-subtitulo">Selecione o tema e veja as perguntas frequentes que nossos <br>
+                    beneficiários e clientes enviam ao nosso time de atendimento.</p>
+            </div>
+        </section>
+        <!-------------------------------------------------- FECHAMENTO SECTION SUBTITULO -------------------------------------------------->
 
+
+
+
+
+
+
+        <!-------------------------------------------------- SECTION FILTRO DE PLANOS ------------------------------------------------------>
+        <section class="section-filto-planos">
+
+            <div class="conteudo-section-filtro container-xl">
+                <div class="grupo-buttons btn-group d-flex justify-content-center" role="group"
+                    aria-label="Basic example">
+                    <button type="button" class="buttons-planos button-left btn">Plano de Saúde <div
+                            class="pinguelinho"></div></button>
+                    <button type="button" class="buttons-planos btn">Plano A <div class="pinguelinho"></div></button>
+                    <button type="button" class="buttons-planos btn">Plano A+ <div class="pinguelinho"></div></button>
+                    <button type="button" class="buttons-planos btn">Hospital <div class="pinguelinho"></div></button>
+                    <button type="button" class="buttons-planos button-right btn">App Hospital <div class="pinguelinho">
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!----------------------------------------------- FECHAMENTO SECTION FILTRO DE PLANOS ---------------------------------------------->
+
+
+        <section class="section-perguntas">
+            <div class="container-xl">
+
+                <ul class="list-unstyled">
+                    <div>
+                        <div class="accordion accordion-flush" id="accordionExample">
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">1. Qual o processo de contratar um plano de saúde?</p>
+                                    </button>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseOne">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <strong>A partir do fechamento de contrato do nosso plano, seguimos as
+                                                    carências abaixo:
+                                                </strong>
+                                                <ul>
+                                                    <li>Em 24h consegue fazer atendimentos de emergências e urgências
+                                                        (pronto socorro);</li>
+                                                    <li>Em 7 dias consegue realizar as consultas médicas ambulatoriais;
+                                                    </li>
+                                                    <li>Em 30 dias consegue realizar exames médicos auxiliares e de
+                                                        rotina;</li>
+                                                    <li>Em 60 dias consegue realizar exames complementares.</li>
+                                                    <li>Em 120 dias consegue realizar terapias e sessões com psicólogo,
+                                                        fonoaudiólogo e outros.</li>
+                                                    <li>Em 150 dias Consegue realizar exames e procedimentos Especiais
+                                                        como Ultrassonografia, Mamografias e outros.</li>
+                                                    <li>Em 180 dias consegue realizar procedimentos de alta
+                                                        complexidade.</li>
+                                                    <li>Em 300 dias consegue realizar partos a termo.</li>
+                                                    Vale ressaltar que doenças ou lesões pré-existentes podem vir a
+                                                    gerar uma cobertura parcial temporária no Plano de Saúde de 720
+                                                    dias.
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDois">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">2. O que é Carência?</p>
+                                    </button>
+                                    <div id="collapseDois" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseDois">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTres">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">3. Qual o tempo de Carência dos Planos? Se eu fechar o Plano agora, já posso marcar consulta?</p>
+                                    </button>
+                                    <div id="collapseTres" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseTres">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn collapsed d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseFor">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">4. Onde vejo as minhas coberturas e carências?</p>
+                                    </button>
+                                    <div id="collapseFor" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseFor">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">5. Existe plano de saúde sem Carência?</p>
+                                    </button>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseFive">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">6. O que é a Cobertura Parcial Temporária?</p>
+                                    </button>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseSix">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">7. O que é Coparticipação?</p>
+                                    </button>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseSeven">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">8. Qual a taxa máxima de Coparticipação para exames?</p>
+                                    </button>
+                                    <div id="collapseEight" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseEight">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">9. Se meu plano tem coparticipação, quando a taxa de um serviço que utilizei é cobrada na fatura?</p>
+                                    </button>
+                                    <div id="collapseNine" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseNine">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">10. O que é uma Operadora de Planos de Saúde verticalizada?</p>
+                                    </button>
+                                    <div id="collapseTen" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseTen">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">11. Qual o prazo máximo para que os agendamentos de consultas sejam realizados?</p>
+                                    </button>
+                                    <div id="collapseEleven" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseEleven">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDoze">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">12. Quem pode ser meu dependente nos planos familiares?</p>
+                                    </button>
+                                    <div id="collapseDoze" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseDoze">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTreze">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">13. Gostaria de uma segunda via do boleto, onde posso retirar?</p>
+                                    </button>
+                                    <div id="collapseTreze" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseTreze">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseForteen">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">14. Gostaria de mudar a data de vencimento dos meus boletos, para quem eu peço?</p>
+                                    </button>
+                                    <div id="collapseForteen" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseForteen">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQuinze">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">15. Se eu atrasar nas mensalidades do meu Plano, o que acontece?</p>
+                                    </button>
+                                    <div id="collapseQuinze" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseQuinze">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">16. Como declarar plano de saúde no imposto de renda?</p>
+                                    </button>
+                                    <div id="collapseSixteen" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseSixteen">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">17. Como cancelar o plano de saúde?</p>
+                                    </button>
+                                    <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseSeventeen">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEitin">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">18. Caso eu queira cancelar, há alguma multa contratual?</p>
+                                    </button>
+                                    <div id="collapseEitin" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseEitin">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">19. Em que situações a operadora pode cancelar meu plVinteum</p>
+                                    </button>
+                                    <div id="collapseNineteen" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseNineteen">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVinte">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">20. Como escolher o melhor plano de saúde?</p>
+                                    </button>
+                                    <div id="collapseVinte" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVinte">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVinteum">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">21. O Norden oferece reembolso para atendimentos fora da rede credenciada?</p>
+                                    </button>
+                                    <div id="collapseVinteum" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVinteum">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVintedois">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">22. Qual plano de saúde cobre cirurgia plástica?</p>
+                                    </button>
+                                    <div id="collapseVintedois" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVintedois">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVintetres">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">23. O que fazer se meu plano de saúde não autorizar uma cirurgia ou exame?</p>
+                                    </button>
+                                    <div id="collapseVintetres" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVintetres">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVintequatro">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">24. Qual plano de saúde cobre parto?</p>
+                                    </button>
+                                    <div id="collapseVintequatro" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVintequatro">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVintecinco">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">25. O Plano de saúde cobre o DIU?</p>
+                                    </button>
+                                    <div id="collapseVintecinco" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVintecinco">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVinteseis">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">26. O Plano de saúde cobre cirurgia bariátrica?</p>
+                                    </button>
+                                    <div id="collapseVinteseis" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVinteseis">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVintesete">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">27. Quais os tipos de contratação dos planos de saúde Norden?</p>
+                                    </button>
+                                    <div id="collapseVintesete" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVintesete">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVinteoito">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">28. Quais as vantagens do plano de saúde em relação ao SUS?</p>
+                                    </button>
+                                    <div id="collapseVinteoito" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVinteoito">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVintenove">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">29. Plano de saúde é mais vantajoso que o médico particular?</p>
+                                    </button>
+                                    <div id="collapseVintenove" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseVintenove">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTrinta">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">30. O Plano inclui ambulância para remoção domiciliar?</p>
+                                    </button>
+                                    <div id="collapseTrinta" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseTrinta">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="accordion-item">
+                                    <button class="button-perguntas btn d-flex flex-row align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTrintaum">
+                                        <div class="seta-accordion d-flex justify-content-center align-items-center">&#8744</div> <p class="paragrafo-button-perguntas">31. Em quais modalidades se classificam as operadoras?</p>
+                                    </button>
+                                    <div id="collapseTrintaum" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample" aria-expanded="false" aria-controls="collapseTrintaum">
+                                        <div class="accordion-body">
+                                            <div>
+                                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora asperiores, enim maiores libero temporibus facilis commodi pariatur harum obcaecati qui sapiente placeat iusto aspernatur consequuntur esse facere assumenda incidunt! Dicta!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+
+            </div>
+        </section>
+
+
+
+
+
+        <!------------------------------------------------------ SECTION FALE CONOSCO ------------------------------------------------------>
+        <section class="section-fale-conosco">
+            <div
+                class="conteudo-fale-conosco container-xl d-flex flex-column align-items-center justify-content-center">
+                <h2 class="h2-fale-conosco">Não Encontrou o que Procurava ?</h2>
+                <button class="button-agende-aqui btn">Fale Conosco</button>
+            </div>
+        </section>
+        <!----------------------------------------------- FECHAMENTO SECTION FALE CONOSCO -------------------------------------------------->
     </main>
+    <!--######################################################### FECHAMENTO MAIN ####################################################-->
 
-    <!-- FOOTER -->
 
-    <footer>
+
+
+    <!-- ###################################################### FOOTER ###############################################################-->
+    <footer class="footer-faq">
         <div class="container-xl">
 
             <div>
-                <div class="img-logo-hospital-footer d-lg-none d-flex justify-content-center"><img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
+                <div class="img-logo-hospital-footer d-lg-none d-flex justify-content-center"><img
+                        src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
                 <div class="up-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center">
-                    <div class="img-up-footer d-none d-lg-flex align-items-center"><img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
+                    <div class="img-up-footer d-none d-lg-flex align-items-center"><img
+                            src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
                     <div class="d-flex flex-row align-items-center">
                         <img src="imagens-e-icons/icone-de-telefone.svg" alt="icone de um telefone" class="me-2">
                         <p class="paragrafos-footer">33 3333 3333</p>
                     </div>
                     <div class="d-flex flex-row align-items-center">
-                        <img src="imagens-e-icons/icone-de-local.svg" alt="icone de ponto indicando o local do hospital" class="me-2">
+                        <img src="imagens-e-icons/icone-de-local.svg" alt="icone de ponto indicando o local do hospital"
+                            class="me-2">
                         <address class="paragrafos-footer">
                             Avenida Oxigenweb, 2009 - Vila Oxigenweb | Presidente Oxigenweb - SP <br>
                             CNPJ 00.000.000/0001-00
@@ -54,9 +632,10 @@
                 </div>
                 <hr class="linha-footer">
                 <div class="down-footer-e-botao-de-chat d-flex flex-row flex-wrap">
-                    <div class="down-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center align-items-lg-baseline flex-nowrap">
-                        <p class="paragrafos-footer">&copy;2024 OxigenWeb Hospital. Criação: <img src="imagens-e-icons/logo-oxigenweb.svg"
-                            alt="logo da OxigenWeb">
+                    <div
+                        class="down-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center align-items-lg-baseline flex-nowrap">
+                        <p class="paragrafos-footer">&copy;2024 OxigenWeb Hospital. Criação: <img
+                                src="imagens-e-icons/logo-oxigenweb.svg" alt="logo da OxigenWeb">
                         </p>
                         <p class="paragrafo-separado-footer paragrafos-footer">
                             Responsável técnico Plano de Saúde: <br>
@@ -67,13 +646,17 @@
                             Dr. Nathan Oxigenweb
                         </p>
                     </div>
-                    <div class="div-botao-de-chat col-12 col-lg-2 d-flex align-items-lg-end justify-content-lg-end align-items-center justify-content-center">
-                        <img class="botao-chat-footer" src="imagens-e-icons/imagem-botao-de-chat.png" alt="logo da oxigenweb">
+                    <div
+                        class="div-botao-de-chat col-12 col-lg-2 d-flex align-items-lg-end justify-content-lg-end align-items-center justify-content-center">
+                        <img class="botao-chat-footer" src="imagens-e-icons/imagem-botao-de-chat.png"
+                            alt="logo da oxigenweb">
                     </div>
                 </div>
             </div>
         </div>
 
     </footer>
+    <!--######################################################### FECHAMENTO FOOTER ##################################################-->
 </body>
+
 </html>

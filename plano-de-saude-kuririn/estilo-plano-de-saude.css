@@ -27,14 +27,14 @@ body::-webkit-scrollbar-thumb {
     background-color: darkgray;
 }
 
-/* HEADER */
+/*########################################################## HEADER ###############################################################*/
+
 header {
     width: 100%;
-    height: 79px;
+    background-image: linear-gradient(to right, rgb(41, 60, 100), #54ADEF);
 }
 
 .cabeçalho {
-    background-image: linear-gradient(to right, rgb(41, 60, 100), #54ADEF);
     justify-content: space-between;
     align-items: center;
 }
@@ -54,11 +54,9 @@ header {
     color: #C0A37B;
 }
 
-/* MAIN  */
 
-main {
-    min-height: 100vh;
-}
+/*################################################################## MAIN  ########################################################*/
+
 
 /* -------------------------------------------------- SECTION PRINCIPAL ---------------------------------------------------------- */
 .conteudo-section {
@@ -100,7 +98,6 @@ main {
     font-family: var(--font-family);
     color: #496DBF;
     margin-bottom: 52px;
-    /* margin-top: 52px; */
 }
 
 /* ----------------------------------- SECTION - 2ª PÁGINA - SELECIONE SUA ESPECIALIDADE ------------------------------------------*/
@@ -186,10 +183,14 @@ main {
     border: 1px solid #EBE2D1;
 }
 
-/* FOOTER  */
+/*###################################################################### FOOTER ###################################################*/
 
 footer {
     background-image: linear-gradient(to right, #203460, #486CBD);
+}
+
+.footer-principal {
+    margin-top: 60px;
 }
 
 .up-footer {
@@ -238,3 +239,136 @@ address {
 
 
 /* ################################################### PÁGINA PERGUNTAS FREQUENTES ############################################### */
+
+/*------------------------------------------------------------ HEADER -------------------------------------------------------------*/
+.section-titulo-faq {
+    background-image: linear-gradient(to right, rgb(41, 60, 100), #54ADEF);
+}
+
+.header-image {
+    margin-top: 95px;
+}
+
+.titulo-faq {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 144px 0px 60px 0px;
+}
+
+.links-header-page-faq {
+    font-family: var(--font-family);
+    color: #ffffff;
+    margin-bottom: 52px;
+}
+
+.links-header-page-faq a {
+    color: #ffffff;
+}
+/*------------------------------------------------------- FECHAMENTO HEADER -------------------------------------------------------*/
+
+
+/* MAIN */
+
+/*------------------------------------------------------ SECTION SUBTITULO --------------------------------------------------------*/
+
+.conteudo-section-subtitulo {
+    padding-top: 152px;
+    padding-bottom: 44px;
+}
+
+.h2-section-subtitulo {
+    margin-bottom: 31px;
+    margin-left: 70px;
+}
+
+.paragrafo-subtitulo {
+    margin-left: 70px;
+}
+
+
+/*----------------------------------------------------- SECTION PLANOS DE SAÚDE ---------------------------------------------------*/
+
+
+.conteudo-section-filtro {
+    margin-bottom: 60px;
+}
+
+.buttons-planos {
+    background-color: aliceblue;
+    color: #C05A94;
+    border-color: #C05A94;
+    padding: 20px;
+}
+
+.buttons-planos:hover {
+    color: #ffffff;
+    background-color: #C05A94;
+    transition: 1s;
+}
+
+.button-left {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.button-right {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.pinguelinho {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    transform: rotate(45deg);
+    background-color: #C05A94;
+    left: 85px;
+    top: 60px;
+}
+
+.button-perguntas {
+    border: 0px;
+    width: 100%;
+}
+
+.paragrafo-button-perguntas {
+    margin: 0 0 0 20px;
+}
+
+.seta-accordion {
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    border: 1px solid #C05A94;
+    color: #C05A94;
+}
+
+.seta-accordion:hover {
+    background-color: #C05A94;
+    transition: 1s;
+    color: #ffffff;
+}
+
+
+
+/*-------------------------------------------------------- SECTION-FALE-CONOSCO ---------------------------------------------------*/
+
+
+.section-fale-conosco {
+    margin-top: 60px;
+    background-color: #1B3057;
+}
+
+.conteudo-fale-conosco {
+    height: 382px;
+}
+
+.h2-fale-conosco {
+    color: #ffffff;
+    margin-bottom: 31px;
+}
+
+.footer-faq {
+    margin-top: 0;
+}

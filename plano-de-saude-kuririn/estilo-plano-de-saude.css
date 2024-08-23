@@ -54,6 +54,32 @@ header {
     color: #C0A37B;
 }
 
+.menu-header:hover {
+    background-color: #77C2D7;
+}
+
+.menu {
+    position: absolute;
+    background-color: #1B3057;
+    color: #ffffff;
+    min-height: 121vh;
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: end;
+    font-size: 18px;
+    z-index: 1;
+    left: 64%;
+}
+
+
+
+.menu li {
+    padding: 10px 20px;
+}
+
 
 /*################################################################## MAIN  ########################################################*/
 
@@ -353,6 +379,7 @@ address {
 
 
 /*-------------------------------------------------------- SECTION-FALE-CONOSCO ---------------------------------------------------*/
+
 
 
 .section-fale-conosco {

@@ -15,7 +15,17 @@
     <script src="script-plano-de-saude.js" defer></script>
 </head>
 
-<body>
+<body class="position-relative">
+
+    <div class="menu d-none">
+        <ul class="list-unstyled">
+            <li><span><a class="links-menu" href="#">Rede Credenciada</a></span></li>
+            <li><span><a class="links-menu" href="#">Agendamentos</a></span></li>
+            <li><span><a class="links-menu" href="#">2ª Via de Boleto</a></span></li>
+            <li><span><a class="links-menu" href="#">Área do Beneficiário</a></span></li>
+            <li><span><a class="links-menu" href="perguntas-frequentes.html">FAQ</a></span></li>
+        </ul>
+    </div>
 
     <!-- HEADER -->
 
@@ -28,38 +38,29 @@
                     <p class="paragrafo-header m-0">AGENDAMENTO DE CONSULTAS</p>
                 </div>
                 <div class="menu-header me-5">
-                    <img src="imagens-e-icons/menu.svg" alt="icone de menu">
+                    <img src="imagens-e-icons/menu.svg" alt="icone de menu" class="img-menu-hamb">
+                    <img src="imagens-e-icons/icone-X.svg" alt="icone de um x" class="img-x d-none">
                 </div>
             </div>
         </nav>
     </header>
-    
+
     <!-- MAIN -->
-    
+
     <main>
 
-        <div class="menu d-none">        
-            <ul class="list-unstyled">
-                <li><span>Rede Credenciada</span></li>
-                <li><span>Agendamentos</span></li>
-                <li><span>2ª Via de Boleto</span></li>
-                <li><span>Área do Beneficiário</span></li>
-                <li><span>FAQ</span></li>
-            </ul>
-        </div>
-
-        <section class="d-none">
+        <section class="section-home">
             <div class="conteudo-section container-xl d-flex flex-row">
-                
+
                 <div class="texto-e-botao d-flex flex-column">
                     <h1 class="titulo mb-5">Agende Consultas <br> com Praticidade</h1>
                     <p class="text-busque-agende">Busque e agende a sua consulta com médicos, psicólogos, nutricionistas
                         e outras especialidades que atendem no Hospital Oxigenweb em Presidente Prudente - SP</p>
-                        <button class="button-agende-aqui btn">Agende Aqui</button>
-                    </div>
-                    
-                    <div class="imagem-e-links-div-section d-flex flex-column">
-                        <p class="links-initial-page-section"><a href="#" class="text-decoration-none">HOME</a> | <a
+                    <button class="button-agende-aqui btn" id="btn-avancar-home">Agende Aqui</button>
+                </div>
+
+                <div class="imagem-e-links-div-section d-flex flex-column">
+                    <p class="links-initial-page-section"><a href="#" class="text-decoration-none">HOME</a> | <a
                             href="#" class="text-decoration-none">FACILIDADES</a> | <a href="#"
                             class="text-decoration-none"> AGENDAMENTOS</a></p>
                     <div><img src="imagens-e-icons/médico-atendendo-paciente.png"
@@ -70,35 +71,57 @@
             </div>
         </section>
 
-                                    <!-- SECTION 2ª PÁGINA - SELECIONE A ESPECIALIDADE -->
+        <!----------------------------------------------- SECTION 2ª PÁGINA - SELECIONE A ESPECIALIDADE ------------------------------------>
 
-        <section>
-            <div class="conteudo-section conteudo-section-segunda-pagina  container-xl d-flex flex-md-row flex-column justify-content-md-between">
+        <section class="section-selecione-especialidade d-none">
+            <div
+                class="conteudo-section conteudo-section-segunda-pagina  container-xl d-flex flex-md-row flex-column justify-content-md-between">
 
-                
+
                 <div class="titulo-e-navegação d-flex align-items-sm-center flex-md-row flex-column">
                     <div class="lista-de-passos">
 
-                        <p class="links-initial-page-section d-md-none"><a href="#" class="text-decoration-none">HOME</a> | <a
-                            href="#" class="text-decoration-none">FACILIDADES</a> | <a href="#"
-                            class="text-decoration-none"> AGENDAMENTOS</a></p> 
+                        <p class="links-initial-page-section d-md-none"><a href="#"
+                                class="text-decoration-none">HOME</a> | <a href="#"
+                                class="text-decoration-none">FACILIDADES</a> | <a href="#" class="text-decoration-none">
+                                AGENDAMENTOS</a></p>
 
                         <ul class="lista-de-navegação-agenda list-unstyled d-none d-sm-block">
 
-                            <li class="item-principal d-flex flex-row"> <div class="numero-identificação-principal">1</div> Especialidade</li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">2</div> Selecione o Profissional</li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">3</div> Data e Hora</li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">4</div> Dados do Paciente</li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">5</div> Confirmação</li>
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-identificação-principal">1</div> Especialidade
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">2</div> Selecione o Profissional
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">3</div> Data e Hora
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div> Dados do Paciente
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div> Confirmação
+                            </li>
 
                         </ul>
 
                         <ul class="d-block d-sm-none d-flex flex-row">
-                            <li class="item-principal d-flex flex-row"> <div class="numero-identificação-principal">1</div></li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">2</div></li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">3</div></li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">4</div></li>
-                            <li class="item-lista-navegação d-flex flex-row"> <div class="numero-de-identificação">5</div></li>
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-identificação-principal">1</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">2</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">3</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div>
+                            </li>
                         </ul>
 
                     </div>
@@ -110,13 +133,16 @@
                 </div>
 
                 <div class="especialidades-e-busca d-flex align-items-sm-end flex-column">
-                    <p class="links-initial-page-section d-md-block d-none"><a href="#" class="text-decoration-none">HOME</a> | <a
-                        href="#" class="text-decoration-none">FACILIDADES</a> | <a href="#"
-                        class="text-decoration-none"> AGENDAMENTOS</a></p>
+                    <p class="links-initial-page-section d-md-block d-none"><a href="#"
+                            class="text-decoration-none">HOME</a> | <a href="#"
+                            class="text-decoration-none">FACILIDADES</a> | <a href="#" class="text-decoration-none">
+                            AGENDAMENTOS</a></p>
                     <div class="barra-de-pesquisa d-flex flex-row">
                         <div class="barra-de-pesquisa-padding">
-                            <label class="label-lupa" for="id-busque-especialidade"><img src="imagens-e-icons/icone-lupa-para-busca.svg" alt="icone lupa de busca"></label>
-                            <input class="input-de-busca" type="text" name="busque-especialidade" id="id-busque-especialidade" placeholder="Buscar pela Especialidade na Lista">
+                            <label class="label-lupa" for="id-busque-especialidade"><img
+                                    src="imagens-e-icons/icone-lupa-para-busca.svg" alt="icone lupa de busca"></label>
+                            <input class="input-de-busca" type="text" name="busque-especialidade"
+                                id="id-busque-especialidade" placeholder="Buscar pela Especialidade na Lista">
                         </div>
                     </div>
                     <div class="lista-de-especialidades">
@@ -131,11 +157,274 @@
                             <li class="item-especialidades">Especialidade 8</li>
                         </ul>
                     </div>
-                    <div class="div-button-anvancar d-flex"><button class="button-agende-aqui btn">Avançar &gt;</button></div>
+                    <div class="div-button-anvancar d-flex"><button class="button-agende-aqui btn"
+                            id="btn-avancar-pagina-dois">Avançar &gt;</button></div>
                 </div>
 
             </div>
-        </section>              
+        </section>
+
+
+        <!----------------------------------------------- SECTION SELECIONE O PROFISSIONAL ------------------------------------------------->
+
+
+        <section class="section-selecione-professional d-none">
+
+            <div
+                class="conteudo-section conteudo-section-segunda-pagina  container-xl d-flex flex-md-row flex-column justify-content-md-between">
+
+
+                <div class="titulo-e-navegação d-flex align-items-sm-center flex-md-row flex-column">
+                    <div class="lista-de-passos">
+
+                        <p class="links-initial-page-section d-md-none"><a href="#"
+                                class="text-decoration-none">HOME</a> | <a href="#"
+                                class="text-decoration-none">FACILIDADES</a> | <a href="#" class="text-decoration-none">
+                                AGENDAMENTOS</a></p>
+
+                        <ul class="lista-de-navegação-agenda list-unstyled d-none d-sm-block">
+
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-de-identificação">1</div> Especialidade
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">2</div> Selecione o Profissional
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-identificação-principal">3</div> Data e Hora
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div> Dados do Paciente
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div> Confirmação
+                            </li>
+
+                        </ul>
+
+                        <ul class="d-block d-sm-none d-flex flex-row">
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-de-identificação">1</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-identificação-principal">2</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">3</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <h1 class="titulo-section-segunda-pagina">Selecione o <br> Professional</h1>
+                    </div>
+
+                </div>
+
+                <div class="conteudo-cards d-flex flex-column">
+                    <p class="paragrafo-gastroenergia">Profissionais de Gastroenergia</p>
+                    <div class="div-cards d-flex flex-row ">
+                        <label class="cards-profissionais">
+                            <div class="div-img-usuario d-flex align-items-center justify-content-center">
+                                <img src="imagens-e-icons/icone-usuario.png" alt="icone de usuário">
+                            </div>
+                            <div
+                                class="inputs-labels d-flex flex-column align-items-center justify-content-around text-center">
+                                <p for="selection-jessica">Dra. Jéssica Oxigenweb</p>
+                                <input class="inputs-selections align-self-center" type="radio"
+                                    name="input-profissionais" id="selection-jessica">
+                            </div>
+                        </label>
+
+                        <label for="selection-nathan" class="cards-profissionais">
+                            <div class="div-img-usuario d-flex align-items-center justify-content-center">
+                                <img src="imagens-e-icons/icone-usuario.png" alt="icone de usuário">
+                            </div>
+                            <div
+                                class="inputs-labels d-flex flex-column align-items-center justify-content-around text-center">
+                                <p for="selection-nathan">Dra. Nathan Oxigenweb</p>
+                                <input class="inputs-selections align-self-center" type="radio"
+                                    name="input-profissionais" id="selection-nathan">
+                            </div>
+                        </label>
+
+                        <label class="cards-profissionais">
+                            <div class="div-img-usuario d-flex align-items-center justify-content-center">
+                                <img src="imagens-e-icons/icone-usuario.png" alt="icone de usuário">
+                            </div>
+                            <div
+                                class="inputs-labels d-flex flex-column align-items-center justify-content-around text-center">
+                                <p for="selection-ricardo">Dra. Ricardo Nakamura Oxigenweb</p>
+                                <input class="inputs-selections align-self-center" type="radio"
+                                    name="input-profissionais" id="selection-ricardo">
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="div-button-anvancar d-flex justify-content-between mt-5" id="btn-voltar-pagina-tres">
+                        <button class="btn-voltar btn">&lt; Voltar</button><button class="button-agende-aqui btn"
+                            id="btn-avancar-pagina-tres">Avançar &gt;</button></div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!----------------------------------------------------------- SECTION SELECIONE DATA E HORA ---------------------------------------->
+
+
+        <section class="section-data-hora d-none">
+
+            <div
+                class="conteudo-section conteudo-section-segunda-pagina container-xl d-flex flex-md-row flex-column justify-content-md-between">
+
+
+                <div class="titulo-e-navegação d-flex align-items-sm-center flex-md-row flex-column">
+                    <div class="lista-de-passos">
+
+                        <p class="links-initial-page-section d-md-none"><a href="#"
+                                class="text-decoration-none">HOME</a> | <a href="#"
+                                class="text-decoration-none">FACILIDADES</a> | <a href="#" class="text-decoration-none">
+                                AGENDAMENTOS</a></p>
+
+                        <ul class="lista-de-navegação-agenda list-unstyled d-none d-sm-block">
+
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-de-identificação">1</div> Especialidade
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-identificação-principal">2</div> Selecione o Profissional
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">3</div> Data e Hora
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div> Dados do Paciente
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div> Confirmação
+                            </li>
+
+                        </ul>
+
+                        <ul class="d-block d-sm-none d-flex flex-row">
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-de-identificação">1</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-identificação-principal">2</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">3</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <h1 class="titulo-section-segunda-pagina">Selecione a Data <br> e o Horário da <br> Consulta
+                        </h1>
+                    </div>
+
+                </div>
+
+                <div class="conteudo-data-hora">
+                    <div class="div-data-hora d-flex flex-column">
+                        <input type="date" name="data" id="input-data" class="inputs-data-e-hora">
+                        <input type="time" name="hora" id="input-hora" class="inputs-data-e-hora"
+                            placeholder="Selecione um Horário Disponivel">
+                    </div>
+
+                    <div class="div-button-anvancar d-flex justify-content-between mt-5" >
+                        <button class="btn-voltar btn" id="btn-voltar-pagina-quatro">&lt; Voltar</button><button class="button-agende-aqui btn"
+                            id="btn-avancar-pagina-quatro">Avançar &gt;</button></div>
+                </div>
+
+        </section>
+
+
+<!---------------------------------------------- SECTION INFORME DADOS DO PACIENTE ------------------------------------------------->
+
+        <section class="section-informe-dados-paciente d-none">
+            <div
+                class="conteudo-section conteudo-section-segunda-pagina container-xl d-flex flex-md-row flex-column justify-content-md-between">
+
+                <div class="titulo-e-navegação d-flex align-items-sm-center flex-md-row flex-column">
+                    <div class="lista-de-passos">
+                        <p class="links-initial-page-section d-md-none"><a href="#"
+                                class="text-decoration-none">HOME</a> | <a href="#"
+                                class="text-decoration-none">FACILIDADES</a> | <a href="#" class="text-decoration-none">
+                                AGENDAMENTOS</a></p>
+                        <ul class="lista-de-navegação-agenda list-unstyled d-none d-sm-block">
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-de-identificação">1</div> Especialidade
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-identificação-principal">2</div> Selecione o Profissional
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">3</div> Data e Hora
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div> Dados do Paciente
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div> Confirmação
+                            </li>
+                        </ul>
+                        <ul class="d-block d-sm-none d-flex flex-row">
+                            <li class="item-principal d-flex flex-row">
+                                <div class="numero-de-identificação">1</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-identificação-principal">2</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">3</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">4</div>
+                            </li>
+                            <li class="item-lista-navegação d-flex flex-row">
+                                <div class="numero-de-identificação">5</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="titulo-section-segunda-pagina">Selecione a Data <br> e o Horário da <br> Consulta
+                        </h1>
+                    </div>
+                </div>
+                <div class="conteudo-dados-paciente d-none">
+                    <div class="div-dados-paciente d-flex flex-column">
+                        <input type="" name="" id="" class="inputs-informe-dados-paciente">
+                        <input type="text" name="" id="" class="inputs-informe-dados-paciente">
+                        <input type="date" name="" id="" class="inputs-informe-dados-paciente">
+                        <input type="text" name="" id="" class="inputs-informe-dados-paciente">
+                        <input type="text" name="" id="" class="inputs-informe-dados-paciente">
+                        <input type="text" name="" id="" class="inputs-informe-dados-paciente">
+                    </div>
+                    <div class="div-button-anvancar d-flex justify-content-between mt-5">
+                        <button class="btn-voltar btn" id="btn-voltar-pagina-quatro">&lt; Voltar</button><button class="button-agende-aqui btn"
+                            id="btn-avancar-pagina-quatro">Avançar &gt;</button></div>
+                </div>
+        </section>
+
 
     </main>
 
@@ -144,10 +433,12 @@
     <footer class="footer-principal">
         <div class="container-xl">
 
-            <div class="img-logo-hospital-footer d-lg-none d-flex justify-content-center"><img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
+            <div class="img-logo-hospital-footer d-lg-none d-flex justify-content-center"><img
+                    src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
 
             <div class="up-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center">
-                <div class="img-up-footer d-none d-lg-flex align-items-center"><img src="imagens-e-icons/HOSPITAL.png" alt="logo hospital" class="img-fluid"></div>
+                <div class="img-up-footer d-none d-lg-flex align-items-center"><img src="imagens-e-icons/HOSPITAL.png"
+                        alt="logo hospital" class="img-fluid"></div>
 
                 <div class="d-flex flex-row align-items-center">
                     <img src="imagens-e-icons/icone-de-telefone.svg" alt="icone de um telefone" class="me-2">
@@ -155,7 +446,8 @@
                 </div>
 
                 <div class="d-flex flex-row align-items-center">
-                    <img src="imagens-e-icons/icone-de-local.svg" alt="icone de ponto indicando o local do hospital" class="me-2">
+                    <img src="imagens-e-icons/icone-de-local.svg" alt="icone de ponto indicando o local do hospital"
+                        class="me-2">
                     <address class="paragrafos-footer">
                         Avenida Oxigenweb, 2009 - Vila Oxigenweb | Presidente Oxigenweb - SP <br>
                         CNPJ 00.000.000/0001-00
@@ -166,9 +458,10 @@
             <hr class="linha-footer">
 
             <div class="down-footer-e-botao-de-chat d-flex flex-row flex-wrap">
-                <div class="down-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center align-items-lg-baseline flex-nowrap">
-                    <p class="paragrafos-footer">&copy;2024 OxigenWeb Hospital. Criação: <img src="imagens-e-icons/logo-oxigenweb.svg"
-                        alt="logo da OxigenWeb">
+                <div
+                    class="down-footer col-12 col-lg-10 d-flex flex-column flex-md-row justify-content-center align-items-lg-baseline flex-nowrap">
+                    <p class="paragrafos-footer">&copy;2024 OxigenWeb Hospital. Criação: <img
+                            src="imagens-e-icons/logo-oxigenweb.svg" alt="logo da OxigenWeb">
                     </p>
                     <p class="paragrafo-separado-footer paragrafos-footer">
                         Responsável técnico Plano de Saúde: <br>
@@ -179,12 +472,15 @@
                         Dr. Nathan Oxigenweb
                     </p>
                 </div>
-                <div class="div-botao-de-chat col-12 col-lg-2 d-flex align-items-lg-end justify-content-lg-end align-items-center justify-content-center">
-                    <img class="botao-chat-footer" src="imagens-e-icons/imagem-botao-de-chat.png" alt="logo da oxigenweb">
+                <div
+                    class="div-botao-de-chat col-12 col-lg-2 d-flex align-items-lg-end justify-content-lg-end align-items-center justify-content-center">
+                    <img class="botao-chat-footer" src="imagens-e-icons/imagem-botao-de-chat.png"
+                        alt="logo da oxigenweb">
                 </div>
             </div>
         </div>
 
     </footer>
 </body>
+
 </html>

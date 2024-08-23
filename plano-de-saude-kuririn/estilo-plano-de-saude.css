@@ -54,15 +54,11 @@ header {
     color: #C0A37B;
 }
 
-.menu-header:hover {
-    background-color: #77C2D7;
-}
-
 .menu {
     position: absolute;
     background-color: #1B3057;
     color: #ffffff;
-    min-height: 121vh;
+    height: calc(100% - 77px);
     width: 388px;
     display: flex;
     flex-direction: column;
@@ -71,10 +67,14 @@ header {
     text-align: end;
     font-size: 18px;
     z-index: 1;
-    left: 64%;
+    right: 0;
+    top: 77px;
 }
 
-
+.links-menu {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .menu li {
     padding: 10px 20px;
@@ -208,6 +208,71 @@ header {
     padding: 20px;
     border: 1px solid #EBE2D1;
 }
+
+/*--------------------------------------------------- SECTION TERCEIRA PÁGINA -----------------------------------------------------*/
+
+.paragrafo-gastroenergia {
+    color: #3A4E61;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.div-cards {
+    gap: 17px;
+}
+
+.div-img-usuario {
+    height: 159px;
+    width: 149px;
+    background-color: #C05A94;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.inputs-labels {
+    height: 139px;
+    width: 149px;
+    background-color: #ECECEB;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.cards-profissionais:has(input[type='radio']:checked) {
+    border: 2px solid #C05A94;
+    background-color: #EBE2D1;
+    border-radius: 5px;
+}
+
+.inputs-labels label {
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: #394E61 ;
+}
+
+input[type='radio'] {
+    accent-color: #C05A94;
+  }
+
+.btn-voltar {
+    padding: 20px 30px;
+    color: #C05A94;
+}
+
+.btn-voltar:hover {
+    background-color: #c05a9467;
+    color: #ffffff;
+}
+
+/*--------------------------------------------------- SECTION DATA E HORA ---------------------------------------------------------*/
+
+.inputs-data-e-hora {
+    padding: 10px 110px;
+    margin: 15px 0px;
+    background-color: #F1F1F1;
+    border-radius: 3px;
+    border: none;
+}
+
 
 /*###################################################################### FOOTER ###################################################*/
 

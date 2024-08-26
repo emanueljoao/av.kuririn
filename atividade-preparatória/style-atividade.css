@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family-01: 'Montserrat';
+}
+
+/*############################################################ HEADER #############################################################*/
+
+header {
+    width: 100%;
+}
+
+.logo {
+    left: 20px;
+    top: 20px;
+}
+
+nav {
+    height: 100px;
+}
+
+.cabecalho {
+    height: 100%;
+    column-gap: 40px;
+}
+
+.item-list-header {
+    align-self: center;
+    font-family: var(--font-family-01);
+    padding: 20px 30px;
+}
+
+.space-line {
+    height: 68px;
+    border-left: 1px solid;
+}
+
+.header-buttons {
+    column-gap: 20px;
+}
+
+.btn-colaboradores {
+    color: white;
+    background-color: #000000;
+    width: 202px;
+    height: 51px;
+}
+
+.btn-colaboradores:hover {
+    background-color: whitesmoke;
+    color: #000000;
+}
+
+.btn-cliente {
+    color: white;
+    background-color: #8a1002;
+    width: 143px;
+    height: 51px;
+}
+
+.btn-cliente:hover {
+    background-color: #ea5c1f;
+}
+/*----------------------- MENU -----------------------*/
+.menu{
+    cursor: pointer;
+}
+
+.conjunto-burguer div {
+    width: 30px;
+    height: 2px;
+    margin: 6px;
+    background-color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.menu.active .line1 {
+    transform: rotate(45deg) translate(1px, 5px);
+}
+
+.menu.active .line2 {
+    display: none;
+}
+
+.menu.active .line3 {
+    transform: rotate(-45deg) translate(1px, -5px);
+}
+
+.text-menu {
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.08px) {
+    .item-list-header {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .btn-colaboradores {
+        width: 180px;
+        height: 41px;
+    }
+
+    .btn-cliente {
+        width: 120px;
+        height: 41px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.08px) {
+
+
+}
+
+@media (min-width: 568px) and (max-width: 767.08px) {
+
+}
+
+@media (max-width: 567.08px) {
+
+}

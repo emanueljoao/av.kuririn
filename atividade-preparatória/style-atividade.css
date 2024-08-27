@@ -23,7 +23,7 @@ nav {
 
 .cabecalho {
     height: 100%;
-    column-gap: 40px;
+    column-gap: 131px;
 }
 
 .item-list-header {
@@ -63,7 +63,20 @@ nav {
 .btn-cliente:hover {
     background-color: #ea5c1f;
 }
+
+.mobile-nav{
+    color: #ffffff;
+    background-color: #028A49;
+    width: 100%;
+}
+
+.mobile-nav p {
+    margin: 0;
+}
+
+
 /*----------------------- MENU -----------------------*/
+
 .menu{
     cursor: pointer;
 }
@@ -91,3 +104,161 @@ nav {
 .text-menu {
     font-weight: bold;
 }
+
+
+/*#################################################################### MAIN #######################################################*/
+
+/*----------------------------------------------------- SECTION ULTIMOS LOTES -----------------------------------------------------*/
+
+.section-ultimos-lotes {
+    background-image: url(imagens-e-icones/back-img-first-section.png);
+}
+
+/*---------------------------------------------------- SECTION NOVIDADES POR E-MAIL -----------------------------------------------*/
+
+.section-novidades-e-mail {
+    color: #ffffff;
+    background-color: #0D0D0D;
+}
+
+.conteudo-section-novidades-email {
+    height: 458px;
+}
+
+.line-input {
+    border: 6px solid;
+}
+
+.inputs-btn input {
+    padding: 15px 20px;
+    background-color: #0D0D0D;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.btn-news-email {
+    color: #ffffff;
+    background-color: #8a1002;
+    padding: 15px;
+}
+
+.btn-news-email:hover {
+    background-color: #8a1002a2;
+}
+
+/*############################################################ FO0TER #############################################################*/
+
+.div-icon-location {
+    height: 33px;
+    width: 33px;
+    background-color: #000000;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    columns: 2;
+    list-style: url(imagens-e-icones/icon-style-list-footer.svg);
+    font-size: 15px;
+}
+
+.atendimento-politicas {
+    column-gap: 90px;
+}
+
+.div-icon-phone {
+    height: 33px;
+    width: 33px;
+    background-color: #000000;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.politica-privacidade p {
+    font-size: 15px;
+}
+
+.politica-privacidade p a {
+    color: #000000;
+}
+
+.icons {
+    padding: 17px 15px;
+}
+
+.contacts-number {
+    background-color: #028A49;
+}
+
+.contact-footer {
+    width: 100%;
+}
+
+.contact-footer p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.space-line-footer {
+    color: #ffffff;
+    height: 68px;
+    border-left: 1px solid;
+}
+
+.footer-buttons {
+    row-gap: 10px;
+}
+
+.footer-break-xl-buttons {
+    column-gap: 10px;
+}
+
+.btn-colaboradores-footer {
+    color: white;
+    background-color: #000000;
+    width: 202px;
+    height: 51px;
+}
+
+.btn-colaboradores-footer:hover {
+    background-color: whitesmoke;
+    color: #000000;
+}
+
+.btn-cliente-footer {
+    color: white;
+    background-color: #8a1002;
+    width: 202px;
+    height: 51px;
+}
+
+.btn-cliente-footer:hover {
+    background-color: #ea5c1f;
+}
+
+.incorporadora-oxigen p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,10 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.08px) {
+    .cabecalho {
+        column-gap: 100px;
+    }
+    
     .item-list-header {
         font-size: 14px;
         padding: 10px 20px;
@@ -21,17 +25,60 @@
         width: 120px;
         height: 41px;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.08px) {
+    .cabecalho {
+        column-gap: 100px;
+    }
 
+    .conteudo-section-novidades-email h1 {
+        text-align: center;
+    }
 
 }
 
 @media (min-width: 568px) and (max-width: 767.08px) {
+    
+    .div-atendimento {
+        font-size: 14px;
+    }
+
+    .list-infos ul {
+        font-size: 13px;
+    }
+
+    .conteudo-section-novidades-email h1 {
+        text-align: center;
+    }
 
 }
 
 @media (max-width: 567.08px) {
+
+    .list-infos ul {
+        columns: 1;
+    }
+
+    .atendimento-politicas {
+        row-gap: 10px;
+    }
+
+    .redes-sociais-footer {
+        width: 100%;
+    }
+
+    .btn-colaboradores-footer {
+        width: 94vw;
+    }
+
+    .btn-cliente-footer {
+        width: 94vw;
+    }
+
+    .conteudo-section-novidades-email h1 {
+        text-align: center;
+    }
 
 }

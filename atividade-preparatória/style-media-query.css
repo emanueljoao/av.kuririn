@@ -1,16 +1,13 @@
 @charset "UTF-8";
 
 
-@media (min-width: 1200px) {
-
-
-}
+@media (min-width: 1200px) {}
 
 @media (min-width: 992px) and (max-width: 1199.08px) {
     .cabecalho {
         column-gap: 100px;
     }
-    
+
     .item-list-header {
         font-size: 14px;
         padding: 10px 20px;
@@ -26,6 +23,11 @@
         height: 41px;
     }
 
+
+    .div-img-1997 {
+        right: 15px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.08px) {
@@ -33,14 +35,23 @@
         column-gap: 100px;
     }
 
-    .conteudo-section-novidades-email h1 {
+    .conteudo-section-novidades-email h2 {
         text-align: center;
+    }
+
+    .conteudo-section-1997 h2 {
+        position: relative;
+        z-index: 1;
+    }
+
+    .img-1997 {
+        right: 1%;
     }
 
 }
 
 @media (min-width: 568px) and (max-width: 767.08px) {
-    
+
     .div-atendimento {
         font-size: 14px;
     }
@@ -49,8 +60,40 @@
         font-size: 13px;
     }
 
-    .conteudo-section-novidades-email h1 {
+    .conteudo-section-novidades-email h2 {
         text-align: center;
+    }
+
+    .conteudo-section-1997 h2 {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .img-1997 {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .div-1997-btns {
+        width: 100%;
+    }
+
+    .div-paragraph-1997 {
+        width: 100%;
+    }
+
+    .div-paragraph-1997 p {
+        font-size: 15px;
+    }
+
+
+    .btn-1997-conheca {
+        padding: 15px 30px;
+    }
+
+    .btn-1997-contato {
+        padding: 15px 30px;
     }
 
 }
@@ -59,6 +102,13 @@
 
     .list-infos ul {
         columns: 1;
+    }
+
+    .menu-mobile {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 3;
     }
 
     .atendimento-politicas {
@@ -77,8 +127,42 @@
         width: 94vw;
     }
 
-    .conteudo-section-novidades-email h1 {
+    .conteudo-section-novidades-email h2 {
         text-align: center;
     }
 
+    .conteudo-section-1997 h2 {
+        text-align: center;
+    }
+
+    .div-paragraph-1997 {
+        width: 100%;
+    }
+
+    .div-paragraph-1997 p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .conteudo-section-1997 h2 {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .img-1997 {
+        top: 9%;
+        right: 50%;
+        transform: translateX(50%);
+        width: 539px;
+        max-width: 92vw;
+        height: auto;
+    }
+
+    .contacts-number {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 3;
+    }
 }

@@ -83,7 +83,7 @@ nav {
 
 .conjunto-burguer div {
     width: 30px;
-    height: 2px;
+    height: 4px;
     margin: 6px;
     background-color: rgb(0, 0, 0);
     transition: .5s;
@@ -105,6 +105,18 @@ nav {
     font-weight: bold;
 }
 
+.menu-mobile {
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 92px;
+}
+
+.logo-menu-mobile {
+    height: 78px;
+    width: 68px;
+}
+
 
 /*#################################################################### MAIN #######################################################*/
 
@@ -112,6 +124,62 @@ nav {
 
 .section-ultimos-lotes {
     background-image: url(imagens-e-icones/back-img-first-section.png);
+}
+
+/*------------------------------------------------------- SECTION 1997 ------------------------------------------------------------*/
+
+.section-1997 {
+    color: #ffffff;
+    background-color: #0D0D0D;
+}
+
+.conteudo-section-1997 {
+    padding-top: 186px;
+    padding-bottom: 187px;
+}
+
+.img-1997 {
+    right: 0;
+}
+
+.subtitulo-1997 {
+    font-size: 30px;
+}
+
+.div-paragraph-1997 {
+    width: 602px;
+    padding: 166px 0 90px 0;
+}
+
+.div-1997-text p {
+    font-size: 18px;
+}
+
+.btn-1997-conheca {
+    color: #ffffff;
+    background-color: #8a1002;
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+
+.div-1997-btns {
+    width: 100%;
+}
+
+.btn-1997-conheca:hover {
+    background-color: #8a1002;
+}
+
+.btn-1997-contato {
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #8A1002;
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+
+.btn-1997-contato:hover {
+    background-color: #8A1002;
 }
 
 /*---------------------------------------------------- SECTION NOVIDADES POR E-MAIL -----------------------------------------------*/
@@ -145,6 +213,7 @@ nav {
 .btn-news-email:hover {
     background-color: #8a1002a2;
 }
+
 
 /*############################################################ FO0TER #############################################################*/
 

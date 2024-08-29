@@ -9,16 +9,22 @@
 /*############################################################ HEADER #############################################################*/
 
 header {
+    z-index: 3;
+    position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .logo {
     left: 20px;
     top: 20px;
+    z-index: 4;
 }
 
 nav {
-    height: 100px;
+    height: 91px;
+    background-color: white;
 }
 
 .cabecalho {
@@ -50,7 +56,7 @@ nav {
 
 .btn-colaboradores:hover {
     background-color: whitesmoke;
-    color: #000000;
+    color: #00000083;
 }
 
 .btn-cliente {
@@ -61,7 +67,7 @@ nav {
 }
 
 .btn-cliente:hover {
-    background-color: #ea5c1f;
+    background-color: #8a100299;
 }
 
 .mobile-nav{
@@ -90,7 +96,7 @@ nav {
 }
 
 .menu.active .line1 {
-    transform: rotate(45deg) translate(1px, 5px);
+    transform: rotate(45deg) translate(18%, 70%);
 }
 
 .menu.active .line2 {
@@ -98,8 +104,56 @@ nav {
 }
 
 .menu.active .line3 {
-    transform: rotate(-45deg) translate(1px, -5px);
+    transform: rotate(-45deg) translate(10%, -50%);
 }
+
+.conteudo-menu {
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.85);
+    height: 100vh;
+    width: 100%;
+    right: 100%;
+    max-width: 100vw;
+    position: fixed;
+    top: 91px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5;
+    box-sizing: border-box;
+    padding: 3px 15px;
+}
+
+.conteudo-menu.active {
+    right: 0;
+}
+
+.line-menu {
+    width: 100%;
+}
+
+.btn-colaboradores-menu {
+    color: white;
+    background-color: #000000;
+    width: 100%;
+    height: 51px;
+}
+
+.btn-colaboradores-menu:hover {
+    background-color: whitesmoke;
+    color: #00000083;
+}
+
+.btn-cliente-menu {
+    color: white;
+    background-color: #8a1002;
+    width: 100%;
+    height: 51px;
+}
+
+.btn-cliente-menu:hover {
+    background-color: #8a100299;
+}
+
 
 .text-menu {
     font-weight: bold;
@@ -124,7 +178,56 @@ nav {
 
 .section-ultimos-lotes {
     background-image: url(imagens-e-icones/back-img-first-section.png);
+    margin-top: 91px;
 }
+
+.conteudo-section-ultimos-lotes {
+    color: #ffffff;
+}
+
+.img-ult-lotes {
+    padding-top: 150px;
+}
+
+.ultimos-lotes {
+    margin-top: 109px;
+}
+
+.ultimos-lotes h1 {
+    color: #FFAE5C;
+    font-weight: 800;
+    font-size: 33px;
+}
+
+.ultimos-lotes h2 {
+    font-weight: 400;
+}
+
+.ultimos-lotes p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-ult-lotes {
+    color: #ffffff;
+    border-radius: 3px;
+    border: 2px solid white;
+}
+
+.btn-carrossel {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.indicadores-imgs {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
 
 /*------------------------------------------------------- SECTION 1997 ------------------------------------------------------------*/
 

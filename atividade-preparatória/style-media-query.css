@@ -23,9 +23,18 @@
         height: 41px;
     }
 
-
     .div-img-1997 {
         right: 15px;
+    }
+
+    .btn-carrossel {
+        height: 50px;
+        width: 50px;
+    }
+
+    .indicadores-imgs {
+        height: 6px;
+        width: 6px;
     }
 
 }
@@ -47,6 +56,28 @@
     .img-1997 {
         right: 1%;
     }
+
+    .indicadores-ult-lotes  {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+    }
+
+    .btn-carrossel {
+        height: 50px;
+        width: 50px;
+    }
+
+    .indicadores-ult-lotes {
+        width: 60%;
+    }
+
+    .indicadores-imgs {
+        height: 6px;
+        width: 6px;
+    }
+
 
 }
 
@@ -96,6 +127,32 @@
         padding: 15px 30px;
     }
 
+    .btn-carrossel {
+        height: 50px;
+        width: 50px;
+    }
+
+    .indicadores-ult-lotes {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+    }
+
+    .indicadores-imgs {
+        height: 6px;
+        width: 6px;
+    }
+
+    .ultimos-lotes h1 {
+        font-size: 30px;
+    }
+    
+    .ultimos-lotes p {
+        font-size: 13px;
+    }
+
+
 }
 
 @media (max-width: 567.08px) {
@@ -105,10 +162,12 @@
     }
 
     .menu-mobile {
+        height: 91px;
         width: 100%;
         position: fixed;
         bottom: 0;
-        z-index: 3;
+        z-index: 4;
+        box-shadow: 0 0 10px #000000;
     }
 
     .atendimento-politicas {

@@ -59,7 +59,7 @@
                         </svg> Cliente</button>
                 </div>
 
-                <div class="menu d-lg-none d-sm-flex d-none align-items-center me-5">
+                <div class="menu d-lg-none d-sm-flex d-none align-items-center me-sm-5 me-0">
                     <div class="conjunto-burguer">
                         <div class="line1"></div>
                         <div class="line2"></div>
@@ -68,21 +68,38 @@
                     <p class="text-menu m-0">MENU</p>
                 </div>
 
-                <div class="conteudo-menu d-sm-none d-flex">
-                    <div class="conteudo-list-menu">
+
+                <div class="menu-mobile d-sm-none d-flex justify-content-around align-items-center">
+
+                    <div class="menu d-lg-none d-flex align-items-center me-sm-5 me-0">
+                        <div class="conjunto-burguer">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                        <p class="text-menu m-0">MENU</p>
+                    </div>
+                    <img src="imagens-e-icones/logo-incorporadora.png" alt="logo da incorporadora"
+                        class="logo-menu-mobile d-sm-none">
+                </div>
+
+
+
+                <div class="conteudo-menu d-lg-none">
+                    <div class="conteudo-list-menu mt-3 d-flex align-items-center flex-column">
                         <div>Home</div>
-                        <hr>
+                        <hr class="line-menu">
                         <div>Empreendimentos</div>
-                        <hr>
+                        <hr class="line-menu">
                         <div>Blog</div>
-                        <hr>
+                        <hr class="line-menu">
                         <div>Contato</div>
-                        <hr>
+                        <hr class="line-menu">
                     </div>
 
                     <div class="header-buttons d-flex flex-column row-gap-3">
-                        <button class="btn-colaboradores btn"><svg width="25" height="20" viewBox="0 0 25 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
+                        <button class="btn-colaboradores-menu btn"><svg width="25" height="20" viewBox="0 0 25 20"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="12.5" cy="5.5" r="4.125" stroke="white" stroke-width="1.25" />
                                 <circle cx="21" cy="7" r="2.625" stroke="white" stroke-width="1.25" />
                                 <circle cx="4" cy="7" r="2.625" stroke="white" stroke-width="1.25" />
@@ -90,10 +107,11 @@
                                     stroke="white" stroke-width="1.25" />
                                 <path d="M1 15L1 13C1 11.3431 2.34315 10 4 10V10C5.65685 10 7 11.3431 7 13V15"
                                     stroke="white" stroke-width="1.25" />
-                                <path d="M7 15.5C7 12.4624 9.46243 10 12.5 10V10C15.5376 10 18 12.4624 18 15.5V19H7V15.5Z"
+                                <path
+                                    d="M7 15.5C7 12.4624 9.46243 10 12.5 10V10C15.5376 10 18 12.4624 18 15.5V19H7V15.5Z"
                                     stroke="white" stroke-width="1.25" />
                             </svg> Colaborador</button>
-                        <button class="btn-cliente btn"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                        <button class="btn-cliente-menu btn"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="11.5438" cy="9.32359" r="3.83727" stroke="white" stroke-width="1.25" />
                                 <path
@@ -104,17 +122,6 @@
                     </div>
                 </div>
 
-                <div class="menu-mobile d-sm-none d-flex flex-row justify-content-around align-items-center">
-                    <div class="menu d-sm-none d-flex align-items-center me-1">
-                        <div class="conjunto-burguer">
-                            <div class="line1"></div>
-                            <div class="line2"></div>
-                            <div class="line3"></div>
-                        </div>
-                        <p class="text-menu m-0">MENU</p>
-                    </div>
-                    <img src="imagens-e-icones/logo-incorporadora.png" alt="logo da incorporadora" class="logo-menu-mobile">
-                </div>
             </div>
 
 
@@ -125,10 +132,38 @@
     <main>
         <!------------------------------- SECTION IMAGEM DE COMEÇO ------------------------------>
         <section class="section-ultimos-lotes">
-            <div class="container-xl">
-                <div class="">
-                    <img src="imagens-e-icones/loteamento-img.png" alt="imagem de um lote de zona rural"
-                        class="img-fluid">
+            <div class="conteudo-section-ultimos-lotes d-flex flex-sm-row flex-column justify-content-between position-relative">
+                <img src="imagens-e-icones/loteamento-img.png" alt="imagem de um lote de zona rural" class="img-ult-lotes col-lg-5 col-md-6 col-5">
+                <div class="ultimos-lotes col-md-4 col-5 offset-lg-1">
+                    <h1>
+                        Últimos Lotes <br> Disponíveis
+                    </h1>
+                    <h2>Não perca a chace de viver bem</h2>
+                    <p>Presidente Prudente - sp • 110 lotes</p>
+
+                    <button class="btn-ult-lotes btn">CLIQUE E CONHEÇA</button>
+                </div>
+
+                <div class="indicadores-ult-lotes d-flex flex-lg-column flex-row align-items-center justify-content-evenly col-1 offset-lg-1">
+                    <div class="btn-carrossel d-flex align-items-center justify-content-center" id="btn-direita">
+                        <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="white" stroke-width="2"/>
+                            <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
+                        </svg>                   
+                    </div>
+
+                    <div class="btn-carrossel d-flex align-items-center justify-content-center" id="btn-esquerda">
+                        <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="white" stroke-width="2"/>
+                            <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
+                        </svg>                          
+                    </div>
+
+                    <div class="indicadores-imgs"></div>
+                    <div class="indicadores-imgs"></div>
+                    <div class="indicadores-imgs"></div>
+                    <div class="indicadores-imgs"></div>
+                    <div class="indicadores-imgs"></div>
                 </div>
             </div>
         </section>
@@ -139,25 +174,31 @@
         <section class="section-1997">
             <div class="conteudo-section-1997 container-xl d-flex flex-column position-relative">
                 <h2 class="subtitulo-1997 mb-3">MUITO MAIS DO QUE <br> <strong>UMA INCORPORADORA</strong></h1>
-                <hr class="line-input">
-                <img src="imagens-e-icones/img-1997.png" alt="imagem do número 1997" class="img-1997 position-absolute">
-                <div class="div-1997-text d-flex flex-column align-items-center">
-                    <div class="div-paragraph-1997">
-    
-                        <p>A IN Incorporadora Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam erat,
-                            consequat vitae eros vel, tempor pharetra ex. Donec augue neque, venenatis eu efficitur eu,
-                            semper id orci. Aliquam euismod tortor eu ex eleifend, sit amet laoreet lorem venenatis. Sed et
-                            luctus mauris. Quisque velit lacus, malesuada ac diam in, maximus dapibus turpis. Integer nec
-                            dignissim turpis. Donec ac dolor at est posuere luctus. </p>
-    
-                        <div class="div-1997-btns d-flex flex-sm-row flex-column justify-content-between row-gap-3 mt-5">
-                            <button class="btn-1997-conheca btn">CONHEÇA A INCORPORADORA</button>
-                            <button class="btn-1997-contato btn">ENTRE EM CONTATO</button>
+                    <hr class="line-input">
+                    <img src="imagens-e-icones/img-1997.png" alt="imagem do número 1997"
+                        class="img-1997 position-absolute">
+                    <div class="div-1997-text d-flex flex-column align-items-center">
+                        <div class="div-paragraph-1997">
+
+                            <p>A IN Incorporadora Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+                                erat,
+                                consequat vitae eros vel, tempor pharetra ex. Donec augue neque, venenatis eu efficitur
+                                eu,
+                                semper id orci. Aliquam euismod tortor eu ex eleifend, sit amet laoreet lorem venenatis.
+                                Sed et
+                                luctus mauris. Quisque velit lacus, malesuada ac diam in, maximus dapibus turpis.
+                                Integer nec
+                                dignissim turpis. Donec ac dolor at est posuere luctus. </p>
+
+                            <div
+                                class="div-1997-btns d-flex flex-sm-row flex-column justify-content-between row-gap-3 mt-5">
+                                <button class="btn-1997-conheca btn">CONHEÇA A INCORPORADORA</button>
+                                <button class="btn-1997-contato btn">ENTRE EM CONTATO</button>
+                            </div>
                         </div>
+
+
                     </div>
-
-
-                </div>
             </div>
         </section>
 
@@ -166,14 +207,14 @@
         <section class="section-novidades-e-mail">
             <div class="conteudo-section-novidades-email container-xl d-flex flex-column justify-content-center">
                 <h2 class="mb-3">RECEBA NOVIDADES <br> <strong>POR E-MAIL</strong></h1>
-                <hr class="line-input">
-                <div class="inputs-btn d-flex flex-wrap justify-content-between row-gap-sm-0 row-gap-3 mt-4">
-                    <input class="col-xl-4 col-sm-6 col-12" type="text" name="nome" id="input-nome"
-                        placeholder="Digite Seu Nome">
-                    <input class="col-xl-4 col-sm-5 col-12" type="text" name="email" id="input-email"
-                        placeholder="Digite Seu E-Mail">
-                    <button class="btn-news-email btn col-xl-3 col-12 mt-xl-0 mt-sm-3">RECEBER NOVIDADES</button>
-                </div>
+                    <hr class="line-input">
+                    <div class="inputs-btn d-flex flex-wrap justify-content-between row-gap-sm-0 row-gap-3 mt-4">
+                        <input class="col-xl-4 col-sm-6 col-12" type="text" name="nome" id="input-nome"
+                            placeholder="Digite Seu Nome">
+                        <input class="col-xl-4 col-sm-5 col-12" type="text" name="email" id="input-email"
+                            placeholder="Digite Seu E-Mail">
+                        <button class="btn-news-email btn col-xl-3 col-12 mt-xl-0 mt-sm-3">RECEBER NOVIDADES</button>
+                    </div>
             </div>
         </section>
     </main>
@@ -452,6 +493,18 @@
 </body>
 
 </html>
+
+<!-- 
+                <div class="menu-mobile d-sm-none d-flex flex-row justify-content-around align-items-center">
+                    <div class="menu d-sm-none d-flex align-items-center me-1">
+                        <div class="conjunto-burguer">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                        <p class="text-menu m-0">MENU</p>
+                    </div>
+                </div> -->
 
 
 

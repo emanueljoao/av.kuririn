@@ -38,6 +38,11 @@ nav {
     padding: 20px 30px;
 }
 
+.item-list-header a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .space-line {
     height: 68px;
     border-left: 1px solid;
@@ -127,6 +132,11 @@ nav {
     right: 0;
 }
 
+.conteudo-list-menu div a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .line-menu {
     width: 100%;
 }
@@ -214,6 +224,12 @@ nav {
     border: 2px solid white;
 }
 
+.btn-ult-lotes:hover {
+    color: #000000;
+    border: 2px solid white;
+    background-color: #ffffff;
+}
+
 .btn-carrossel {
     height: 65px;
     width: 65px;
@@ -285,6 +301,24 @@ nav {
     background-color: #8A1002;
 }
 
+/*------------------------------------------------------- SECTION NOVIDADES DO BLOG -----------------------------------------------*/
+
+
+.conteudo-section-novidades-blog h2 {
+    font-weight: 300;
+}
+
+.conteudo-section-novidades-blog h2 strong {
+    font-weight: 500;
+}
+
+.conteudo-section-novidades-blog hr {
+    border: 6px solid #000000;
+    opacity: 1;
+}
+
+
+
 /*---------------------------------------------------- SECTION NOVIDADES POR E-MAIL -----------------------------------------------*/
 
 .section-novidades-e-mail {
@@ -305,6 +339,7 @@ nav {
     background-color: #0D0D0D;
     border: 1px solid #ffffff;
     border-radius: 3px;
+    color: #ffffff;
 }
 
 .btn-news-email {
@@ -414,12 +449,113 @@ footer ul {
     margin: 0;
 }
 
+/*###################################################################### CONTATO PAGE #############################################*/
 
+.section-title-contato {
+    background-color: #000000;
+    margin-top: 91px;
+}
 
+.conteudo-section-title-contato {
+    display: flex;
+    padding: 1px 10px;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    height: 252px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.conteudo-section-title-contato p {
+    color: #767676;
+}
 
+.conteudo-section-title-contato hr {
+    border: 6px solid #8A1002;
+    position: absolute;
+    width: 100%;
+    bottom: -16px;
+    opacity: 1;
+    left: 0;
+}
 
+/*---------------------------------------------------- SECTION INPUTS DE CONTATO --------------------------------------------------*/
 
+.conteudo-section-inputs-contato {
+    box-sizing: border-box;
+    padding: 50px 15px;
+}
+
+.inputs {
+    padding: 10px 0;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+}
+
+.btn-enviar-mensagem {
+    color: #ffffff;
+    background-color: #8a1002;
+    padding: 0 62px;
+}
+
+.btn-enviar-mensagem:hover {
+    background-color: #8a1002ac;
+}
+
+.caixa-texto textarea{
+    width: 100%;
+    height: 100%;
+}
+
+.text-btn p {
+    font-size: 14px;
+    color: #767676;
+}
+
+/*------------------------- SECTION ONDE ESTAMOS ---------------------*/
+
+.conteudo-section-onde-estamos iframe {
+    width: 100%;
+}
+
+.conteudo-section-onde-estamos h2 {
+    font-weight: 300;
+    color: #8A1002;
+}
+
+.strong-subtitle-onde-estamos {
+    font-weight: 500;
+}
+
+.conteudo-section-onde-estamos hr {
+    border: 6px solid #000000;
+    opacity: 1;
+}
+
+.infos-contato {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 50px 0;
+    margin: 80px 0;
+    border-radius: 3px;
+}
+
+.div-icon {
+    height: 33px;
+    width: 33px;
+    background-color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+.right-whatsapp-page-contact {
+    border-radius: 3px;
+    padding: 10px 10px;
+}
 
 
 

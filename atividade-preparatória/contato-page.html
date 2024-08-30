@@ -9,13 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style-atividade.css">
     <link rel="stylesheet" href="style-media-query.css">
     <script defer src="script-main-page.js"></script>
-    <title>Activity</title>
+    <title>Contato</title>
 </head>
 
 <body>
+    <!------------------------------- HEADER ------------------------->
     <header>
         <div class="logo position-absolute d-sm-block d-none">
             <img src="imagens-e-icones/logo-incorporadora.png" alt="logo da corporação, incorporadora">
@@ -24,13 +26,13 @@
             <div class="cabecalho d-flex justify-content-sm-end align-items-center justify-content-center">
                 <div class="nav-menu d-lg-flex d-none">
                     <ul class="list-unstyled d-flex flex-row m-0">
-                        <li class="item-list-header"><a href="#">Home</a></li>
+                        <li class="item-list-header"><a href="index-atividade.html">Home</a></li>
                         <hr class="space-line">
                         <li class="item-list-header"><a href="#">Empreendimentos</a></li>
                         <hr class="space-line">
                         <li class="item-list-header"><a href="#">Blog</a></li>
                         <hr class="space-line">
-                        <li class="item-list-header"><a href="contato-page.html">Contato</a></li>
+                        <li class="item-list-header"><a href="#">Contato</a></li>
                         <hr class="space-line">
                     </ul>
                 </div>
@@ -87,13 +89,13 @@
 
                 <div class="conteudo-menu d-lg-none">
                     <div class="conteudo-list-menu mt-3 d-flex align-items-center flex-column">
-                        <div><a href="#">Home</a></div>
+                        <div><a href="index-atividade.html">Home</a></div>
                         <hr class="line-menu">
                         <div><a href="#">Empreendimentos</a></div>
                         <hr class="line-menu">
                         <div><a href="#">Blog</a></div>
                         <hr class="line-menu">
-                        <div><a href="contato-page.html">Contato</a></div>
+                        <div><a href="#">Contato</a></div>
                         <hr class="line-menu">
                     </div>
 
@@ -128,117 +130,101 @@
 
         </nav>
     </header>
-    <!------------ MAIN ------------------>
+    <!------------------------ MAIN --------------------------->
     <main>
-        <!------------------------------- SECTION IMAGEM DE COMEÇO ------------------------------>
-        <section class="section-ultimos-lotes">
-            <div class="conteudo-section-ultimos-lotes d-flex flex-sm-row flex-column justify-content-between position-relative">
-                <img src="imagens-e-icones/loteamento-img.png" alt="imagem de um lote de zona rural" class="img-ult-lotes col-lg-5 col-md-6 col-sm-5 col-12">
-                <div class="ultimos-lotes col-md-4 col-sm-5 col-12 offset-lg-1 offset-md-7 offset-sm-6">
-                    <h1>
-                        Últimos Lotes <br> Disponíveis
-                    </h1>
-                    <h2>Não perca a chace de viver bem</h2>
-                    <p>Presidente Prudente - sp • 110 lotes</p>
 
-                    <button class="btn-ult-lotes btn">CLIQUE E CONHEÇA</button>
-                </div>
-
-                <div class="indicadores-ult-lotes d-flex flex-lg-column flex-row align-items-center justify-content-sm-evenly justify-content-center col-sm-1 col-12 offset-lg-1">
-                    <div class="btn-carrossel d-flex align-items-center justify-content-center" id="btn-direita">
-                        <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="white" stroke-width="2"/>
-                            <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
-                        </svg>                   
-                    </div>
-
-                    <div class="btn-carrossel d-flex align-items-center justify-content-center" id="btn-esquerda">
-                        <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="white" stroke-width="2"/>
-                            <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
-                        </svg>                          
-                    </div>
-
-                    <div class="indicadores-imgs d-sm-block d-none"></div>
-                    <div class="indicadores-imgs d-sm-block d-none"></div>
-                    <div class="indicadores-imgs d-sm-block d-none"></div>
-                    <div class="indicadores-imgs d-sm-block d-none"></div>
-                    <div class="indicadores-imgs d-sm-block d-none"></div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-------------------------------------------------------- SECTION 1997 ------------------------------------------>
-
-        <section class="section-1997">
-            <div class="conteudo-section-1997 container-xl d-flex flex-column position-relative">
-                <h2 class="subtitulo-1997 mb-3">MUITO MAIS DO QUE <br> <strong>UMA INCORPORADORA</strong></h1>
-                    <hr class="line-input">
-                    <img src="imagens-e-icones/img-1997.png" alt="imagem do número 1997"
-                        class="img-1997 position-absolute">
-                    <div class="div-1997-text d-flex flex-column align-items-center">
-                        <div class="div-paragraph-1997">
-
-                            <p>A IN Incorporadora Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
-                                erat,
-                                consequat vitae eros vel, tempor pharetra ex. Donec augue neque, venenatis eu efficitur
-                                eu,
-                                semper id orci. Aliquam euismod tortor eu ex eleifend, sit amet laoreet lorem venenatis.
-                                Sed et
-                                luctus mauris. Quisque velit lacus, malesuada ac diam in, maximus dapibus turpis.
-                                Integer nec
-                                dignissim turpis. Donec ac dolor at est posuere luctus. </p>
-
-                            <div
-                                class="div-1997-btns d-flex flex-sm-row flex-column justify-content-between row-gap-3 mt-5">
-                                <button class="btn-1997-conheca btn">CONHEÇA A INCORPORADORA</button>
-                                <button class="btn-1997-contato btn">ENTRE EM CONTATO</button>
-                            </div>
-                        </div>
-
-
-                    </div>
-            </div>
-        </section>
-
-        <!--------------------------------------------------- SECTION NOVIDADES DO BLOG ------------------------------------------>
-
-        <section class="section-novidades-blog">
-            <div class="conteudo-section-novidades-blog container-xl">
-
-                <h2>NOVIDADES DO <strong>BLOG</strong></h2>
+        <section class="section-title-contato">
+            <div class="conteudo-section-title-contato container-xl position-relative">
+                <h1>CONTATO</h1>
+                <p>Home | Contato</p>
                 <hr>
-                <div>
-                    
-                </div>
+            </div>
+        </section>
 
-                <div>
-
-                </div>
-
-                <div class="btns-carrossel-noticias d-flex flex-row">
-                    <div class="btns-carrossel-blog ">
-                        <div class="btn-carrossel d-flex align-items-center justify-content-center" id="btn-direita">
-                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="white" stroke-width="2"/>
-                                <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
-                            </svg>                   
-                        </div>
-    
-                        <div class="btn-carrossel d-flex align-items-center justify-content-center" id="btn-esquerda">
-                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="white" stroke-width="2"/>
-                                <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
-                            </svg>                          
-                        </div>
+        <!-- SECTION INPUTS DE CONTATO -->
+        <section class="section-inputs-contato">
+            <div class="conteudo-section-inputs-contato container-xl">
+                <div class="inputs-textbox d-flex flex-lg-row flex-column row-gap-lg-0 row-gap-5">
+                    <div class="inputs-de-contato d-flex flex-column col-lg-5 col-12 row-gap-4">
+                        <input type="text" name="user-name" id="name" class="inputs" placeholder="Nome">
+                        <input type="tel" name="user-phone" id="phone" class="inputs" placeholder="Telefone">
+                        <input type="email" name="user-email" id="email" class="inputs" placeholder="E-Mail">
+                        <select name="select-assuntos" id="assuntos" class="inputs">
+                            <option value="assunto" disabled selected>Assunto</option>
+                            <option value="assunto-um">Assunto 1</option>
+                            <option value="assunto-dois">Assunto 2</option>
+                            <option value="assunto-tres">Assunto 3</option>
+                            <option value="assunto-quatro">Assunto 4</option>
+                            <option value="assunto-cinco">Assunto 5</option>
+                        </select>
                     </div>
-                    <button class="btn">VER TODAS AS NOTÍCIAS</button>
+                    <div class="caixa-texto col-lg-6 col-12 offset-lg-1">
+                        <textarea name="caixa-de-texto" id="caixa-de-texto"
+                            placeholder="Digite sua Mensagem"></textarea>
+                    </div>
+                </div>
+
+                <div class="text-btn d-flex flex-lg-row flex-column justify-content-lg-between mt-4">
+                    <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis.
+                        <br> Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
+                    <button class="btn-enviar-mensagem btn">ENVIAR MENSAGEM*</button>
                 </div>
             </div>
         </section>
 
-        <!--------------------------------------- SECTION NOVIDADES POR E-MAIL ----------------------------------------------------->
+
+        <!-------------------------------------------------------- SECTION ONDE ESTAMOS -------------------------------------------->
+
+        <section class="section-onde-estamos">
+            <div class="conteudo-section-onde-estamos container-xl">
+                <h2>ONDE <strong class="strong-subtitle-onde-estamos"> ESTAMOS</strong></h2>
+                <hr>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.97646118327543!2d-51.40584647746064!3d-22.140330897134433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f45ab3079f31%3A0xb8f68139a7e43d96!2sOxigenweb%20-%20Ag%C3%AAncia%20Digital!5e0!3m2!1spt-BR!2sbr!4v1725040681891!5m2!1spt-BR!2sbr"
+                    height="435" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="infos-contato d-flex flex-sm-row flex-column row-gap-4 justify-content-sm-around align-items-center">
+                    <div class="div-atendimento">
+                        <p class="m-0"><strong>Atendimento</strong></p>
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="div-icon d-flex m-2">
+                                <i class="bi bi-geo-alt-fill text-dark"></i>
+                            </div>
+                            <p class="m-0">Seg à Sex das 8hs às 18hs</p>
+                        </div>
+                    </div>
+
+                    <div class="atendimento-central-footer atendimento-central-contact">
+                        <p class="m-0"><strong>Central de Atendimento</strong></p>
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="div-icon d-flex m-2">
+                                <i class="bi bi-telephone-fill text-dark"></i>
+                            </div>
+                            <p class="m-0">18 3999 9999</p>
+                        </div>
+                    </div>
+
+                    <div class="right-whatsapp-page-contact d-flex align-items-center flex-column bg-success">
+                        <p class="m-0"><strong>Whatsapp</strong></p>
+                        <div class="whatsapp-contato d-flex flex-row align-items-center">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="me-2">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.6516 4.02352C21.0493 1.43023 17.5881 0.00173204 13.9007 0C6.30229 0 0.11878 6.15392 0.115734 13.7177C0.114864 16.1356 0.749227 18.496 1.95573 20.5766L0 27.6857L7.30779 25.7779C9.32139 26.8708 11.5882 27.4471 13.8955 27.4476H13.9012C21.4987 27.4476 27.6831 21.2932 27.6857 13.729C27.687 10.0631 26.2547 6.61637 23.6516 4.02352ZM13.9007 25.131H13.8959C11.8401 25.1301 9.82392 24.5802 8.06441 23.5414L7.64629 23.2941L3.30974 24.4265L4.46708 20.2185L4.19471 19.7872C3.04781 17.9716 2.44217 15.8732 2.44304 13.719C2.44565 7.43173 7.58538 2.31703 13.9051 2.31703C16.9655 2.3179 19.8423 3.50564 22.0056 5.66116C24.1684 7.81667 25.3593 10.6815 25.3584 13.7281C25.3558 20.0154 20.2161 25.131 13.9007 25.131ZM20.1852 16.5907C19.841 16.4193 18.1472 15.59 17.8318 15.4753C17.5163 15.361 17.2862 15.3038 17.0569 15.6468C16.8271 15.9897 16.1671 16.7622 15.9661 16.9908C15.7651 17.2195 15.5645 17.2485 15.2199 17.0766C14.8753 16.9051 13.7654 16.5431 12.4501 15.3753C11.4264 14.4664 10.735 13.344 10.534 13.0007C10.3334 12.6573 10.5322 12.4897 10.685 12.3009C11.0578 11.8402 11.4311 11.357 11.546 11.1283C11.6609 10.8997 11.6034 10.6992 11.5173 10.5277C11.4316 10.3563 10.7428 8.66884 10.4557 7.98252C10.1759 7.31438 9.89223 7.40445 9.68078 7.39406C9.4802 7.3841 9.25047 7.38193 9.02074 7.38193C8.79102 7.38193 8.41771 7.46767 8.10227 7.81105C7.78683 8.15442 6.89706 8.9832 6.89706 10.6706C6.89706 12.3581 8.13142 13.9879 8.30371 14.2165C8.47601 14.4452 10.7324 17.9075 14.1874 19.3923C15.0093 19.7456 15.6507 19.9565 16.151 20.1146C16.9764 20.3757 17.7269 20.3389 18.3204 20.2505C18.9822 20.1518 20.3579 19.4213 20.6455 18.6207C20.9322 17.82 20.9322 17.1337 20.8461 16.9908C20.7595 16.8479 20.5298 16.7622 20.1852 16.5907Z"
+                                    fill="white" />
+                            </svg>
+                            <p class="m-0">18 3999 9999</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-------------------------------------------------- SECTION NOVIDADES POR EMAIL ----------------------------------------------->
         <section class="section-novidades-e-mail">
             <div class="conteudo-section-novidades-email container-xl d-flex flex-column justify-content-center">
                 <h2 class="mb-3">RECEBA NOVIDADES <br> <strong>POR E-MAIL</strong></h1>
@@ -528,4 +514,3 @@
 </body>
 
 </html>
-

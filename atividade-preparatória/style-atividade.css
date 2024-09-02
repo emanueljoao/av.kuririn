@@ -230,12 +230,26 @@ nav {
     background-color: #ffffff;
 }
 
-.btn-carrossel {
+/* .btn-carrossel {
     height: 65px;
     width: 65px;
     border-radius: 50%;
     border: 2px solid rgb(255, 255, 255);
-}
+} */
+
+/* .swiper-button-next {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+} */
+
+/* .swiper-button-prev {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);       
+} */
 
 .indicadores-imgs {
     height: 8px;

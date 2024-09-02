@@ -27,16 +27,6 @@
         right: 15px;
     }
 
-    .btn-carrossel {
-        height: 50px;
-        width: 50px;
-    }
-
-    .indicadores-imgs {
-        height: 6px;
-        width: 6px;
-    }
-
 }
 
 @media (min-width: 768px) and (max-width: 991.08px) {
@@ -71,25 +61,19 @@
 
     .indicadores-ult-lotes  {
         position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 50%;
-        margin-bottom: 80px;
+        left: 20px;
+        bottom: 57px;
+        z-index: 1;
+        column-gap: 20px;
+    }
+    
+    .swiper-pagination-custom {
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 23px;
     }
 
-    .btn-carrossel {
-        height: 50px;
-        width: 50px;
-    }
 
-    .indicadores-ult-lotes {
-        width: 60%;
-    }
-
-    .indicadores-imgs {
-        height: 6px;
-        width: 6px;
-    }
 /*########################################### CONTATO PAGE ##########################################*/
 
     .btn-enviar-mensagem {
@@ -161,22 +145,23 @@
         margin-bottom: 175px;
     }
 
-    .indicadores-ult-lotes {
+    .indicadores-ult-lotes  {
         position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 75%;
-        margin-bottom: 70px;
+        left: 20px;
+        bottom: 115px;
+        z-index: 1;
+        column-gap: 20px;
     }
 
-    .btn-carrossel {
-        height: 50px;
-        width: 50px;
+    .indicadores-ult-lotes img {
+        height: 53px;
+        width: 53px;
     }
-
-    .indicadores-imgs {
-        height: 6px;
-        width: 6px;
+    
+    .swiper-pagination-custom {
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 23px;
     }
 
     .ultimos-lotes h1 {
@@ -240,13 +225,13 @@
     }
 
     .img-ult-lotes {
-        padding-top: 0;
-        height: 202px;
+        padding-top: 9px;
+        height: 212px;
     }
 
     .ultimos-lotes {
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 87px;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -264,15 +249,19 @@
         width: 100%;
     }
     
-    .indicadores-ult-lotes {
+    .indicadores-ult-lotes  {
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+        margin: 0;
+        column-gap: 20px;
+        z-index: 1;
         width: 100%;
-        padding-bottom: 27px;
-        column-gap: 19.19px;
+        justify-content: center;
     }
 
-    .btn-carrossel {
-        height: 50px;
-        width: 50px;
+    .swiper-pagination-custom {
+        display: none;
     }
 
     .conteudo-section-novidades-email h2 {
@@ -314,6 +303,10 @@
         z-index: 3;
     }
 
+    .btn-ver-mais-blog {
+        width: 100%;
+    }
+
 /*########################################### CONTATO PAGE ##########################################*/
 
     .caixa-texto {
@@ -326,6 +319,21 @@
 
     .btn-enviar-mensagem {
         padding: 20px;
+    }
+
+}
+
+@media (max-width: 424px) {
+
+    .indicadores-ult-lotes  {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        margin: 0 auto;
+        column-gap: 20px;
+        z-index: 1;
+        width: 100%;
+        justify-content: center;
     }
 
 }

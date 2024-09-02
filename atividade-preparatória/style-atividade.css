@@ -193,6 +193,8 @@ nav {
 
 .conteudo-section-ultimos-lotes {
     color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 .img-ult-lotes {
@@ -200,7 +202,8 @@ nav {
 }
 
 .ultimos-lotes {
-    margin-top: 109px;
+    margin-top: 91px;
+    margin-bottom: 175px;
 }
 
 .ultimos-lotes h1 {
@@ -230,32 +233,56 @@ nav {
     background-color: #ffffff;
 }
 
-/* .btn-carrossel {
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);
-} */
+.indicadores-ult-lotes {
+    position: relative;
+    row-gap: 20px;
+    margin-top: 30px;
+}
 
-/* .swiper-button-next {
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);
-} */
+.swiper-pagination-custom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
 
-/* .swiper-button-prev {
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);       
-} */
+.swiper-pagination-custom span {
+    background-color: #fff;
+}
 
-.indicadores-imgs {
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background-color: #ffffff;
+/*---------------------------------------------- SECTION PRÓXIMOS LANÇAMENTOS -----------------------------------------------------*/
+
+.conteudo-section-lancamentos {
+    padding: 85px 15px 108px 15px !important;
+    box-sizing: border-box !important;
+}
+
+.conteudo-section-lancamentos h2 {
+    font-size: 30px;
+    color: #8A1002;
+    font-weight: 300;
+}
+
+.conteudo-section-lancamentos h2 strong {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.tamanho-lote {
+    font-size: 14px;
+}
+
+.lote-city {
+    font-size: 16px;
+}
+
+.bairro-city {
+    font-size: 14px;
+}
+
+.conteudo-section-lancamentos hr {
+    border: 6px solid #000000;
+    opacity: 1;
+    margin-bottom: 60px;
 }
 
 
@@ -317,8 +344,15 @@ nav {
 
 /*------------------------------------------------------- SECTION NOVIDADES DO BLOG -----------------------------------------------*/
 
+.conteudo-section-novidades-blog {
+    margin-top: 121px;
+    margin-bottom: 140px;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
+}
 
 .conteudo-section-novidades-blog h2 {
+    color: #8A1002;
     font-weight: 300;
 }
 
@@ -329,6 +363,84 @@ nav {
 .conteudo-section-novidades-blog hr {
     border: 6px solid #000000;
     opacity: 1;
+    margin-bottom: 60px;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.img-noticia-data {
+    height: 328px;
+}
+
+.img-multidao {
+    background-image: url(imagens-e-icones/multidao-de-pessoas\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-casa-lego {
+    background-image: url(imagens-e-icones/casa-de-lego.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.data-noticia {
+    background-color: #8a1002;
+    text-align: center;
+    width: 114px;
+    color: #ffffff;
+}
+
+.dia-da-noticia {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.mes-ano-noticia {
+    font-size: 13;
+    font-weight: bold;
+}
+
+.card-body h4 {
+    font-size: 20px;
+    text-align: start;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #b5b5b5;
+}
+
+.div-set-border {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.div-set-border:hover {
+    background-color: #000000;
+    color: #ffffff;
+} 
+
+.btn-ver-mais-blog  {
+    color: #ffffff;
+    background-color: #8a1002;
+}
+
+.btn-ver-mais-blog:hover  {
+    color: #ffffff;
+    fill: #ffffff;
+    background-color: #8a1002b6;
+}
+
+.div-set-border:hover svg path {
+    stroke: white;
 }
 
 

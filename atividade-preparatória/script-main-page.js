@@ -45,10 +45,129 @@ var swiperBlog = new Swiper(".mySwiperBlog", {
 // SWIPER - SECTION PRÓXIMOS LANCAMENTOS 
 
 var swiperNextLance = new Swiper(".mySwiperLancamentos", {
-  slidesPerView: 3,
-  spaceBetween: 30,
+  slidesPerView: 2,
+  spaceBetween: 25,
   navigation: {
     nextEl: ".swiper-button-next-prox-lance",
     prevEl: ".swiper-button-prev-prox-lance",
   }, 
-});
+  breakpoints: {
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
+    992: {
+      slidesPerView:3,
+      spaceBetween: 30,
+    },  
+}});
+
+
+// FILTRO - SECTION ENCONTRE SEUS LOTEAMENTOS
+
+// const obras = document.querySelectorAll('.obras')
+ 
+// function activeSwiper(index) {
+//   obras.forEach((obra) => {
+//     obra.classList.add('d-none')
+//   })
+//   obras[index].classList.remove('d-none')
+//   console.log(index);
+  
+// }
+
+// let swipersActives = document.querySelectorAll('options-filtro')
+// console.log(swipersActives)
+
+// swipersActives.forEach((swiper, index) => {
+//   swiper.addEventListener('click', function() {
+//     activeSwiper(index)
+//   })})
+
+// SWIPERS - SECTIONS ENCONTRE SEUS LOTEAMENTOS
+
+// SWIPER - OBRAS CONCLUIDAS
+
+var swiperObrasConluidas = new Swiper(".mySwiperObrasConcluidas", {
+  slidesPerView: 2,
+  spaceBetween: 25,
+  navigation: {
+    nextEl: ".swiper-button-next-encontre-lotes",
+    prevEl: ".swiper-button-prev-encontre-lotes",
+  }, 
+  breakpoints: {
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
+    992: {
+      slidesPerView:3,
+      spaceBetween: 30,
+    },  
+}});
+
+// SWIPER - OBRAS EM ANDAMENTO
+
+var swiperObrasEmAndamento = new Swiper(".mySwiperObrasAndamento", {
+  slidesPerView: 2,
+  spaceBetween: 25,
+  navigation: {
+    nextEl: ".swiper-button-next-encontre-lotes",
+    prevEl: ".swiper-button-prev-encontre-lotes",
+  }, 
+  breakpoints: {
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
+    992: {
+      slidesPerView:3,
+      spaceBetween: 30,
+    },  
+}});
+
+// SWIPER - TODAS AS OBRAS 
+
+var swiperTodasObras = new Swiper(".mySwiperTodasObras", {
+  slidesPerView: 2,
+  spaceBetween: 25,
+  navigation: {
+    nextEl: ".swiper-button-next-encontre-lotes",
+    prevEl: ".swiper-button-prev-encontre-lotes",
+  }, 
+  breakpoints: {
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+    },
+    992: {
+      slidesPerView:3,
+      spaceBetween: 30,
+    },  
+}});
+
+let radio = document.querySelector('.filtro-encontre-lotes')
+console.log(radio)
+radio.addEventListener('change', function(e) {
+    alert(e.target.value)
+  });
+
+
+const obras = document.querySelectorAll('.obras')
+ 
+function activeSwiper(index) {
+  obras.forEach((obra) => {
+    obra.classList.add('d-none')
+  })
+  obras[index].classList.remove('d-none')
+  console.log(index); 
+}
+
+  let swipersActives = document.querySelector('.filtro-encontre-lotes')
+console.log(swipersActives)
+
+swipersActives.addEventListener('change', function(e) {
+  activeSwiper(1)
+})
+// swipersActives.forEach((swiper, index) => {
+// })

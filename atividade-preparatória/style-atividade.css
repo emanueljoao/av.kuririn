@@ -267,6 +267,12 @@ nav {
     font-weight: 500;
 }
 
+.conteudo-section-lancamentos hr {
+    border: 6px solid #000000;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
 .tamanho-lote {
     font-size: 14px;
 }
@@ -279,12 +285,80 @@ nav {
     font-size: 14px;
 }
 
-.conteudo-section-lancamentos hr {
+.btn-ver-mais-prox-lance {
+    color: #fff;
+    background-color: #8A1002;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.btn-ver-mais-prox-lance:hover {
+    color: #fff;
+    background-color: #8a1002d5;
+}
+
+/*----------------------------------------------- SECTION ENCONTRE SEU LOTEAMENTO -------------------------------------------------*/
+
+.conteudo-section-encontre-loteamento {
+    margin-top: 121px;
+    margin-bottom: 140px;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
+}
+
+.conteudo-section-encontre-loteamento h2 {
+    color: #8A1002;
+    font-weight: 300;
+}
+
+.conteudo-section-encontre-loteamento h2 strong {
+    font-weight: 500;
+}
+
+.hr-title {
     border: 6px solid #000000;
     opacity: 1;
     margin-bottom: 60px;
 }
 
+.filtro-encontre-lotes label {
+    padding: 10px 40px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #F1F1F1;
+    font-size: 16px;
+    color: #767676;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    display: none;
+}
+ 
+.filtro-encontre-lotes label:has(input[type='radio']:checked){
+    color: #000000;
+    border-bottom: 1px solid black;
+}
+
+/* .options-filtro.active {
+    color: #000000;
+    background-color: #F1F1F1;
+    border-bottom: 1px solid black;
+} */
+
+
+.hr-filtro-zindex {
+    border: 1px solid #F1F1F1;
+    bottom: 0;
+    z-index: -1;
+}
+
+.img-card-obras {
+    border-bottom:8px solid #000000;
+}
+
+.img-card-obras:hover {
+    border-bottom:8px solid #C61400;
+}
 
 /*------------------------------------------------------- SECTION 1997 ------------------------------------------------------------*/
 
@@ -431,6 +505,8 @@ nav {
 .btn-ver-mais-blog  {
     color: #ffffff;
     background-color: #8a1002;
+    border-radius: 3px;
+    padding: 10px 20px;
 }
 
 .btn-ver-mais-blog:hover  {

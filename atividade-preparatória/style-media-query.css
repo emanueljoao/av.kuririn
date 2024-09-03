@@ -264,6 +264,45 @@
         display: none;
     }
 
+    .conteudo-section-lancamentos .swiper-wrapper .swiper-slide .card .card-body {
+        padding-left: 0;
+    }
+
+    .tamanho-lote {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .conteudo-section-lancamentos h4 {
+        font-size: 14px;
+    }
+
+    .lote-city {
+        font-size: 12px;
+    }
+
+    .bairro-city {
+        font-size: 12px;
+    }
+
+    .btn-ver-mais-prox-lance {
+        width: 100%;
+    }
+
+    .hr-title {
+        margin-bottom: 0;
+    }
+
+    .filtro-encontre-lotes label {
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .filtro-encontre-lotes label:has(input[type='radio']:checked){
+        background-color: #F1F1F1;
+    }
+
     .conteudo-section-novidades-email h2 {
         text-align: center;
     }

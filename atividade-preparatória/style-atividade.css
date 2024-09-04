@@ -6,6 +6,20 @@
     --font-family-01: 'Montserrat';
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: darkgray;
+}
+
+
 /*############################################################ HEADER #############################################################*/
 
 header {
@@ -321,7 +335,7 @@ nav {
     margin-bottom: 60px;
 }
 
-.filtro-encontre-lotes label {
+.filtro-encontre-lotes div {
     padding: 10px 40px;
     margin-bottom: 16px;
     border-bottom: 1px solid #F1F1F1;
@@ -330,11 +344,9 @@ nav {
     font-weight: bold;
 }
 
-input[type="radio"] {
-    display: none;
-}
+
  
-.filtro-encontre-lotes label:has(input[type='radio']:checked){
+.filtro-encontre-lotes div.active{
     color: #000000;
     border-bottom: 1px solid black;
 }
@@ -353,6 +365,9 @@ input[type="radio"] {
     border-bottom:8px solid #C61400;
 }
 
+.filter-options .card-body {
+    padding-left: 0;
+}
 /*------------------------------------------------------- SECTION 1997 ------------------------------------------------------------*/
 
 .section-1997 {
@@ -389,6 +404,11 @@ input[type="radio"] {
     padding: 15px 10px;
 }
 
+.btn-1997-conheca a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .div-1997-btns {
     width: 100%;
 }
@@ -403,6 +423,11 @@ input[type="radio"] {
     border: 1px solid #8A1002;
     border-radius: 3px;
     padding: 15px 10px;
+}
+
+.btn-1997-contato a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .btn-1997-contato:hover {
@@ -762,6 +787,7 @@ footer ul {
 
 .conteudo-section-title-erro {
     display: flex;
+    height: 582px;
     padding: 1px 10px;
     color: #ffffff;
     text-align: center;
@@ -769,6 +795,10 @@ footer ul {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+.title-link h1 {
+    font-size: 48px;
 }
 
 .links-error {
@@ -780,6 +810,15 @@ footer ul {
     color: #767676;
     font-weight: bold;
     text-decoration: none;
+    font-size: 17px;
+}
+
+.title-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+    text-indent: 188px;
 }
 
 .conteudo-section-title-erro hr {
@@ -787,14 +826,104 @@ footer ul {
     border: 8px solid rgba(255, 255, 255, 0.85);
 }
 
-.conteudo-section-title-erro p {
+.text-btn-not-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-not-page {
     font-size: 22px;
+    text-align: justify;
+}
+
+.btn-volta-pag-home {
+    background-color: #8A1002;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+.btn-volta-pag-home a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-volta-pag-home:hover {
+    background-color: #8a1002bf;
+}
+
+/* ##################################################### PAGE EMPRESA #############################################################*/
+
+
+.section-investimento-certo {
+    margin-top: 89px;
+    margin-bottom: 192px;
+}
+
+.conteudo-section-investimento {
+    box-sizing: border-box;
+    padding: 30px 15px;
+}
+
+.conteudo-section-investimento h2 {
+    color: #8a1002;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.conteudo-section-investimento hr {
+    border: 7px solid black;
+    opacity: 1;
+}
+
+.predio-noite-link a {
+    color: #8a1002;
+    font-weight: bold;
+}
+
+.text-img-page-empresa {
+    margin-top: 62px;
+}
+
+.predio-noite-link {
+    width: 542px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.predios-dia {
+    width: 542px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.text-icons {
+    width: 351px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    margin: 0 10px;
+}
+
+.icons-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    font-weight: 600;
+    padding: 20px;
+    border-bottom: 3px solid black;
 }
 
 
+.section-onde-estamos-empresa-page {
+    margin-top: 182px;
+}
 
-
-
+.cep-oxigen {
+    font-size: 22px;
+    margin-top: 65px;
+}
 
 
 

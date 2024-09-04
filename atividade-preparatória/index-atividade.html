@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="style-media-query.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script defer src="script-main-page.js"></script>
-    <script src="../script-teste.js"></script>
     <title>Activity</title>
 </head>
 
@@ -27,7 +26,7 @@
             <div class="cabecalho d-flex justify-content-sm-end align-items-center justify-content-center">
                 <div class="nav-menu d-lg-flex d-none">
                     <ul class="list-unstyled d-flex flex-row m-0">
-                        <li class="item-list-header"><a href="#">Home</a></li>
+                        <li class="item-list-header"><a href="index-atividade.html">Home</a></li>
                         <hr class="space-line">
                         <li class="item-list-header"><a href="#">Empreendimentos</a></li>
                         <hr class="space-line">
@@ -90,7 +89,7 @@
 
                 <div class="conteudo-menu d-lg-none">
                     <div class="conteudo-list-menu mt-3 d-flex align-items-center flex-column">
-                        <div><a href="#">Home</a></div>
+                        <div><a href="index-atividade.html">Home</a></div>
                         <hr class="line-menu">
                         <div><a href="#">Empreendimentos</a></div>
                         <hr class="line-menu">
@@ -374,304 +373,212 @@
                 <hr class="hr-title">
 
                 <div class="filtro-encontre-lotes d-flex flex-sm-row flex-column column-gap-sm-3 justify-content-sm-evenly position-relative">
-                    <label class="options-filtro">
-                        <input type="radio" name="opcoes-encontre-lote" id="concluidas-obras" checked>
+                    <div class="options-filtro active">
                         <p class="text-filtro">OBRAS CONCLUÍDAS</p>           
-                    </label>
-                    <label class="options-filtro">
-                        <input type="radio" name="opcoes-encontre-lote" id="obras-em-andamento">
+                    </div>
+                    <div class="options-filtro">
                         <p class="text-filtro">OBRAS EM ANDAMENTO</p>                          
-                    </label>
-                    <label class="options-filtro">
-                        <input type="radio" name="opcoes-encontre-lote" id="todas-obras">
+                    </div>
+                    <div class="options-filtro">
                         <p class="text-filtro">TODAS AS OBRAS</p>
-                    </label>
+                    </div>
 
                     <hr class="hr-filtro-zindex hr-filtro position-absolute w-100 d-sm-block d-none">
                 </div>
 
                 <div class="filter-options">
                     <!------------------------- OBRAS CONCLUIDAS ---------------------------->
-                    <div class="concluidas-obras obras swiper mySwiperObrasConcluidas" id="swiper-concluidas-obras">
-
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-
-                                <div class="card d-flex flex-column">
-
-                                   <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento" class="img-card-obras card-img-top">
-                                   
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 1</h4>
-                                        <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                        <p class="card-text bairro-city">110 LOTES</p>
+                    
+                        <div class="concluidas-obras obras swiper mySwiperObrasConcluidas" id="swiper-concluidas-obras">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card d-flex flex-column">
+                                       <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento" class="img-card-obras card-img-top">
+                        
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Loteamento 1</h4>
+                                            <p class="card-text lote-city">Osvaldo Cruz - SP</p>
+                                            <p class="card-text bairro-city">110 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">    
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 2</h4>
-                                        <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Loteamento 2</h4>
+                                            <p class="card-text lote-city">Presidente Bernardes - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 3</h4>
-                                        <p class="card-text lote-city">Presidente Prudente - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Loteamento 3</h4>
+                                            <p class="card-text lote-city">Presidente Prudente - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 1</h4>
-                                        <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                        <p class="card-text bairro-city">110 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Loteamento 4</h4>
+                                            <p class="card-text lote-city">Osvaldo Cruz - SP</p>
+                                            <p class="card-text bairro-city">110 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
-                    </div>
+                
 
                     <!----------------- OBRAS EM ANDAMENTO -------------------->
-
-                    <div class="obras-andamento obras swiper mySwiperObrasAndamento d-none" id="swiper-obras-em-andamento">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">50% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 1</h4>
-                                        <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                        <p class="card-text bairro-city">110 LOTES</p>
+                        <div class="obras-andamento obras swiper mySwiperObrasAndamento d-none" id="swiper-obras-em-andamento">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">50% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Andamento 1</h4>
+                                            <p class="card-text lote-city">Osvaldo Cruz - SP</p>
+                                            <p class="card-text bairro-city">110 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">10% OBRAS CONCLUIDAS</p>
-                                        <h4 class="card-title">Loteamento 2</h4>
-                                        <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">10% OBRAS CONCLUIDAS</p>
+                                            <h4 class="card-title">Andamento 2</h4>
+                                            <p class="card-text lote-city">Presidente Bernardes - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">77% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 3</h4>
-                                        <p class="card-text lote-city">Presidente Prudente - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">77% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Andamento 3</h4>
+                                            <p class="card-text lote-city">Presidente Prudente - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">50% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 1</h4>
-                                        <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                        <p class="card-text bairro-city">110 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">50% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Andamento 4</h4>
+                                            <p class="card-text lote-city">Osvaldo Cruz - SP</p>
+                                            <p class="card-text bairro-city">110 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
-                    </div>
+
                     <!------------------------- TODAS AS OBRAS ----------------------------->
-                    <div class="todas-as-obras obras swiper mySwiperTodasObras d-none">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 1</h4>
-                                        <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                        <p class="card-text bairro-city">110 LOTES</p>
+                    
+                        <div class="todas-as-obras obras swiper mySwiperTodasObras d-none">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Concluido 1</h4>
+                                            <p class="card-text lote-city">Osvaldo Cruz - SP</p>
+                                            <p class="card-text bairro-city">110 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 2</h4>
-                                        <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Concluido 2</h4>
+                                            <p class="card-text lote-city">Presidente Bernardes - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 3</h4>
-                                        <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Concluido 3</h4>
+                                            <p class="card-text lote-city">Presidente Bernardes - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">50% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 1</h4>
-                                        <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                        <p class="card-text bairro-city">110 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">50% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Andamento 1</h4>
+                                            <p class="card-text lote-city">Osvaldo Cruz - SP</p>
+                                            <p class="card-text bairro-city">110 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">10% OBRAS CONCLUIDAS</p>
-                                        <h4 class="card-title">Loteamento 2</h4>
-                                        <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">10% OBRAS CONCLUIDAS</p>
+                                            <h4 class="card-title">Andamento 2</h4>
+                                            <p class="card-text lote-city">Presidente Bernardes - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
-                            </div>
-
-
-                            <div class="swiper-slide">
-
-                                <div class="card">
-
-                                    <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
-                                        class="img-card-obras card-img-top">
-
-                                    <div class="card-body">
-                                        <p class="card-text tamanho-lote">77% OBRAS CONCLUÍDAS</p>
-                                        <h4 class="card-title">Loteamento 3</h4>
-                                        <p class="card-text lote-city">Presidente Prudente - SP</p>
-                                        <p class="card-text bairro-city">288 LOTES</p>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img src="imagens-e-icones/image-loteamento-3.png" alt="imagem de um loteamento"
+                                            class="img-card-obras card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text tamanho-lote">77% OBRAS CONCLUÍDAS</p>
+                                            <h4 class="card-title">Andamento 3</h4>
+                                            <p class="card-text lote-city">Presidente Prudente - SP</p>
+                                            <p class="card-text bairro-city">288 LOTES</p>
+                                        </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
+             
                     </div>
-
-                </div>
-                <div
-                    class="d-flex flex-sm-row flex-column justify-content-sm-between align-items-center row-gap-sm-0 row-gap-4 mt-5">
+      
+                <div class="d-flex flex-sm-row flex-column justify-content-sm-between align-items-center row-gap-sm-0 row-gap-4 mt-5">
                     <div class="btns-next-prev-blog column-gap-4 d-flex flex-row">
                         <div
                             class="div-set-border swiper-button-prev-encontre-lotes d-flex justify-content-center align-items-center">
@@ -723,8 +630,8 @@
 
                             <div
                                 class="div-1997-btns d-flex flex-sm-row flex-column justify-content-between row-gap-3 mt-5">
-                                <button class="btn-1997-conheca btn">CONHEÇA A INCORPORADORA</button>
-                                <button class="btn-1997-contato btn">ENTRE EM CONTATO</button>
+                                <button class="btn-1997-conheca btn"><a href="page-empresa.html">CONHEÇA A INCORPORADORA</a></button>
+                                <button class="btn-1997-contato btn"><a href="contato-page.html">ENTRE EM CONTATO</a></button>
                             </div>
                         </div>
 

@@ -59,14 +59,14 @@
         margin-bottom: 205px;
     }
 
-    .indicadores-ult-lotes  {
+    .indicadores-ult-lotes {
         position: absolute;
         left: 20px;
         bottom: 57px;
         z-index: 1;
         column-gap: 20px;
     }
-    
+
     .swiper-pagination-custom {
         flex-direction: row;
         margin-top: 0;
@@ -74,7 +74,7 @@
     }
 
 
-/*########################################### CONTATO PAGE ##########################################*/
+    /*########################################### CONTATO PAGE ##########################################*/
 
     .btn-enviar-mensagem {
         padding: 20px;
@@ -145,7 +145,7 @@
         margin-bottom: 175px;
     }
 
-    .indicadores-ult-lotes  {
+    .indicadores-ult-lotes {
         position: absolute;
         left: 20px;
         bottom: 115px;
@@ -157,7 +157,7 @@
         height: 53px;
         width: 53px;
     }
-    
+
     .swiper-pagination-custom {
         flex-direction: row;
         margin-top: 0;
@@ -167,12 +167,12 @@
     .ultimos-lotes h1 {
         font-size: 30px;
     }
-    
+
     .ultimos-lotes p {
         font-size: 13px;
     }
-    
-/*########################################### CONTATO PAGE ##########################################*/
+
+    /*########################################### CONTATO PAGE ##########################################*/
 
     .caixa-texto {
         height: 120px;
@@ -189,7 +189,36 @@
     .right-whatsapp-page-contact p {
         font-size: 14px;
     }
+
+    /*################################################# ERROR PAGE ######################################################*/
+
+    .title-link {
+        text-indent: 0;
+        align-self: center;
+    }
+
+    /*################################################ PAGE EMPRESA #####################################################*/
+
+    .conteudo-section-investimento h2 {
+        font-size: 22px;
+    }
+
+    .text-img-page-empresa {
+        align-items: center;
+    }
+
+    .predio-noite-link {
+        margin-right: 0;
+    }
     
+    .predios-dia {
+        margin-left: 0;
+    }
+
+    .text-icons p {
+        text-align: center;
+    }
+
 
 }
 
@@ -248,8 +277,8 @@
     .btn-ult-lotes {
         width: 100%;
     }
-    
-    .indicadores-ult-lotes  {
+
+    .indicadores-ult-lotes {
         position: absolute;
         left: 0;
         bottom: 20px;
@@ -293,14 +322,22 @@
         margin-bottom: 0;
     }
 
-    .filtro-encontre-lotes label {
+    .filtro-encontre-lotes div {
         width: 100%;
         margin-bottom: 0;
         text-align: center;
     }
 
-    .filtro-encontre-lotes label:has(input[type='radio']:checked){
+    .filtro-encontre-lotes div.active {
         background-color: #F1F1F1;
+    }
+
+    .filter-options {
+        margin-top: 40px;
+    }
+
+    .filter-options .card-body h4 {
+        font-size: 16px;
     }
 
     .conteudo-section-novidades-email h2 {
@@ -346,7 +383,7 @@
         width: 100%;
     }
 
-/*########################################### CONTATO PAGE ##########################################*/
+    /*########################################### CONTATO PAGE ##########################################*/
 
     .caixa-texto {
         height: 120px;
@@ -360,11 +397,53 @@
         padding: 20px;
     }
 
+    /*################################################### ERROR PAGE #############################################################*/
+
+    .title-link {
+        text-indent: 0;
+        align-self: center;
+    }
+
+    .text-not-page {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /*####################################################### PAGE EMPRESA ########################################################*/
+
+    .conteudo-section-investimento h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-img-page-empresa {
+        align-items: center;
+    }
+
+    .predio-noite-link {
+        width: auto;
+        margin-right: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .predios-dia {
+        width: auto;
+        margin-left: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .text-icons {
+        width: auto;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 424px) {
 
-    .indicadores-ult-lotes  {
+    .indicadores-ult-lotes {
         position: absolute;
         left: 0;
         bottom: -10px;

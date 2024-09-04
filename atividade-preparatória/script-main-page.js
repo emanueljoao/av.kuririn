@@ -65,24 +65,27 @@ var swiperNextLance = new Swiper(".mySwiperLancamentos", {
 
 // FILTRO - SECTION ENCONTRE SEUS LOTEAMENTOS
 
-// const obras = document.querySelectorAll('.obras')
+const obras = document.querySelectorAll('.obras')
  
-// function activeSwiper(index) {
-//   obras.forEach((obra) => {
-//     obra.classList.add('d-none')
-//   })
-//   obras[index].classList.remove('d-none')
-//   console.log(index);
+function activeSwiper(index) {
+  obras.forEach((obra) => {
+    obra.classList.add('d-none')
+  })
+  obras[index].classList.remove('d-none')
+  console.log(index);
   
-// }
+}
 
-// let swipersActives = document.querySelectorAll('options-filtro')
-// console.log(swipersActives)
+let swipersActives = document.querySelectorAll('.options-filtro')
+// let lastSwiperActive = swipersActives[0]
 
-// swipersActives.forEach((swiper, index) => {
-//   swiper.addEventListener('click', function() {
-//     activeSwiper(index)
-//   })})
+swipersActives.forEach((swiper, index) => {
+  swiper.addEventListener('click', function() {
+    swipersActives.forEach(swiper => swiper.classList.remove('active'))
+    swiper.classList.add('active')
+    console.log(swiper)
+    activeSwiper(index)
+  })})
 
 // SWIPERS - SECTIONS ENCONTRE SEUS LOTEAMENTOS
 
@@ -146,28 +149,4 @@ var swiperTodasObras = new Swiper(".mySwiperTodasObras", {
     },  
 }});
 
-let radio = document.querySelector('.filtro-encontre-lotes')
-console.log(radio)
-radio.addEventListener('change', function(e) {
-    alert(e.target.value)
-  });
 
-
-const obras = document.querySelectorAll('.obras')
- 
-function activeSwiper(index) {
-  obras.forEach((obra) => {
-    obra.classList.add('d-none')
-  })
-  obras[index].classList.remove('d-none')
-  console.log(index); 
-}
-
-  let swipersActives = document.querySelector('.filtro-encontre-lotes')
-console.log(swipersActives)
-
-swipersActives.addEventListener('change', function(e) {
-  activeSwiper(1)
-})
-// swipersActives.forEach((swiper, index) => {
-// })

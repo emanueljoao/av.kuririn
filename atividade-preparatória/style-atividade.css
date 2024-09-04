@@ -339,13 +339,6 @@ input[type="radio"] {
     border-bottom: 1px solid black;
 }
 
-/* .options-filtro.active {
-    color: #000000;
-    background-color: #F1F1F1;
-    border-bottom: 1px solid black;
-} */
-
-
 .hr-filtro-zindex {
     border: 1px solid #F1F1F1;
     bottom: 0;
@@ -760,6 +753,43 @@ footer ul {
 }
 
 
+/*#################################################### ERROR PAGE #################################################################*/
+
+.section-error {
+    background-color: #000000;
+    margin-top: 91px;
+}
+
+.conteudo-section-title-erro {
+    display: flex;
+    padding: 1px 10px;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links-error {
+    color: #767676;
+    font-weight: bold;
+}
+
+.links-error a{
+    color: #767676;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.conteudo-section-title-erro hr {
+    width: 100%;
+    border: 8px solid rgba(255, 255, 255, 0.85);
+}
+
+.conteudo-section-title-erro p {
+    font-size: 22px;
+}
 
 
 

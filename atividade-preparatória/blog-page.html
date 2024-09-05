@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="style-atividade.css">
     <link rel="stylesheet" href="style-media-query.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <script defer src="script-empreendimentos.js"></script>
+    <script defer src="script-blog-page.js"></script>
     <script defer src="script-main-page.js"></script>
-    <title>Empreendimentos</title>
+    <title>Blog</title>
 </head>
 
 <body>
 
-    <!----------------------------------------------------- HEADER --------------------------------------------------------------->
+    <!-------------------------------------------------- HEADER -------------------------------------------------------------------->
+
     <header>
         <div class="logo position-absolute d-sm-block d-none">
             <img src="imagens-e-icones/logo-incorporadora.png" alt="logo da corporação, incorporadora">
@@ -127,291 +128,487 @@
                 </div>
 
             </div>
-
-
-
         </nav>
     </header>
 
-    <!------------------------------------------------------- MAIN ---------------------------------------------------------------->
+    <!--------------------------------------------------------- MAIN --------------------------------------------------------------->
+
     <main>
-        <!---------------------------------- SECTION TITULO EMPREENDIMENTOS ---------------------------------------------------->
+
+        <!------------------------------------------------ SECTION TITULO BLOG ----------------------------------------------------->
+
         <section class="section-title-contato">
             <div class="conteudo-section-title-contato container-xl position-relative">
-                <h1>EMPREENDIMENTOS</h1>
-                <p class="links-error"><a href="index-atividade.html">Home</a> | <a href="empreendimentos-page.html">Empreendimentos</a></p>
+                <h1>BLOG</h1>
+                <p class="links-error"><a href="index-atividade.html">Home</a> | <a href="blog-page.html">Blog</a></p>
                 <hr>
             </div>
         </section>
 
-        <!-------------------------------------------- SECTION CATEGORIAS ---------------------------------------------------------->
+        <!--------------------------------------------- SECTION CATEGORIAS BLOG ---------------------------------------------------->
 
-        <section class="section-categorias">
-            <div class="conteudo-section-categorias container-xl">
-                <div
-                    class="options-categorias d-flex flex-md-row flex-column row-gap-md-0 row-gap-4 justify-content-md-center">
+        <section class="section-categorias-blog">
+            <div class="conteudo-section-categorias-blog container-xl">
+                <div class="options-categorias d-flex flex-md-row flex-column row-gap-md-0 row-gap-4 justify-content-md-center">
                     <div class="options-empreendimentos active-empreendimento">TODAS AS CATEGORIAS</div>
+                    <div class="options-empreendimentos">IMÓVEIS</div>
+                    <div class="options-empreendimentos">CONSTRUÇÃO</div>
+                    <div class="options-empreendimentos">ARQUITETURA</div>
                     <div class="options-empreendimentos">EMPREENDIMENTOS</div>
-                    <div class="options-empreendimentos">LOTES Á VENDA</div>
-                    <div class="options-empreendimentos">OBRAS CONCLUÍDAS</div>
-                    <div class="options-empreendimentos">PRÓXIMOS LANÇAMENTOS</div>
                 </div>
 
-                <div class="filter-options">
-                    <!------------------------- TODAS AS CATEGORIAS ---------------------------->
+                <div class="options-blog">
 
-                    <div
-                        class="concluidas-obras-empreendimentos lotes-empreendimentos d-flex flex-row flex-wrap justify-content-center">
+                    <!-------------------------------- TODAS AS CATEGORIAS ------------------------------>
 
-                        <div class="card-empreendimentos col-4">
+                    <div class="categoria-blog-option d-flex flex-wrap justify-content-center">
+
+                        <div class="cards-blog col-md-4 col-12">
                             <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-1-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
-
+                                <div class="img-multidao card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/multidao-de-pessoas (1).png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">15</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 1</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">Empresa investe R$ 2,5 milhões e lança movimento para reinventar
+                                        a vida das pessoas
+                                        #ReinventaSP</h4>
+                                    <p class="card-text">Com criação de novas praças, quadras esportivas e estações de
+                                        mobilidade pela capital
+                                        paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e
+                                        trabalhar...
+                                    </p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
+                        <div class="cards-blog col-md-4 col-12">
                             <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
+                                <div class="img-casa-lego card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/casa-de-lego.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">14</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 2</h4>
-                                    <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
+                                    <h4 class="card-title">Alugar ou comprar “imóveis de Lego”: conheça a moradia modular,
+                                        que cresce no Brasil</h4>
+                                    <p class="card-text">Moradia modular e pré-fabricada é praticada por startups
+                                        brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de
+                                        imóveis...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/loteamento-cass-de-campo.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/porco-cofrinho.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">13</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 3</h4>
-                                    <p class="card-text lote-city">Presidente Prudente - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
+                                    <h4 class="card-title">65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</h4>
+                                    <p class="card-text">A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados.</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-4-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/paisagem-cidade.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">15</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 4</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h4>
+                                    <p class="card-text">Com criação de novas praças, quadras esportivas e estações de
+                                        mobilidade pela capital
+                                        paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e
+                                        trabalhar...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-5-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/carrinho-de-compras.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">14</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 5</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">Alugar ou comprar “imóveis de Lego”: conheça a moradia modular,
+                                        que cresce no Brasil</h4>
+                                    <p class="card-text">Moradia modular e pré-fabricada é praticada por startups
+                                        brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de
+                                        imóveis...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-6-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/central-city.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">13</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 6</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</h4>
+                                    <p class="card-text">A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados.</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-1-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
-
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/multidao-de-pessoas (1).png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">15</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 7</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h4>
+                                    <p class="card-text">Com criação de novas praças, quadras esportivas e estações de
+                                        mobilidade pela capital
+                                        paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e
+                                        trabalhar...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/casa-de-lego.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">14</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 8</h4>
-                                    <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
+                                    <h4 class="card-title">Alugar ou comprar “imóveis de Lego”: conheça a moradia modular,
+                                        que cresce no Brasil</h4>
+                                    <p class="card-text">Moradia modular e pré-fabricada é praticada por startups
+                                        brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de
+                                        imóveis...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/loteamento-cass-de-campo.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/porco-cofrinho.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">13</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Loteamento 9</h4>
-                                    <p class="card-text lote-city">Presidente Prudente - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
+                                    <h4 class="card-title">65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</h4>
+                                    <p class="card-text">A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados.</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---------------------------------------------- IMÓVEIS ------------------------------------------------->
+
+                    <div class="categoria-blog-option d-flex flex-wrap justify-content-center">
+
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/multidao-de-pessoas (1).png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">15</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h4>
+                                    <p class="card-text">Com criação de novas praças, quadras esportivas e estações de
+                                        mobilidade pela capital
+                                        paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e
+                                        trabalhar...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/casa-de-lego.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">14</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Alugar ou comprar “imóveis de Lego”: conheça a moradia modular,
+                                        que cresce no Brasil</h4>
+                                    <p class="card-text">Moradia modular e pré-fabricada é praticada por startups
+                                        brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de
+                                        imóveis...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <!----------------------------------------- EMPREENDIMENTOS ----------------------------------------------->
-                    <div
-                        class="concluidas-obras-empreendimentos lotes-empreendimentos d-flex flex-row flex-wrap justify-content-center">
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-6-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
+                    <!--------------------------------------------- CONSTRUÇÃO ----------------------------------------------->
 
+                    <div class="categoria-blog-option d-flex flex-wrap justify-content-center">
+
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/paisagem-cidade.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">15</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">COMEÇANDO</p>
-                                    <h4 class="card-title">Terrenos</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h4>
+                                    <p class="card-text">Com criação de novas praças, quadras esportivas e estações de
+                                        mobilidade pela capital
+                                        paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e
+                                        trabalhar...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-1-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/carrinho-de-compras.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">14</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">COMEÇANDO</p>
-                                    <h4 class="card-title">Terrenos</h4>
-                                    <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
+                                    <h4 class="card-title">Alugar ou comprar “imóveis de Lego”: conheça a moradia modular,
+                                        que cresce no Brasil</h4>
+                                    <p class="card-text">Moradia modular e pré-fabricada é praticada por startups
+                                        brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de
+                                        imóveis...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                    <!------------------------------------------ LOTES À VENDA ---------------------------------------------------->
-                    <div
-                        class="concluidas-obras-empreendimentos lotes-empreendimentos d-flex flex-row flex-wrap justify-content-center">
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
+                    <!-------------------------------------------- ARQUITETURA ------------------------------------------------>
 
+                    <div class="categoria-blog-option d-flex flex-wrap justify-content-center">
+
+                        
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/porco-cofrinho.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">13</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">Á VENDA</p>
-                                    <h4 class="card-title">Lote 1</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</h4>
+                                    <p class="card-text">A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados.</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
+                        <div class="cards-blog col-md-4 col-12">
+                            <div class="card ">
+                                <div class="img-porquinho card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/paisagem-cidade.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">15</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">Á VENDA</p>
-                                    <h4 class="card-title">Lote 2</h4>
-                                    <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
+                                    <h4 class="card-title">Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h4>
+                                    <p class="card-text">Com criação de novas praças, quadras esportivas e estações de
+                                        mobilidade pela capital
+                                        paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e
+                                        trabalhar...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                    <!--------------------------------------------------- OBRAS CONCLUIDAS ----------------------------------------->
 
-                    <div
-                        class="concluidas-obras-empreendimentos lotes-empreendimentos d-flex flex-row flex-wrap justify-content-center">
+                    <!--------------------------------------- EMPREENDIMENTOS -------------------------------------------------->
 
-                        <div class="card-empreendimentos col-4">
+                    <div class="categoria-blog-option d-flex flex-wrap justify-content-center">
+
+                        <div class="cards-blog col-md-4 col-12">
                             <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-5-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
-
+                                <div class="img-multidao card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/multidao-de-pessoas (1).png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">15</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Concluido 1</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
+                                    <h4 class="card-title">Empresa investe R$ 2,5 milhões e lança movimento para reinventar
+                                        a vida das pessoas
+                                        #ReinventaSP</h4>
+                                    <p class="card-text">Com criação de novas praças, quadras esportivas e estações de
+                                        mobilidade pela capital
+                                        paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e
+                                        trabalhar...
+                                    </p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card-empreendimentos col-4">
+                        <div class="cards-blog col-md-4 col-12">
                             <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-4-empresas.png"
-                                    alt="imagem de um loteamento" class="img-card-obras card-img-top">
+                                <div class="img-casa-lego card-img-top d-flex align-items-end">
+                                    <img src="imagens-e-icones/casa-de-lego.png" alt="imagem de uma moeda sendo colocada em cofrinho que possui formato de um porco" class="img-fluid card-img-top h-100">
+                                    <div class="data-noticia d-flex flex-column ms-4 mb-4 position-absolute">
+                                        <p class="dia-da-noticia">14</p>
+                                        <p class="mes-ano-noticia">Ago | 2021</p>
+                                    </div>
+                                </div>
                                 <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% OBRAS CONCLUÍDAS</p>
-                                    <h4 class="card-title">Concluido 2</h4>
-                                    <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
+                                    <h4 class="card-title">Alugar ou comprar “imóveis de Lego”: conheça a moradia modular,
+                                        que cresce no Brasil</h4>
+                                    <p class="card-text">Moradia modular e pré-fabricada é praticada por startups
+                                        brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de
+                                        imóveis...</p>
+                                    <button class="btn-saiba-mais btn">SAIBA MAIS <svg width="54" height="17"
+                                            viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                                            <rect y="8" width="53" height="1" fill="#8A1002" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>
+
                     </div>
-                    <!------------------------------------------ PRÓXIMOS LANÇAMENTOS ---------------------------------------------->
 
-                    <div
-                        class="concluidas-obras-empreendimentos lotes-empreendimentos d-flex flex-row flex-wrap justify-content-center">
-
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-1.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
-
-                                <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% PRÓXIMOS</p>
-                                    <h4 class="card-title">Próximos</h4>
-                                    <p class="card-text lote-city">Osvaldo Cruz - SP</p>
-                                    <p class="card-text bairro-city">110 LOTES</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-empreendimentos col-4">
-                            <div class="card">
-                                <img src="imagens-e-icones/imagem-loteamento-2.png" alt="imagem de um loteamento"
-                                    class="img-card-obras card-img-top">
-                                <div class="card-body">
-                                    <p class="card-text tamanho-lote">100% PRÓXIMOS</p>
-                                    <h4 class="card-title">Próximos</h4>
-                                    <p class="card-text lote-city">Presidente Bernardes - SP</p>
-                                    <p class="card-text bairro-city">288 LOTES</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
-                <hr>
 
                 <div class="filter-pages d-flex justify-content-end column-gap-3">
                     <div class="swiper-icons">1</div>
@@ -428,7 +625,6 @@
                 </div>
 
             </div>
-
         </section>
 
         <!----------------------------------------------- SECTION NOVIDADES POR E-MAIL --------------------------------------------->
@@ -448,7 +644,9 @@
         </section>
 
     </main>
-    <!------------------------------------------------------- FOOTER --------------------------------------------------------------->
+
+    <!-------------------------------------------------------- FOOTER -------------------------------------------------------------->
+
     <footer>
         <div class="container-xl mt-5">
             <!----------------------- PRIMEIRA PARTE FOOTER --------------------->
@@ -720,6 +918,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

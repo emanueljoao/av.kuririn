@@ -311,7 +311,7 @@ nav {
     background-color: #8a1002d5;
 }
 
-/*----------------------------------------------- SECTION ENCONTRE SEU LOTEAMENTO -------------------------------------------------*/
+/*----------------------------------------------- SECTION ENCONTRE SEU LOTEAMENTO ------------------------------------------------*/
 
 .conteudo-section-encontre-loteamento {
     margin-top: 121px;
@@ -344,8 +344,6 @@ nav {
     font-weight: bold;
 }
 
-
- 
 .filtro-encontre-lotes div.active{
     color: #000000;
     border-bottom: 1px solid black;
@@ -355,6 +353,10 @@ nav {
     border: 1px solid #F1F1F1;
     bottom: 0;
     z-index: -1;
+}
+
+.options-filtro {
+    cursor: pointer;
 }
 
 .img-card-obras {
@@ -368,7 +370,7 @@ nav {
 .filter-options .card-body {
     padding-left: 0;
 }
-/*------------------------------------------------------- SECTION 1997 ------------------------------------------------------------*/
+/*------------------------------------------------------- SECTION 1997 -----------------------------------------------------------*/
 
 .section-1997 {
     color: #ffffff;
@@ -434,7 +436,7 @@ nav {
     background-color: #8A1002;
 }
 
-/*------------------------------------------------------- SECTION NOVIDADES DO BLOG -----------------------------------------------*/
+/*------------------------------------------------------- SECTION NOVIDADES DO BLOG ----------------------------------------------*/
 
 .conteudo-section-novidades-blog {
     margin-top: 121px;
@@ -573,7 +575,7 @@ nav {
 }
 
 
-/*############################################################ FO0TER #############################################################*/
+/*############################################################ FO0TER ############################################################*/
 
 .div-icon-location {
     height: 33px;
@@ -669,7 +671,7 @@ footer ul {
     margin: 0;
 }
 
-/*###################################################################### CONTATO PAGE #############################################*/
+/*##################################################################### CONTATO PAGE #############################################*/
 
 .section-title-contato {
     background-color: #000000;
@@ -778,7 +780,7 @@ footer ul {
 }
 
 
-/*#################################################### ERROR PAGE #################################################################*/
+/*#################################################### ERROR PAGE ################################################################*/
 
 .section-error {
     background-color: #000000;
@@ -852,7 +854,7 @@ footer ul {
     background-color: #8a1002bf;
 }
 
-/* ##################################################### PAGE EMPRESA #############################################################*/
+/* ##################################################### PAGE EMPRESA ############################################################*/
 
 
 .section-investimento-certo {
@@ -926,7 +928,89 @@ footer ul {
 }
 
 
+/*########################################################### EMPREEMDIMENTOS PAGE ###############################################*/
 
+.conteudo-section-categorias {
+    padding-top: 50px;
+    padding-bottom: 117px;
+}
+
+.options-empreendimentos {
+    padding: 9px 18px;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    margin: auto 5px;
+    font-size: 13px;
+}
+
+.section-categorias .filter-options {
+    margin-top: 50.64px;
+}
+
+.concluidas-obras-empreendimentos {
+    gap: 30px;
+}
+
+.card-empreendimentos {
+    max-width: 352.13px;
+}
+
+.options-empreendimentos.active-empreendimentos {
+    background-color: #000000;
+    color: #fff;
+}
+
+.conteudo-section-categorias hr {
+    border: 8px solid black;
+    opacity: 1;
+}
+
+.swiper-icons {
+    height: 51px;
+    width: 51px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-icons:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+.swiper-icons:hover svg path {
+    stroke: white;
+}
+
+/*########################################################### BLOG PAGE ##########################################################*/
+
+.conteudo-section-categorias-blog {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.options-categorias {
+    padding-bottom: 50px;
+}
+
+.categoria-blog-option {
+    gap: 30px;
+}
+
+.cards-blog {
+    max-width: 412px;
+}
+
+.section-categorias-blog .filter-pages {
+    margin-top: 113px;
+}
+
+.options-empreendimentos {
+    cursor: pointer;
+}
 
 
 

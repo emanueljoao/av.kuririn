@@ -84,6 +84,18 @@
         height: 120px;
     }
 
+    /*######################################################## EMPREENDIMENTOS PAGE ############################################*/
+
+    .options-empreendimentos {
+        font-size: 10px;
+    }
+
+    /*########################################################### BLOG PAGE #####################################################*/
+
+    .data-noticia {
+        height: 115px;
+        width: 90px;
+    }
 }
 
 @media (min-width: 568px) and (max-width: 767.08px) {
@@ -210,7 +222,7 @@
     .predio-noite-link {
         margin-right: 0;
     }
-    
+
     .predios-dia {
         margin-left: 0;
     }
@@ -219,6 +231,37 @@
         text-align: center;
     }
 
+    /*#################################################### EMPREENDIMENTOS PAGE ###################################################*/
+
+    .options-empreendimentos {
+        margin: 0;
+        text-align: center;
+    }
+
+    .concluidas-obras-empreendimentos {
+        gap: 45px;
+        text-align: center;
+    }
+
+    .concluidas-obras-empreendimentos .card-body {
+        padding-left: 16px;
+    }
+
+    .concluidas-obras-empreendimentos h4 {
+        text-align: center;
+    }
+
+    /*############################################################ BLOG PAGE ######################################################*/
+
+    .cards-blog .card-title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cards-blog .card-text {
+        font-size: 16px;
+        text-align: center;
+    }
 
 }
 
@@ -336,7 +379,7 @@
         margin-top: 40px;
     }
 
-    .filter-options .card-body h4 {
+    .conteudo-section-encontre-loteamento .filter-options .card-body h4 {
         font-size: 16px;
     }
 
@@ -426,7 +469,7 @@
         font-size: 15px;
         text-align: center;
     }
-    
+
     .predios-dia {
         width: auto;
         margin-left: 0;
@@ -436,6 +479,44 @@
 
     .text-icons {
         width: auto;
+        text-align: center;
+    }
+
+    /*################################################ EMPREENDIMENTOS PAGE #######################################################*/
+    .options-empreendimentos {
+        margin: 0;
+        text-align: center;
+    }
+
+    .concluidas-obras-empreendimentos {
+        gap: 45px;
+        text-align: center;
+    }
+
+    .concluidas-obras-empreendimentos .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .concluidas-obras-empreendimentos h4 {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .concluidas-obras-empreendimentos .tamanho-lote {
+        font-weight: 400;
+    }
+
+    /*############################################################## BLOG PAGE ####################################################*/
+
+    .cards-blog .card-title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .cards-blog .card-text {
+        font-size: 13px;
         text-align: center;
     }
 

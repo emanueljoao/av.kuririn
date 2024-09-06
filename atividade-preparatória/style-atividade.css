@@ -1013,5 +1013,133 @@ footer ul {
 }
 
 
+/*#################################################### LOTEAMENTO PAGE ###########################################################*/
 
+.conteudo-section-descricao {
+    box-sizing: border-box;
+    padding-top: 88px;
+    padding-bottom: 92px;
+}
 
+.conteudo-section-descricao h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #8A1002;
+}
+
+.conteudo-section-descricao hr {
+    border: 8px solid black;
+    opacity: 1;
+    margin-top: 29px;
+    margin-bottom: 56px;
+}
+
+.text-descricao p {
+    max-width: 734px; 
+    font-size: 18px;
+}
+
+/*----------------------------------------------- SECTION PRÓXIMO DE ALGUM LUGAR ----------------------------------------------*/
+
+.conteudo-section-proximo-lugar {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.div-todos-icons {
+    background-color: #8A1002;
+}
+
+.icons-prox-lugar {
+    width: 100%;
+    max-width: 420px;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-icons-with-border {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.icons-prox-lugar .proximidade-lugar {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icons-prox-lugar .proximidade-distancia {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*---------------------------------------- SECTION IMAGENS DA GALERIA ----------------------------------------------------------*/
+
+.conteudo-section-galeria-imagens {
+    box-sizing: border-box;
+    padding: 126px 15px !important;
+    padding-bottom: 0 !important;
+}
+
+.conteudo-section-galeria-imagens h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #8A1002;
+}
+
+.conteudo-section-galeria-imagens h2 strong {
+    font-size: 30px;
+    font-weight: 600;
+    color: #8A1002;
+}
+
+.conteudo-section-galeria-imagens hr {
+    border: 8px solid black;
+    opacity: 1;
+}
+
+.lupa-aumentativa {
+    background-color: #8A1002;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    bottom: 20px;
+}
+
+/*------------------------------------------ SECTION FALE COM CORRETOR ------------------------------------------------*/
+
+.conteudo-section-fale-com-corretor {
+    box-sizing: border-box;
+    margin-top: 162px;
+    margin-bottom: 142px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.conteudo-section-fale-com-corretor h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #8A1002;
+}
+
+.conteudo-section-fale-com-corretor h2 strong {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.conteudo-section-fale-com-corretor hr {
+    border: 8px solid black;
+    opacity: 1;
+}
+
+.text-fale-corretor {
+    margin: 36px 0;
+}

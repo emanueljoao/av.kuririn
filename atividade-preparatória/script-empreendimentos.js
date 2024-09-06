@@ -7,7 +7,6 @@ function activePageEmpreendimentos(index) {
     lote.classList.add('d-none')
   })
   lotes[index].classList.remove('d-none')
-  console.log(index);
   
 }
 
@@ -17,6 +16,5 @@ activeEmpreendimento.forEach((empre, index) => {
   empre.addEventListener('click', function() {
     activeEmpreendimento.forEach(empre => empre.classList.remove('active-empreendimentos'))
     empre.classList.add('active-empreendimentos')
-    console.log(empre)
     activePageEmpreendimentos(index)
   })})

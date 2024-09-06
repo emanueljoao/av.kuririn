@@ -263,6 +263,20 @@
         text-align: center;
     }
 
+    /*############################################################ LOTEAMENTO 2 ##################################################*/
+
+    .text-descricao p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .div-icons-with-border {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        border-left: none;
+        border-right: none;
+    }
+
 }
 
 @media (max-width: 567.08px) {
@@ -518,6 +532,28 @@
     .cards-blog .card-text {
         font-size: 13px;
         text-align: center;
+    }
+
+    /*######################################################### LOTEAMENTO 2 #####################################################*/
+
+    .text-descricao p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .text-fale-corretor {
+        text-align: center;
+    }
+
+    .div-icons-with-border {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        border-left: none;
+        border-right: none;
+    }
+
+    .icons-prox-lugar {
+        padding: 70px 0;
     }
 
 }

@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style-atividade.css">
+    <link rel="stylesheet" href="style-media-query.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script defer src="script-loteamento.js"></script>
+    <script defer src="script-main-page.js"></script>
     <title>Loteamento 2</title>
 </head>
+
 <body>
 
     <!------------------------------------------------ HEADER ---------------------------------------------------->
@@ -123,14 +135,175 @@
 
     <main>
 
-        <!--SECTION TITULO LOTEAMENTO  -->
+        <!-------------------------------- SECTION TITULO LOTEAMENTO ----------------------------------------->
         <section class="section-title-contato">
             <div class="conteudo-section-title-contato container-xl position-relative">
                 <h1>Loteamento 2</h1>
-                <p class="links-error"><a href="index-atividade.html">Home</a> | <a href="blog-page.html">Blog</a> | <a href="#"> Obras Concluídas</a> | <a href="#">Loteamento 2</a></p>
+                <p class="links-error"><a href="index-atividade.html">Home</a> | <a href="blog-page.html">Blog</a> | <a
+                        href="#"> Obras Concluídas</a> | <a href="loteamento-2-page.html">Loteamento 2</a></p>
                 <hr>
             </div>
         </section>
+
+        <!-------------------------------------- SECTION IMAGEM LOTEAMENTO 2 ------------------------------------------->
+
+        <section class="section-imagem-loteamento-2 d-none">
+            <img src="" alt="">
+        </section>
+
+        <!----------------------------------------- SECTION DESCRIÇÃO ----------------------------------------------------->
+
+        <section class="section-descricao">
+            <div class="conteudo-section-descricao container-xl">
+                <h2>DESCRIÇÃO</h2>
+                <hr>
+                <div class="text-descricao d-flex justify-content-center">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed lorem eu massa dapibus
+                        imperdiet. Morbi semper quis lacus vel tincidunt. Praesent a velit et diam facilisis vehicula et
+                        eu ex. Pellentesque vitae imperdiet neque. Cras condimentum malesuada vulputate. Vivamus varius
+                        nibh quis nisl condimentum euismod. Etiam pulvinar rhoncus ligula, ut dapibus velit gravida
+                        quis. Cras massa urna, iaculis at gravida non, ultricies a tellus. Phasellus sodales aliquam
+                        volutpat. Cras pulvinar ligula sit amet magna tempor, in tincidunt felis posuere. Quisque
+                        imperdiet magna eu arcu venenatis rutrum. Sed tempor tincidunt nisl.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-------------------------------------- SECTION PRÓXIMO DE ALGUM LUGAR ----------------------------------------------->
+
+        <section class="section-proximo-lugar">
+            <div class="conteudo-section-proximo-lugar container-xl">
+
+                <div class="div-todos-icons d-flex flex-md-row flex-column justify-content-md-center align-items-center">
+                    <div class="icons-prox-lugar">
+                        <img src="imagens-e-icones/icone-de-location-loteamento-page.svg" alt="icone de um ponto indicando algum lugar">
+                        <p class="proximidade-lugar">Próximo ao centro</p>
+                        <p class="proximidade-distancia">3 km</p>
+                    </div>
+                    <div class="icons-prox-lugar div-icons-with-border">
+                        <img src="imagens-e-icones/icone-carrinho-supermercado.svg" alt="icone de um carrinho de supermercado">
+                        <p class="proximidade-lugar">Próximo ao Supermercado</p>
+                        <p class="proximidade-distancia">1 km</p>
+                    </div>
+                    <div class="icons-prox-lugar">
+                        <img src="imagens-e-icones/icone-capelo.svg" alt="icone de um capelo">
+                        <p class="proximidade-lugar">Próximo á Faculdade</p>
+                        <p class="proximidade-distancia">5 km</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!------------------------------------- SECTION GALERIA DE IMAGENS ------------------------------------->
+
+        <section class="section-galeria-imagens">
+            <div class="conteudo-section-galeria-imagens container-xl swiper mySwiperLoteamentoPage d-flex flex-column">
+
+                <h2>GALERIA DE <strong>IMAGENS</strong></h2>
+                <hr>
+
+                <div class="swiper-wrapper imgs-aumentativas d-flex">
+
+                    <div class="swiper-slide">
+                        <div class="imagem-da-galeria position-relative">
+                            <img src="imagens-e-icones/estrada-rural.png"
+                                alt="imagem de uma estrada pavimentada no meio do centro rural" class="img-fluid">
+                            <div class="lupa-aumentativa position-absolute">
+                                <img src="imagens-e-icones/lupa-aumentativa (1).svg"
+                                    alt="icone de uma lupa com sinal de adição dentro">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="imagem-da-galeria position-relative">
+                            <img src="imagens-e-icones/loteamento-2-page-loteamento.png"
+                                alt="imagem de um loteamento perto da área urbana" class="img-fluid">
+                            <div class="lupa-aumentativa position-absolute">
+                                <img src="imagens-e-icones/lupa-aumentativa (1).svg"
+                                    alt="icone de uma lupa com sinal de adição dentro">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="imagem-da-galeria position-relative">
+                            <img src="imagens-e-icones/loteamento-3-page-loteamento.png" alt="imagem de um loteamento"
+                                class="img-fluid">
+                            <div class="lupa-aumentativa position-absolute">
+                                <img src="imagens-e-icones/lupa-aumentativa (1).svg"
+                                    alt="icone de uma lupa com sinal de adição dentro">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="d-flex flex-sm-row flex-column justify-content-sm-between align-items-center row-gap-sm-0 row-gap-4 mt-5">
+                    <div class="btns-next-prev-blog column-gap-4 d-flex flex-row">
+
+                        <div
+                            class="div-set-border swiper-button-prev-prox-galery d-flex justify-content-center align-items-center">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="black"
+                                    stroke-width="2" />
+                                <path d="M8.08882 1.47461L2.24072 7.32271L8.08882 13.1708" stroke="black"
+                                    stroke-opacity="0.2" stroke-width="2" />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="div-set-border swiper-button-next-prox-galery d-flex justify-content-center align-items-center">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="black"
+                                    stroke-width="2" />
+                                <path d="M1.07524 12.5254L6.92334 6.67729L1.07524 0.829187" stroke="black"
+                                    stroke-opacity="0.2" stroke-width="2" />
+                            </svg>
+                        </div>
+                    </div> 
+
+                    <button class="btn-ver-mais-prox-lance btn">VER TODOS OS LANÇAMENTOS</button>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------------- SECTION FALE COM UM CORRTETOR ------------------------------------------->
+        <section class="section-fale-com-corretor">
+            <div class="conteudo-section-fale-com-corretor">
+                <h2>FALE COM UM <strong>CORRETOR</strong></h2>
+                <hr>
+
+                <p class="text-fale-corretor">Tem interesse em adquirir um lote ou tirar alguma dúvida sobre o projeto?
+                    <br> Preencha o formulário e entraremos em contato o mais breve possível.</p>
+
+                <div class="inputs-textbox d-flex flex-lg-row flex-column row-gap-lg-0 row-gap-5">
+                    <div class="inputs-de-contato d-flex flex-column col-lg-5 col-12 row-gap-4">
+                        <input type="text" name="user-name" id="name" class="inputs" placeholder="Nome">
+                        <input type="tel" name="user-phone" id="phone" class="inputs" placeholder="Telefone">
+                        <input type="email" name="user-email" id="email" class="inputs" placeholder="E-Mail">
+                    </div>
+                    <div class="caixa-texto col-lg-6 col-12 offset-lg-1">
+                        <textarea name="caixa-de-texto" id="caixa-de-texto"
+                            placeholder="Digite sua Mensagem"></textarea>
+                    </div>
+                </div>
+
+                <div class="text-btn d-flex flex-lg-row flex-column justify-content-lg-between mt-4">
+                    <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis.
+                        <br> Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.
+                    </p>
+                    <button class="btn-enviar-mensagem btn">ENVIAR MENSAGEM*</button>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <!------------------------------------------------------ FOOTER ------------------------------------------------------>
@@ -405,6 +578,9 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
+
 </html>

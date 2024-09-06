@@ -7,7 +7,6 @@ function activePageEmpreendimentos(index) {
     note.classList.add('d-none')
   })
   noticia[index].classList.remove('d-none')
-  console.log(index);
   
 }
 
@@ -17,6 +16,5 @@ activeNoticia.forEach((news, index) => {
   news.addEventListener('click', function() {
     activeNoticia.forEach(news => news.classList.remove('active-empreendimentos'))
     news.classList.add('active-empreendimentos')
-    console.log(news)
     activePageEmpreendimentos(index)
   })})

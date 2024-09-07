@@ -1039,6 +1039,69 @@ footer ul {
     font-size: 18px;
 }
 
+/*-------------------------------------------------- SECTION TITLE IMAGE --------------------------------------------------------*/
+
+.section-imagem-loteamento-2 {
+    width: 100%;
+    height: 360px;
+    background-image: linear-gradient(to top, transparent, #5b152e85), url(imagens-e-icones/loteamento-main-img-loteamento-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------------------------------------- SECTION 65% OBRAS CONCLUIDAS -------------------------------------------------*/
+
+.conteudo-section-obras-concluidas-icons {
+    margin-bottom: 89px;
+}
+
+.rectangle-obras-conlcuidas {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    height: 77px;
+    margin-bottom: 26px;
+    box-sizing: border-box;
+    padding: 17px 66px;
+}
+
+.text-65-obras-concluidas {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.range-gray {
+    background-color: #4A4A4A;
+    width: 100%;
+    height: 4px;
+    border-radius: 100px;
+    position:relative;
+}
+
+.range-green {
+    background-color: #028A49;
+    width: 65%;
+    height: 100%;
+    border-radius: 100px;
+    position:relative;
+}
+
+.range-green::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0; 
+    transform: translate(50%, -50%);
+    width: 14px; 
+    height: 14px;
+    background-color: #00DD73;
+    border-radius: 50%; 
+}
+
+.option-percent-icon {
+    text-align: center;
+}
+
 /*----------------------------------------------- SECTION PRÓXIMO DE ALGUM LUGAR ----------------------------------------------*/
 
 .conteudo-section-proximo-lugar {
@@ -1062,8 +1125,8 @@ footer ul {
 }
 
 .div-icons-with-border {
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right: 1px solid  rgba(255, 255, 255, 0.08);
 }
 
 .icons-prox-lugar .proximidade-lugar {
@@ -1142,4 +1205,99 @@ footer ul {
 
 .text-fale-corretor {
     margin: 36px 0;
+}
+
+
+/*############################################## BLOG CASA LEGO PAGE ############################################################*/
+
+/*-------------------------------------------------- SECTION TITLE --------------------------------------------------------------*/
+
+.section-title {
+    width: 100%;
+    height: 504px;
+    background-image: linear-gradient(to top, transparent, #5b152e85), url(imagens-e-icones/casa-lego-blog-page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 91px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    align-items: end;
+}
+
+.card-title-absolute {
+    background-color: #000000;
+    height: 278px;
+    width: 764px;
+    border-bottom: 9px solid #8A1002;
+    column-gap: 57px;
+}
+
+.div-data {
+    background-color: #8a1002;
+    text-align: center;
+    width: 114px;
+    height: 114px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text-empreendimentos {
+    margin-top: 20px;
+    row-gap: 23px;
+}
+
+.text-empreendimentos .options-empreendimentos {
+    color: #808080;
+    border-color: #808080;
+    width: 212px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+}
+
+.paragraph-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.text-empreendimentos p {
+    color: #fff;
+}
+
+/*------------------------------------------------ SECTION TEXTO PRINCIPAL E LATERAIS --------------------------------------------*/
+
+.section-texto-principal-laterais {
+    padding-top: 38px;
+    padding-bottom: 129px;
+}
+
+.links-lego-blog {
+    font-size: 17px;
+    color: #767676;
+}
+
+.links-lego-blog a {
+    font-size: 17px;
+    color: #767676;
+    text-decoration: none;
+}
+
+.conteudo-texto-principal {
+    margin-top: 72px;
+}
+
+.conteudo-texto-principal h1 {
+    font-size: 30px;
+}
+
+aside h2 {
+    color: #8A1002;
+    font-weight: 400;
+}
+
+.subtitulo-aside {
+    border-bottom: 8px solid #000000;
 }

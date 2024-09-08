@@ -1177,6 +1177,49 @@ footer ul {
     bottom: 20px;
 }
 
+.imagem-da-galeria {
+    cursor: pointer;
+}
+
+.imagem-da-galeria:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.imagem-da-galeria:hover .lupa-aumentativa {
+    transform: scale(1.05);
+    background-color: #C61400;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.overlay img {
+    cursor: pointer;
+    max-width: 90%;
+    max-height: 90%;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+  
+  section.blur {
+    filter: blur(5px);
+  }
+  
+  body.blur-hidden {
+    overflow: hidden;
+  }
+
 /*------------------------------------------ SECTION FALE COM CORRETOR ------------------------------------------------*/
 
 .conteudo-section-fale-com-corretor {
@@ -1300,4 +1343,9 @@ aside h2 {
 
 .subtitulo-aside {
     border-bottom: 8px solid #000000;
+}
+
+.conteudo-texto-principal .options-empreendimentos {
+    width: fit-content;
+    text-align: center;
 }

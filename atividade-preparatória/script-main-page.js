@@ -77,7 +77,6 @@ function activeSwiper(index) {
 }
 
 let swipersActives = document.querySelectorAll('.options-filtro')
-// let lastSwiperActive = swipersActives[0]
 
 swipersActives.forEach((swiper, index) => {
   swiper.addEventListener('click', function() {

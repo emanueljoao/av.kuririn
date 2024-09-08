@@ -1310,6 +1310,13 @@ footer ul {
     color: #fff;
 }
 
+/*----------------------------------------------------- SECTION LINKS BLOG -------------------------------------------------------*/
+
+.section-links-blog {
+    margin-top: 32px;
+    margin-bottom: 72px;
+}
+
 /*------------------------------------------------ SECTION TEXTO PRINCIPAL E LATERAIS --------------------------------------------*/
 
 .section-texto-principal-laterais {
@@ -1328,10 +1335,6 @@ footer ul {
     text-decoration: none;
 }
 
-.conteudo-texto-principal {
-    margin-top: 72px;
-}
-
 .conteudo-texto-principal h1 {
     font-size: 30px;
 }
@@ -1345,7 +1348,17 @@ aside h2 {
     border-bottom: 8px solid #000000;
 }
 
-.conteudo-texto-principal .options-empreendimentos {
+.conteudo-section-texto-principal-laterais .options-empreendimentos {
     width: fit-content;
     text-align: center;
 }
+
+/*---------------------------------------------- INPUTS DEIXE SEU COMENTÁRIO -----------------------------------------------------*/
+
+.subtitulo-comentario {
+    border-bottom: 4px solid #000000;
+    margin-bottom: 31px;
+    font-size: 16px;
+    padding: 26px 0;
+}
+

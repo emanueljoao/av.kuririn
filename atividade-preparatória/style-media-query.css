@@ -96,6 +96,16 @@
         height: 115px;
         width: 90px;
     }
+
+    /*##################################################### BLOG PAGE CASA LEGO ##################################################*/
+
+    .btn-enviar-comentario {
+        width: 100%;
+    }
+
+    .text-btn-blog-page {
+        margin-top: 100px;
+    }
 }
 
 @media (min-width: 568px) and (max-width: 767.08px) {
@@ -277,6 +287,19 @@
         border-right: none;
     }
 
+    /*######################################################### BLOG PAGE CASA LEGO ###############################################*/
+
+    .text-btn-blog-page {
+        margin-top: 100px;
+    }
+
+    .btn-enviar-comentario {
+        width: 100%;
+    }
+
+    .text-principal-centro ul {
+        margin-left: 10px;
+    }
 }
 
 @media (max-width: 567.08px) {
@@ -589,7 +612,48 @@
     .text-empreendimentos .options-empreendimentos {
         margin: auto;
     }
+
+    .text-btn-blog-page {
+        margin-top: 100px;
+    }
     
+    .btn-enviar-comentario {
+        width: 100%;
+    }
+
+    .text-principal-centro h1 {
+        font-size: 20px
+    }
+
+    .text-principal-centro p {
+        font-size: 14px;
+    }
+
+    .text-principal-centro ul {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .section-links-blog {
+        margin-bottom: 40px;
+    }
+
+    .links-lego-blog p {
+        font-size: 12px;
+    }
+
+    .links-lego-blog a {
+        font-size: 12px;
+    }
+
+    .img-perfil {
+        max-width: 78px;
+        max-height: 78px;
+    }
+
+    .redes-sociais {
+        justify-content: center;
+    }
 }
 
 

@@ -89,7 +89,7 @@ nav {
     background-color: #8a100299;
 }
 
-.mobile-nav{
+.mobile-nav {
     color: #ffffff;
     background-color: #028A49;
     width: 100%;
@@ -102,7 +102,7 @@ nav {
 
 /*----------------------- MENU -----------------------*/
 
-.menu{
+.menu {
     cursor: pointer;
 }
 
@@ -196,9 +196,9 @@ nav {
 }
 
 
-/*#################################################################### MAIN #######################################################*/
+/*#################################################################### MAIN ######################################################*/
 
-/*----------------------------------------------------- SECTION ULTIMOS LOTES -----------------------------------------------------*/
+/*----------------------------------------------------- SECTION ULTIMOS LOTES ----------------------------------------------------*/
 
 .section-ultimos-lotes {
     background-image: url(imagens-e-icones/back-img-first-section.png);
@@ -263,7 +263,7 @@ nav {
     background-color: #fff;
 }
 
-/*---------------------------------------------- SECTION PRÓXIMOS LANÇAMENTOS -----------------------------------------------------*/
+/*---------------------------------------------- SECTION PRÓXIMOS LANÇAMENTOS ----------------------------------------------------*/
 
 .conteudo-section-lancamentos {
     padding: 85px 15px 108px 15px !important;
@@ -308,7 +308,8 @@ nav {
 
 .btn-ver-mais-prox-lance:hover {
     color: #fff;
-    background-color: #8a1002d5;
+    background: #C61400;
+    box-shadow: 0px 5px 20px rgba(198, 20, 0, 0.7);
 }
 
 /*----------------------------------------------- SECTION ENCONTRE SEU LOTEAMENTO ------------------------------------------------*/
@@ -344,7 +345,7 @@ nav {
     font-weight: bold;
 }
 
-.filtro-encontre-lotes div.active{
+.filtro-encontre-lotes div.active {
     color: #000000;
     border-bottom: 1px solid black;
 }
@@ -360,16 +361,33 @@ nav {
 }
 
 .img-card-obras {
-    border-bottom:8px solid #000000;
+    border-bottom: 8px solid #000000;
 }
 
-.img-card-obras:hover {
-    border-bottom:8px solid #C61400;
+.card-encontre-seu-lote:hover {
+    transform: scale(1.05);
+}
+
+.card-encontre-seu-lote:hover .img-card-obras {
+    border-bottom: 8px solid #C61400;
+}
+
+.card-encontre-seu-lote:hover .lote-city {
+    text-decoration: underline;
+}
+
+.card-encontre-seu-lote:hover .bairro-city {
+    text-decoration: underline;
+}
+
+.card-encontre-seu-lote:hover .card-title {
+    text-decoration: underline;
 }
 
 .filter-options .card-body {
     padding-left: 0;
 }
+
 /*------------------------------------------------------- SECTION 1997 -----------------------------------------------------------*/
 
 .section-1997 {
@@ -416,7 +434,9 @@ nav {
 }
 
 .btn-1997-conheca:hover {
-    background-color: #8a1002;
+    color: #fff;
+    background: #C61400;
+    box-shadow: 0px 5px 20px rgba(198, 20, 0, 0.7);
 }
 
 .btn-1997-contato {
@@ -433,7 +453,7 @@ nav {
 }
 
 .btn-1997-contato:hover {
-    background-color: #8A1002;
+    border-color: #fff;
 }
 
 /*------------------------------------------------------- SECTION NOVIDADES DO BLOG ----------------------------------------------*/
@@ -458,6 +478,15 @@ nav {
     border: 6px solid #000000;
     opacity: 1;
     margin-bottom: 60px;
+}
+
+.cards-blog-main-page:hover {
+    transform: scale(1.05);
+}
+
+.cards-blog-main-page:hover .data-noticia {
+    transform: scale(1.05);
+    background-color: #C61400;
 }
 
 .card {
@@ -520,19 +549,19 @@ nav {
 .div-set-border:hover {
     background-color: #000000;
     color: #ffffff;
-} 
+}
 
-.btn-ver-mais-blog  {
+.btn-ver-mais-blog {
     color: #ffffff;
     background-color: #8a1002;
     border-radius: 3px;
     padding: 10px 20px;
 }
 
-.btn-ver-mais-blog:hover  {
-    color: #ffffff;
-    fill: #ffffff;
-    background-color: #8a1002b6;
+.btn-ver-mais-blog:hover {
+    color: #fff;
+    background: #C61400;
+    box-shadow: 0px 5px 20px rgba(198, 20, 0, 0.7);
 }
 
 .div-set-border:hover svg path {
@@ -571,7 +600,8 @@ nav {
 }
 
 .btn-news-email:hover {
-    background-color: #8a1002a2;
+    background: #C61400;
+    box-shadow: 0px 10px 20px rgba(198, 20, 0, 0.7);
 }
 
 
@@ -703,7 +733,7 @@ footer ul {
     left: 0;
 }
 
-/*---------------------------------------------------- SECTION INPUTS DE CONTATO --------------------------------------------------*/
+/*---------------------------------------------------- SECTION INPUTS DE CONTATO -------------------------------------------------*/
 
 .conteudo-section-inputs-contato {
     box-sizing: border-box;
@@ -726,7 +756,7 @@ footer ul {
     background-color: #8a1002ac;
 }
 
-.caixa-texto textarea{
+.caixa-texto textarea {
     width: 100%;
     height: 100%;
 }
@@ -808,7 +838,7 @@ footer ul {
     font-weight: bold;
 }
 
-.links-error a{
+.links-error a {
     color: #767676;
     font-weight: bold;
     text-decoration: none;
@@ -1004,6 +1034,10 @@ footer ul {
     max-width: 412px;
 }
 
+.cards-blog:hover {
+    transform: scale(1.05);
+}
+
 .section-categorias-blog .filter-pages {
     margin-top: 113px;
 }
@@ -1035,7 +1069,7 @@ footer ul {
 }
 
 .text-descricao p {
-    max-width: 734px; 
+    max-width: 734px;
     font-size: 18px;
 }
 
@@ -1075,7 +1109,7 @@ footer ul {
     width: 100%;
     height: 4px;
     border-radius: 100px;
-    position:relative;
+    position: relative;
 }
 
 .range-green {
@@ -1083,19 +1117,19 @@ footer ul {
     width: 65%;
     height: 100%;
     border-radius: 100px;
-    position:relative;
+    position: relative;
 }
 
 .range-green::after {
     content: "";
     position: absolute;
     top: 50%;
-    right: 0; 
+    right: 0;
     transform: translate(50%, -50%);
-    width: 14px; 
+    width: 14px;
     height: 14px;
     background-color: #00DD73;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .option-percent-icon {
@@ -1126,7 +1160,7 @@ footer ul {
 
 .div-icons-with-border {
     border-left: 1px solid rgba(255, 255, 255, 0.08);
-    border-right: 1px solid  rgba(255, 255, 255, 0.08);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .icons-prox-lugar .proximidade-lugar {
@@ -1211,14 +1245,14 @@ footer ul {
     transform: scale(1.5);
     transition: transform 0.3s ease;
 }
-  
-  section.blur {
+
+section.blur {
     filter: blur(5px);
-  }
-  
-  body.blur-hidden {
+}
+
+body.blur-hidden {
     overflow: hidden;
-  }
+}
 
 /*------------------------------------------ SECTION FALE COM CORRETOR ------------------------------------------------*/
 
@@ -1321,7 +1355,6 @@ footer ul {
 
 .section-texto-principal-laterais {
     padding-top: 38px;
-    padding-bottom: 129px;
 }
 
 .links-lego-blog {
@@ -1339,6 +1372,10 @@ footer ul {
     font-size: 30px;
 }
 
+.conteudo-texto-principal ul {
+    margin-left: 66px;
+}
+
 aside h2 {
     color: #8A1002;
     font-weight: 400;
@@ -1346,11 +1383,67 @@ aside h2 {
 
 .subtitulo-aside {
     border-bottom: 8px solid #000000;
+    padding: 19px 0;
+}
+
+.subtitulo-veja-mais {
+    margin-top: 104px;
+}
+
+.text-veja-mais {
+    margin-top: 25px;
+    row-gap: 30px;
 }
 
 .conteudo-section-texto-principal-laterais .options-empreendimentos {
     width: fit-content;
     text-align: center;
+}
+
+
+.redes-sociais {
+    column-gap: 25px;
+}
+
+.esfera-social {
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pinterest {
+    background-color: #CB2027;
+}
+
+#pinterest:hover {
+    background-color: #FF2932;
+}
+
+#twitter {
+    background-color: #03A9F4;
+}
+
+#twitter:hover {
+    background-color: #36C1FF;
+}
+
+#facebook {
+    background-color: #1976D2;
+}
+
+#facebook:hover {
+    background-color: #228EF9;
+}
+
+#linkedin {
+    background-color: #0077B5;
+}
+
+#linkedin:hover {
+    background-color: #008AD2;
 }
 
 /*---------------------------------------------- INPUTS DEIXE SEU COMENTÁRIO -----------------------------------------------------*/
@@ -1362,3 +1455,21 @@ aside h2 {
     padding: 26px 0;
 }
 
+#caixa-de-texto-blog-page {
+    height: 191px;
+}
+
+.btn-enviar-comentario {
+    width: 320px;
+}
+
+.text-btn-blog-page {
+    margin-top: 100px;
+}
+
+/*--------------------------------------------------- COMENTÁRIOS ----------------------------------------------------------------*/
+
+.comentario-publicado {
+    display: flex;
+    flex-direction: row;
+}

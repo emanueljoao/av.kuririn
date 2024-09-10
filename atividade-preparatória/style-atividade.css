@@ -644,7 +644,12 @@ footer ul {
 }
 
 .icons {
+    cursor: pointer;
     padding: 17px 15px;
+}
+
+.icons:hover svg path {
+    fill: #767676;
 }
 
 .contacts-number {
@@ -700,6 +705,16 @@ footer ul {
 .incorporadora-oxigen p {
     margin: 0;
 }
+
+.number-contacts-hover {
+    padding: 26px 50px;
+    cursor: pointer;
+}
+
+.number-contacts-hover:hover {
+    background-color: #00ff84c0;
+}
+
 
 /*##################################################################### CONTATO PAGE #############################################*/
 

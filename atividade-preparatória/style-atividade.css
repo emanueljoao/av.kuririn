@@ -47,9 +47,14 @@ nav {
 }
 
 .item-list-header {
+    cursor: pointer;
     align-self: center;
     font-family: var(--font-family-01);
-    padding: 20px 30px;
+    padding: 30px;
+}
+
+.item-list-header:hover {
+    background-color: #F6F6F6;
 }
 
 .item-list-header a {
@@ -151,7 +156,14 @@ nav {
     text-decoration: none;
 }
 
+.item-menu {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
 .line-menu {
+    margin: 0;
     width: 100%;
 }
 
@@ -478,6 +490,10 @@ nav {
     border: 6px solid #000000;
     opacity: 1;
     margin-bottom: 60px;
+}
+
+.cards-blog-main-page {
+    cursor: pointer;
 }
 
 .cards-blog-main-page:hover {

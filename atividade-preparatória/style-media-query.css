@@ -10,7 +10,7 @@
 
     .item-list-header {
         font-size: 14px;
-        padding: 10px 20px;
+        padding: 30px 20px;
     }
 
     .btn-colaboradores {
@@ -192,6 +192,10 @@
 
     .ultimos-lotes p {
         font-size: 13px;
+    }
+
+    .number-contacts-hover {
+        padding: 26px 40px;
     }
 
     /*########################################### CONTATO PAGE ##########################################*/
@@ -461,6 +465,11 @@
 
     .btn-ver-mais-blog {
         width: 100%;
+    }
+
+    .number-contacts-hover {
+        padding: 29px 20px;
+        font-size: 14px;
     }
 
     /*########################################### CONTATO PAGE ##########################################*/

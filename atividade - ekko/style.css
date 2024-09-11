@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family-01: 'Montserrat';
+}
+
+body {
+    font-family: var(--font-family-01);
+}
+
+header {
+    background-image: url(imagens-icons/background-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    clip-path: ellipse(99% 100% at 51% 18%);
+    height: 836px;
+    width: 100%;
+}
+
+.conteudo-header-nav {
+    padding: 0 33px;
+    column-gap: 51px;
+}
+
+header ul {
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    column-gap: 70px;
+}
+
+header ul li {
+    padding: 43px 0;
+}
+
+header li:hover {
+    border-bottom: 4px solid #53BD7F;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.conjunto-burguer div {
+    width: 30px;
+    height: 4px;
+    margin: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.menu.active .line1 {
+    transform: rotate(45deg) translate(18%, 70%);
+}
+
+.menu.active .line2 {
+    display: none;
+}
+
+.menu.active .line3 {
+    transform: rotate(-45deg) translate(10%, -50%);
+}
+
+.section-titulo p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.descer-page {
+    color: #fff;
+}
+
+.btn-header-down {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border-color: #fff;
+    background-color: transparent;
+}
+
+.conteudo-menu {
+    z-index: 3;
+    background-color: #00783E;
+    height: 100vh;
+    width: 286px;
+    right: -286px;
+    position: absolute;
+    top: 91px;
+    display: none;
+    flex-direction: column;
+    transition: 0.5;
+    box-sizing: border-box;
+    padding: 3px 15px;
+}
+
+.conteudo-menu.active {
+    right: 0;
+    display: flex;
+}
+
+.conteudo-menu li {
+    padding: 15px;
+}
+
+.conteudo-menu li:hover {
+    border-bottom: 4px solid #53BD7F;
+}
+
+.section-reducao-impcatos {
+    margin-top: 124px;
+}
+
+.cards-textos-reducao-impactos {
+    max-height: 248px;
+    max-width: 543px;
+    display: flex;
+    column-gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0000008b;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.title-reducao-impactos h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #00783E;
+    text-align: center;
+}
+
+.title-reducao-impactos strong {
+    color: transparent;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #00783E;
+    font-size: 64px;
+    font-family: sans-serif
+}
+
+#folhas {
+    width: 43.3px;
+    height: 47px;
+}
+
+#triangulo-reciclavel {
+    height: 60.38px;
+    width: 63.02px;
+}
+
+.section-tratamento-de-agua {
+    background-image: url(imagens-icons/Group\ 527.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 117px;
+    color: #fff;
+    height: 917px;
+    position: relative;
+}
+
+.title-tratamento-agua {
+    width: fit-content;
+    position: absolute;
+    left: 539px;
+    top: 152px;
+    z-index: 1;
+}
+
+.title-tratamento-agua h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.title-tratamento-agua strong {
+    color: transparent;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px #fff;
+    font-size: 64px;
+    font-family: sans-serif
+}
+
+.bola-pai {
+    height: 345.82px;
+    width: 345.82px;
+    border-radius: 50%;
+    background-color: #00783E;
+}
+
+.bola-filho {
+    height: 345.82px;
+    width: 345.82px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #000;
+    font-size: 18px;
+    text-align: end;
+    position: absolute;
+    left: calc(400px - 12px);
+    top: calc(285px + 12px);
+}
+
+.texts-tratamento {
+    display: flex;
+    column-gap: 66px;
+}
+
+.text-tratamento-agua {
+    max-width: 478px;
+}
+
+.text-tratamento-agua p {
+    margin: 0;
+}
+
+.img-title h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #00783E;
+}
+
+.text-subtitle {
+    font-size: 24px;
+    color: #00783E;
+}
+
+.section-caminhando-conjunto {
+    height: 650px;
+}
+
+.section-caminhando-conjunto .text-info-ekko {
+    font-size: 24px;
+    color: #00783E;
+}
+
+.text-info-ekko {
+    font-size: 18px;
+    color: #000;
+}
+
+.imagem-mangueira p {
+    font-size: 18px;
+}
+
+.section-caminhando-conjunto ul {
+    list-style: url(imagens-icons/seta-azul.png);
+    color: #268AFF;
+}
+
+.section-caminhando-conjunto hr {
+    color: #767676;
+}
+
+.bola-pai-caminhando-conjunto {
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    background-color: #00783E;
+    position: absolute;
+    left: 180px;
+    top: 10px;
+}
+
+.bola-filho-caminhando-conjunto {
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+.text-bola-filho {
+    font-size: 18px;
+    text-align: start;
+    color: #fff;
+    width: 249px;
+}
+
+footer {
+    height: 276px;
+    clip-path: ellipse(79% 100% at 52% 100%);
+    background-color: #00783E;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.text-oxigen {
+    color: #fff;
+}
+
+footer ul {
+    column-gap: 60px;
+    list-style: url(imagens-icons/Vector\ 80.png);
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-redes-sociais div {
+    column-gap: 37px;
+    margin-bottom: 51px;
+}
+
+footer hr {
+    border: 2px solid rgba(255, 255, 255, 0.20);
+}
+
+.links-footer {
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.comentarios {
+    border-radius: 50%;
+    background-color: #66C223;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -110,6 +110,9 @@ header li:hover {
     border-bottom: 4px solid #53BD7F;
 }
 
+/*################################################################### MAIN ########################################################*/
+
+/*---------------------------------------------------- SECTION - REDEUÇÃO DE IMPACTOS ---------------------------------------------*/
 .section-reducao-impcatos {
     margin-top: 124px;
 }
@@ -149,6 +152,8 @@ header li:hover {
     height: 60.38px;
     width: 63.02px;
 }
+
+/*------------------------------------------------------ SECTION - TRATAMENTO DE ÁGUA ---------------------------------------------*/
 
 .section-tratamento-de-agua {
     background-image: url(imagens-icons/Group\ 527.png);
@@ -197,7 +202,7 @@ header li:hover {
     font-size: 18px;
     text-align: end;
     position: absolute;
-    left: calc(400px - 12px);
+    left: calc(275px - 12px);
     top: calc(285px + 12px);
 }
 
@@ -224,6 +229,8 @@ header li:hover {
     font-size: 24px;
     color: #00783E;
 }
+
+/*--------------------------------------------------- SECTION - CAMINHANDO EM CONJUNTO -------------------------------------------*/
 
 .section-caminhando-conjunto {
     height: 650px;
@@ -268,6 +275,9 @@ header li:hover {
     border-radius: 50%;
     background-color: transparent;
     border: 1px solid #000;
+    position: absolute;
+    left: -12px;
+    top: 12px;
 }
 
 .text-bola-filho {
@@ -277,7 +287,165 @@ header li:hover {
     width: 249px;
 }
 
+/*---------------------------------------------------- SECTION - APLICAÇÕES E VANTAGENS -------------------------------------------*/
+
+.section-aplicacao-vantagens {
+    height: 780px;
+}
+
+.container-clip-path-aplicacao-vantagens {
+    background-color: #F7F7F7;
+    clip-path: ellipse(97% 73% at 51% 73%);
+}
+
+.conteudo-section-aplicacao-vantagens {
+    row-gap: 61px;
+}
+
+.btns-vantagens button {
+    width: 195px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #268AFF;
+    color: #268AFF;
+    font-weight: 500;
+    background-color: #fff;
+    position: relative;
+}
+
+.btns-vantagens button:hover {
+    background-color: #268AFF;
+    color: #fff;
+}
+
+.btns-vantagens button::after{
+    position: absolute;
+    content: '';
+    height: 13.54px;
+    width: 13.54px;
+    background-color: #268AFF;
+    top: 88%;
+    left: 50%;
+    transform: rotate(45deg);
+}
+
+.cards-vantagens {
+    column-gap: 36px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 10px  #00000042;
+}
+
+.card-body {
+    display: flex;
+    align-items: baseline;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*------------------------------------------------------- SECTION - SAPATO EKKO ---------------------------------------------------*/
+
+.section-sapato-ekko {
+    background-color: #1b2c5e;
+}
+
+.container-clip-path-sapato-ekko {
+    margin-top: -93px;
+    clip-path: ellipse(84% 50% at 51% 50%);
+    background-color: #00783E;
+}
+
+.text-left {
+    color: #fff;
+    margin-left: 30px;
+}
+.text-left p {
+    margin: 0;
+}
+
+.title-sapato-ekko {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtitle-sapato-ekko {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.normal-text {
+    line-height: 26px;  
+    font-size: 18px;
+}
+
+.paragrafos-sapato-ekko {
+    margin-top: 27px;
+    row-gap: 37px;
+}
+
+/*------------------------------------------------------- SECTION - MASTERS PIGMENTOS ------------------------------------------*/
+
+.container-clip-path-masters-pigmentos {
+    background-image: url(imagens-icons/background-finish-section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 734.5px
+}
+
+.subtitle-position-bola {
+    font-size: 24px;
+    color: #00783E;
+    text-align: right;
+}
+
+.left-text-masters-pigmentos {
+    color: #fff;
+}
+
+.left-text-masters-pigmentos p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.elipse-position-bola {
+    height: 345.82px;
+    width: 345.82px;
+    border-radius: 50%;
+    color: #fff;
+    background-image: linear-gradient(123deg, #00783E, #53BD7F);
+}
+
+.elipse-position-bola-filho {
+    height: 345.82px;
+    width: 345.82px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 12px;
+    left: -12px;
+}
+
+.elipse-position-bola-filho p {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    width: 80%;
+}
+
+/*################################################################### FOOTER ######################################################*/
+
 footer {
+    background-color: #1b2c5e;
+}
+
+.container-footer {
     height: 276px;
     clip-path: ellipse(79% 100% at 52% 100%);
     background-color: #00783E;

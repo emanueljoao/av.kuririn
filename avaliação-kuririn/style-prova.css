@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(209, 209, 209);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #848484;
+    border: 3px solid rgb(209, 209, 209);
+}

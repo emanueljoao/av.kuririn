@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font-family-01: 'Poppins';
+}
+
+body {
+    font-family: var(--font-family-01);
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(209, 209, 209);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #848484;
+    border: 3px solid rgb(209, 209, 209);
+}
+
+/*############################## HEADER #####################################*/
+
+.conteudo-section-nav-bar {
+    height: fit-content;
+}
+
+.lista-nav-bar {
+    margin: 0;
+    column-gap: 30px;
+}
+
+.lista-nav-bar a {
+    text-decoration: none;
+    color: #353597;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.nav-ancor {
+    padding: 30px 4px;
+}
+
+.nav-ancor:hover {
+    border-bottom: 4px solid #FF7C1E;
+}
+
+.busca-language {
+    font-size: 13px;
+    color: #353597;
+    column-gap: 30px;
+}
+
+/*----------------------------- MENU ----------------------------------------*/
+
+.menu {
+    cursor: pointer;
+}
+
+.menu::after {
+    content: ' Menu';
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #353597;
+}
+
+.conjunto-burguer div {
+    width: 43px;
+    height: 4px;
+    margin: 6px;
+    background-color: #353597;
+    transition: .5s;
+}
+
+.menu.active .line1 {
+    transform: rotate(45deg) translate(14%, 70%);
+}
+
+.menu.active .line2 {
+    display: none;
+}
+
+.menu.active .line3 {
+    transform: rotate(-45deg) translate(10%, -50%);
+}
+
+.conteudo-menu {
+    display: none;
+    background-color: #f2f2f2;
+    height: calc(100% - 95px);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 3px 15px;
+    transition: .5s ease;
+}
+
+.conteudo-menu.active {
+    z-index: 3;
+    display: flex;
+}
+
+body.active-overflow {
+    overflow: hidden;
+}
+
+.item-list-menu {
+    display: flex;
+    max-width: 290px;
+    width: 100%;
+    padding: 5px 0;
+    height: 50px;
+}
+
+.nav-ancor-menu {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    padding: 6px 0;
+    color: #353597;
+    text-decoration: none;
+}
+
+.conteudo-menu a:hover {
+    border-bottom: 4px solid #FF7C1E;
+}
+
+.conteudo-menu hr {
+    border: 1px solid #756e6e83;
+}
+
+.busca-language-gap {
+    margin-top: 10px;
+    column-gap: 127px;
+}
+
+.social-media-menu {
+    margin-top: 58px;
+}
+
+/*############################### MAIN ######################################*/
+
+/* SECTION - SOLUÇÃO DE MOBILIDADE */
+
+.section-solucao-mobilidade {
+    margin-top: 95px;
+}
+
+/*############################## FOOTER #####################################*/
+
+footer {
+    background-color: #353597;
+}
+
+/* SECTION - POLITICA E PRIVACIDADE */
+
+.conteudo-section-politica-privacidade a {
+    text-decoration: none;
+    color: #fff;
+}
+

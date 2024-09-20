@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.09px) {
+    .conteudo-section-nav-bar {
+        padding: 0 39px 0 30px;
+    }
+
+    /*########################## MAIN ##########################*/
+
+    /* SECTION - FALE CONOSCO */
+
+    .container-section-fale-conosco {
+        padding: 93px 157px 98px 157px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.08px) {
+    
+    .conteudo-section-nav-bar {
+        padding: 0 60px 0 30px;
+    }
+
+    /*########################## MAIN ##########################*/
+
+    /* SECTION - FALE CONOSCO */
+
+    .container-section-fale-conosco {
+        padding: 119px 30px;
+    }
+
+    .conteudo-section-fale-conosco p {
+        line-height: 25px;
+    }
+
+    /*########################## FOOTER ########################*/
+
+    /* SECTION - POLITICAS DE PRIVACIDADE */
+
+    .conteudo-section-politica-privacidade {
+        padding: 16px 30px 23px 30px;
+    }
+
+    .up-page {
+        position: absolute;
+    }
+
+    .direitos-reservados {
+        margin-bottom: 7px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.08px) {
+
+    .conteudo-section-nav-bar {
+        padding: 0 50px 0 32px;
+    }
+    
+    .img-tremzao-header {
+        width: 65px;
+        height: 65px;
+    }
+
+    .conteudo-menu {
+        height: calc(100% - 65px);
+    }
+
+    /*################################# MAIN ##############################*/
+
+    /* SECTION - FALE CONOSCO */
+
+    .container-section-fale-conosco {
+        padding: 65px 0px;
+    }
+
+    .conteudo-section-fale-conosco {
+        row-gap: 16px;
+    }
+
+    .conteudo-section-fale-conosco h2 {
+        font-size: 35px;
+    }
+
+    .conteudo-section-fale-conosco p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .btn-fale-conosco { 
+        max-width: 100%;
+    }
+
+    /*################################ FOOTER #############################*/
+
+    /* SECTION - POLITICAS DE PRIVACIDADE */
+
+    .conteudo-section-politica-privacidade {
+        padding: 27px 13px 10px 13px;
+    }
+
+    .up-page {
+        margin: 38px 0;
+        margin-right: 56px;
+    }
+
+    .div-redes-sociais-footer {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 575.09px) {
+
+    .conteudo-section-nav-bar {
+        padding: 0 50px 0 32px;
+        column-gap: 73px;
+    }
+
+    .img-tremzao-header {
+        width: 65px;
+        height: 65px;
+    }
+
+    .conteudo-menu {
+        height: calc(100% - 65px);
+    }
+
+    /*################################# MAIN ##############################*/
+
+    /* SECTION - FALE CONOSCO */
+
+    .container-section-fale-conosco {
+        padding: 65px 0px;
+    }
+
+    .conteudo-section-fale-conosco {
+        row-gap: 16px;
+    }
+
+    .conteudo-section-fale-conosco h2 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .conteudo-section-fale-conosco p {
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0 0 15px 0;
+    }
+
+    .btn-fale-conosco { 
+        max-width: 100%;
+    }
+
+    /*################################ FOOTER #############################*/
+
+    /* SECTION - POLITICAS DE PRIVACIDADE */
+
+    .conteudo-section-politica-privacidade {
+        padding: 27px 13px 10px 13px;
+    }
+
+    .up-page {
+        margin: 38px 0;
+        margin-right: 56px;
+    }
+
+    .div-redes-sociais-footer {
+        margin-left: 0;
+    }
+}

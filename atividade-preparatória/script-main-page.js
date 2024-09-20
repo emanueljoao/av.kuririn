@@ -16,6 +16,7 @@ function functionMenu() {
 // EVENTOS
 menu.addEventListener('click', functionMenu)
 menuMobile.addEventListener('click', functionMenu)
+
 // SWIPER - SECTION ULTIMOS LOTES
 var swiper = new Swiper(".mySwiper", {
     navigation: {

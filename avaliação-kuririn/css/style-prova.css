@@ -155,9 +155,9 @@ body.active-overflow {
 
 /* SECTION - SOLUÇÃO DE MOBILIDADE */
 
-.section-solucao-mobilidade {
+/* .section-solucao-mobilidade {
     padding-top: 95px;
-}
+} */
 
 .img-swiper-banner {
     z-index: -1;
@@ -262,7 +262,7 @@ footer {
     column-gap: 7.5px;
 }
 
-.lista-ancoras-footer .ancor-list-footer {
+.ancor-list-footer {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
@@ -277,6 +277,50 @@ footer {
     line-height: 33px;
     font-weight: bold;
     text-decoration: none;
+}
+
+
+/*------------------ FOOTER ACCORDION RESPONSIVO - ABAIXO/ATÉ 1200px -------------------------*/
+
+.accordion-footer {
+    width: 100%;
+    column-gap: 11px;
+    padding: 22px 0;
+}
+
+.accordion-footer p {
+    margin: 0;
+}
+
+.btn-accordion {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.40);
+}
+
+.arrow-icon.rotated {
+    transform: rotate(-180deg);
+    transition: 0.3s ease;
+}
+
+.ul-accordion-footer {
+    padding-left: 40.5px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.ul-accordion-footer.active{
+    height: 170.6px;
+    overflow: auto;
+    opacity: 1;
+}
+
+.ul-accordion-footer li {
+    display: flex;
+    column-gap: 7px;
 }
 
 /* SECTION - SOCIAL MEDIA */

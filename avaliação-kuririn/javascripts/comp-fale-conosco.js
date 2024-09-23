@@ -1,4 +1,4 @@
-export class sectionFaleConosco extends HTMLElement {
+class sectionFaleConosco extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <section class="section-fale-conosco">

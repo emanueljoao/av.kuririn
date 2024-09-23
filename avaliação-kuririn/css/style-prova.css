@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
 
 .lista-nav-bar {
     margin: 0;
-    column-gap: 30px;
+    column-gap: 3vw;
 }
 
 .lista-nav-bar a {
@@ -44,6 +44,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 18px;
     line-height: 26px;
     text-align: center;
+    font-weight: 500;
 }
 
 .nav-ancor {
@@ -57,7 +58,7 @@ body::-webkit-scrollbar-thumb {
 .busca-language {
     font-size: 13px;
     color: #353597;
-    column-gap: 30px;
+    column-gap: 3vw;
 }
 
 /*----------------------------- MENU ----------------------------------------*/
@@ -95,13 +96,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .conteudo-menu {
-    display: none;
+    display: flex;
     background-color: #f2f2f2;
     height: calc(100% - 95px);
-    width: 100%;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
     flex-direction: column;
     box-sizing: border-box;
     padding: 3px 15px;
@@ -110,7 +113,9 @@ body::-webkit-scrollbar-thumb {
 
 .conteudo-menu.active {
     z-index: 3;
-    display: flex;
+    width: 100%;
+    overflow: auto;
+    opacity: 1;
 }
 
 body.active-overflow {
@@ -155,32 +160,96 @@ body.active-overflow {
 
 /* SECTION - SOLUÇÃO DE MOBILIDADE */
 
-/* .section-solucao-mobilidade {
-    padding-top: 95px;
-} */
-
-.img-swiper-banner {
-    z-index: -1;
+.swiper-card {
+    background-image: url(../imagens/img-swiper-mobilidade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 46%;
+    height: 684px;
+    display: flex;
 }
 
 .navigation-pagination {
+    top: calc(95px + 75px);
+    left: 79px;
     max-height: 417px;
 }
 
+.title-banner {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 235px;
+}
+
 h1 {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: lighter;
+    background-color: #353597d2;
+    color: #fff;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 14px;
+    max-height: 64px;
+    height: 100%;
+}
+
+.text-h1 {
+    width: fit-content;
     font-size: 59px;
     line-height: 72px;
     font-weight: lighter;
     background-color: #353597d2;
     color: #fff;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 4px;
+    max-height: 59px;
+    position: relative;
 }
 
-h1 strong {
-    font-weight: bolder;
+.subtitle-text-banner {
+    color: #353597;
+    background-color: rgba(167, 175, 178, 0.80);
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0;
+    max-height: 26px;
+    width: fit-content;
+}
+
+#subtitle-banner-up {
+    margin-bottom: 3px;
+}
+
+#space-btn-portfolio {
+    margin-bottom: 24px;
+}
+
+.btn-conheca-portfolio {
+    max-width: 370px;
+    width: 100%;
+}
+
+.swiper-pagination-custom {
+    max-height: 272px;
+    height: 100%;
 }
 
 .swiper-pagination-custom span {
-    background-color: #fff;
+    border: 2px solid #fff !important;
+    height: 8px !important;
+    width: 8px !important;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff !important;
 }
 
 /* SECTION - FALE CONOSCO */
@@ -283,9 +352,18 @@ footer {
 /*------------------ FOOTER ACCORDION RESPONSIVO - ABAIXO/ATÉ 1200px -------------------------*/
 
 .accordion-footer {
+    cursor: pointer;
     width: 100%;
     column-gap: 11px;
     padding: 22px 0;
+}
+
+.accordion-footer:hover .btn-accordion {
+    border: 2px solid #FF7C1E;
+}
+
+.accordion-footer:hover .btn-accordion svg path {
+    stroke: #FF7C1E;
 }
 
 .accordion-footer p {
@@ -299,9 +377,17 @@ footer {
     border: 2px solid rgba(255, 255, 255, 0.40);
 }
 
+.btn-accordion.active {
+    border: 2px solid #FF7C1E;
+}
+
 .arrow-icon.rotated {
     transform: rotate(-180deg);
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out all;
+}
+
+.arrow-icon.rotated path {
+    stroke: #FF7C1E;
 }
 
 .ul-accordion-footer {
@@ -310,17 +396,24 @@ footer {
     overflow: hidden;
     opacity: 0;
     transition: 0.3s ease;
+    margin: 0;
 }
 
 .ul-accordion-footer.active{
-    height: 170.6px;
+    height: 170px;
     overflow: auto;
     opacity: 1;
+    margin-bottom: 42px;
 }
 
 .ul-accordion-footer li {
     display: flex;
     column-gap: 7px;
+}
+
+.ancoras-fale-blog {
+    text-indent: 43px;
+    padding: 22px 0;
 }
 
 /* SECTION - SOCIAL MEDIA */

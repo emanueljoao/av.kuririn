@@ -1,7 +1,26 @@
 @charset "UTF-8";
 
 @media (min-width: 1200px) {
-    
+
+    /*################## MAIN ################################*/
+
+    /* SECTION - BANNER */
+
+    .title-banner {
+        text-align: start;
+        left: 130px;
+    }
+
+    .navigation-pagination {
+        height: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .conteudo-section-nav-bar {
+        max-width: 1220px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.09px) {
@@ -11,12 +30,22 @@
 
     /*########################## MAIN ##########################*/
 
+    /* SECTION - BANNER */
+
+    .title-banner {
+        align-items: center;
+    }
+
+    .navigation-pagination {
+        height: 100%;
+        left: 47px;
+    }
+
     /* SECTION - FALE CONOSCO */
 
     .container-section-fale-conosco {
         padding: 93px 157px 98px 157px;
     }
-
 
 }
 
@@ -27,6 +56,17 @@
     }
 
     /*########################## MAIN ##########################*/
+
+    /* SECTION - BANNER */
+
+    .title-banner {
+        align-items: center;
+    }
+
+    .navigation-pagination {
+        height: 100%;
+        left: 30px;
+    }
 
     /* SECTION - FALE CONOSCO */
 
@@ -72,6 +112,43 @@
     }
 
     /*################################# MAIN ##############################*/
+
+    /* SECTION - BANNER */
+
+    .title-banner {
+        align-items: center;
+        top: 118px;
+    }
+
+    .text-h1 {
+        font-size: 41px;
+        line-height: 40px;
+        margin-bottom: 2px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 43px;
+        margin-bottom: 7px;
+        
+    }
+
+    .subtitle-text-banner {
+        font-size: 15px;
+        line-height: 22px;
+        background-color: #fff;
+    }
+
+    #space-btn-portfolio {
+        margin-bottom: 17px;
+    }
+
+    .navigation-pagination {
+        top: 389px;
+        max-width: 224px;
+        width: 100%;
+        left: 0;
+    }  
 
     /* SECTION - FALE CONOSCO */
 
@@ -132,6 +209,44 @@
     }
 
     /*################################# MAIN ##############################*/
+
+    /* SECTION - BANNER */
+
+    .title-banner {
+        align-items: center;
+        top: 118px;
+    }
+
+    .text-h1 {
+        font-size: 41px;
+        line-height: 40px;
+        margin-bottom: 2px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 43px;
+        margin-bottom: 7px;
+        
+    }
+
+    .subtitle-text-banner {
+        font-size: 15px;
+        line-height: 22px;
+        background-color: #fff;
+    }
+
+    #space-btn-portfolio {
+        margin-bottom: 17px;
+    }
+
+    .navigation-pagination {
+        top: 389px;
+        max-width: 224px;
+        width: 100%;
+        left: 48px;
+        right: 48px;
+    }
 
     /* SECTION - FALE CONOSCO */
 

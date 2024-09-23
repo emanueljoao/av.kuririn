@@ -1,4 +1,4 @@
-function accordionFooter(event) {
+function accordionFooter() {
     // Seleciona o contêiner pai mais próximo
     const accordionContainer = event.currentTarget.closest('.listas-footer');
     
@@ -6,6 +6,9 @@ function accordionFooter(event) {
     
     listAccordion.classList.toggle("active");
     
+    const btnAccordion = accordionContainer.querySelector(".btn-accordion")
+    btnAccordion.classList.toggle("active");
+
     const arrowIcon = accordionContainer.querySelector('.arrow-icon');
     arrowIcon.classList.toggle('rotated');
 }

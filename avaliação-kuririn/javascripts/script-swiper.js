@@ -1,4 +1,3 @@
-
 // SWIPER - SECTION ULTIMOS LOTES
 var swiper = new Swiper(".mySwiperMobilidade", {
     navigation: {
@@ -7,5 +6,6 @@ var swiper = new Swiper(".mySwiperMobilidade", {
       },
     pagination: {
         el: ".swiper-pagination-custom",
+        clickable: true,
       },
 });

@@ -15,6 +15,16 @@
         height: 100%;
     }
 
+    /* SECTION - QUEM SOMOS */
+
+    .text-title-btn {
+        padding-left: 96px;
+    }
+
+    .conteudo-section-produtos-servicos {
+        column-gap: 30px;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -157,6 +167,40 @@
         bottom: 169px;
     }
 
+    /* SECTION - QUEM SOMOS */
+
+    .section-quem-somos {
+        padding: 0px;
+    }
+
+    .bg-image-quem-somos {
+        background-image: #4848C6;
+    }
+
+    .conteudo-section-quem-somos h2 {
+        margin: 0;
+        font-size: 35px;
+    }
+
+    .conteudo-section-quem-somos p {
+        margin: 0;
+    }
+
+    .text-title-btn {
+        padding: 71px 0 73px 0px;
+    }    
+
+    .text-quem-somos {
+        margin-top: 2px;
+        max-width: 100%;
+        font-weight: 300;
+    }
+
+    .btn-conheca-trenzao {
+        max-width: 100%;
+        margin-top: 17px;
+    }
+
     /* SECTION - FALE CONOSCO */
 
     .container-section-fale-conosco {
@@ -260,6 +304,41 @@
         right: auto;
         place-self: center;
         bottom: 169px;
+    }
+
+    /* SECTION - QUEM SOMOS */
+
+    
+    .section-quem-somos {
+        padding: 0px;
+    }
+
+    .bg-image-quem-somos {
+        background-image: #4848C6;
+    }
+
+    .conteudo-section-quem-somos h2 {
+        margin: 0;
+        font-size: 35px;
+    }
+
+    .conteudo-section-quem-somos p {
+        margin: 0;
+    }
+
+    .text-title-btn {
+        padding: 71px 0 73px 0px;
+    }    
+
+    .text-quem-somos {
+        font-weight: 300;
+        margin-top: 2px;
+        max-width: 100%;
+    }
+
+    .btn-conheca-trenzao {
+        max-width: 100%;
+        margin-top: 17px;
     }
 
     /* SECTION - FALE CONOSCO */

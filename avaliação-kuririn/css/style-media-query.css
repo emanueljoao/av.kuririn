@@ -147,8 +147,15 @@
         top: 389px;
         max-width: 224px;
         width: 100%;
-        left: 0;
+        left: auto;
+        place-self: center;
     }  
+
+    .down-page {
+        right: auto;
+        place-self: center;
+        bottom: 169px;
+    }
 
     /* SECTION - FALE CONOSCO */
 
@@ -246,6 +253,13 @@
         width: 100%;
         left: 48px;
         right: 48px;
+        place-self: center;
+    }
+
+    .down-page {
+        right: auto;
+        place-self: center;
+        bottom: 169px;
     }
 
     /* SECTION - FALE CONOSCO */

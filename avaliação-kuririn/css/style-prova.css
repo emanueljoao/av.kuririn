@@ -156,6 +156,66 @@ body.active-overflow {
     margin-top: 58px;
 }
 
+/* SECTION - BUSCA */
+
+.section-busca {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+    opacity: 1;
+    right: 0;
+    top: 0;
+}
+
+.section-busca.active {
+    overflow: auto;
+    opacity: 0;
+    width: 100%;
+}
+
+.input-de-busca {
+    max-width: 736px;
+    width: 100%;
+    height: 67px;
+    border-radius: 3px;
+    border: 2px solid #756E6E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 7px;
+}
+
+.input-de-busca input {
+    height: 56px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.btn-buscar-site {
+    max-width: 297px;
+    width: 100%;
+    height: 57px;
+    background-color: #FF7C1E;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-buscar-site a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-buscar-site svg path {
+    stroke: white;
+}
+
+.btn-buscar-site circle {
+    stroke: #fff;
+}
+
 /*############################### MAIN ######################################*/
 
 /* SECTION - SOLUÇÃO DE MOBILIDADE */
@@ -379,6 +439,10 @@ h1 {
     column-gap: 15px;
 }
 
+.conteudo-swiper-produtos-servicos {
+    row-gap: 32px;
+}
+
 .swiper-shadow {
     width: fit-content !important;
 }
@@ -415,6 +479,96 @@ h1 {
 
 #card-vagoes {
     background-image: url(../imagens/card-vagoes-produtod-servicos.png);
+}
+
+.btns-swipers-produtos-servicos {
+    column-gap: 23px;
+}
+
+.btns-swipers-customs-produtos-servicos {
+    width: 55px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-swipers-produtos-servicos svg path {
+    stroke: black;
+}
+
+/* SECTION - SEGMETNOS E SETORES */
+
+.conteudo-section-segmentos-setores {
+    row-gap: 95px;
+}
+
+.title-segmentos-setores h2 {
+    color: #353597;
+    font-size: 48px;
+    line-height: 44px;
+    font-weight: 200;
+    margin-bottom: 22px;
+}
+
+.title-segmentos-setores strong {
+    font-weight: 900;
+}
+
+.title-segmentos-setores p {
+    max-width: 1109px;
+    width: 100%;
+    font-size: 16px;
+    color: #756E6E;
+}
+
+.swiper-segmentos-setores {
+    margin: 0 !important;
+    position: static !important;
+}
+
+.wrapper-segmentos-setores {
+    column-gap: 130px;
+}
+
+.slide-segmentos-setores {
+    max-width: 200px !important;
+    width: 100%;
+}
+
+.swiper-card-segmentos-setores {
+    max-height: 264px;
+    height: 100%;
+}
+
+.swiper-card-segmentos-setores p {
+    color: #353597;
+    font-size: 28px;
+    line-height: 58px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-swiper-segmentos-setores {
+    position: absolute;
+    top: 67%;
+    width: 100%;
+}
+
+.btns-swipers-customs-segmentos {
+    width: 55px !important;
+    height: 55px !important;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-swipers-customs-segmentos svg path {
+    stroke: #000;
 }
 
 /* SECTION - FALE CONOSCO */

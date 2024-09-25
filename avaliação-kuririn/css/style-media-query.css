@@ -25,6 +25,11 @@
         column-gap: 30px;
     }
 
+    .conteudo-section-produtos-servicos {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -49,6 +54,12 @@
     .navigation-pagination {
         height: 100%;
         left: 47px;
+    }
+
+    /* SECTION - SEGMENTOS E SETORES */
+
+    .wrapper-segmentos-setores {
+        column-gap: 62px;
     }
 
     /* SECTION - FALE CONOSCO */

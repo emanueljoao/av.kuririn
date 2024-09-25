@@ -31,6 +31,15 @@ var swiperProdutosServicos = new Swiper(".mySwiperProdutosServicos", {
   }
 });
 
+// SWIPER - SECTION SEGMENTOS E SETORES
+var swiperSegmentosSetores = new Swiper(".myswiperSegmentosSetores", {
+  slidesPerView: 3,
+  navigation: {
+      nextEl:".swiper-button-next",
+      prevEl:".swiper-button-prev",
+  },
+});
+
 
 
 

@@ -1,17 +1,19 @@
-// const sectionBusca = document.querySelector('.section-busca')
-// const fecharBusca = document.querySelector('.fechar-busca')
-// const iconBusca = document.querySelector('.icon-lupa-header')
+const sectionBusca = document.querySelector('.section-busca')
+const fecharBusca = document.querySelector('.fechar-busca')
+const iconBusca = document.querySelector('.icon-lupa-header')
+console.log(iconBusca)
+
+function buscarPesquisa() {
+    sectionBusca.classList.add('active')
+    document.body.classList.add('active-overflow')
+}
+
+function fecharPesquisa() {
+    sectionBusca.classList.remove('active')
+    document.body.classList.remove('active-overflow')
+}
 
 
-// function buscarPesquisa() {
-//     sectionBusca.classList.add('active')
-// }
 
-// function fecharPesquisa() {
-//     sectionBusca.classList.remove('active')
-// }
-
-
-
-// iconBusca.addEventListener('click', buscarPesquisa)
-// fecharBusca.addEventListener('click', fecharPesquisa)
+iconBusca.addEventListener('click', buscarPesquisa)
+fecharBusca.addEventListener('click', fecharPesquisa)

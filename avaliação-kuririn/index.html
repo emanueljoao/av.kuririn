@@ -57,7 +57,8 @@
 
                 <div class="busca-language d-md-flex d-none align-items-center">
 
-                    <svg class="icon-lupa-header" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="icon-lupa-header" width="27" height="27" viewBox="0 0 27 27" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M25 25L16 16" stroke="#353597" stroke-width="3" />
                         <circle cx="10.1852" cy="10.1852" r="8.68519" stroke="#353597" stroke-width="3" />
                     </svg>
@@ -154,16 +155,18 @@
         <!-- SECTION - INPUT DE BUSCA -->
 
         <section class="busca">
-            <div class="section-busca container-fluid position-relative z-3">
-                <div class="conteudo-section-busca container-xl">
+            <div class="section-busca container-fluid z-3">
+                <div class="conteudo-section-busca container-xl d-flex align-items-center justify-content-center h-100">
 
-                    <div class="">
+                    <div class="div-conjunto-busca d-flex flex-column">
 
-                        <div class="fechar-busca">
-                            <div class="line-x-1"></div>
-                            <div class="line-x-2"></div>
+                        <div class="fechar-busca d-flex align-self-end">
+                            <div class="conteudo-fechar-busca">
+                                <div class="line-x-1"></div>
+                                <div class="line-x-2"></div>
+                            </div>
                         </div>
-                        
+
                         <div class="input-de-busca">
                             <input type="text" placeholder="Digite aqui a sua busca">
                             <button class="btn-buscar-site">
@@ -172,7 +175,8 @@
                                     <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M25 25L16 16" stroke="#353597" stroke-width="3" />
-                                        <circle cx="10.1852" cy="10.1852" r="8.68519" stroke="#353597" stroke-width="3" />
+                                        <circle cx="10.1852" cy="10.1852" r="8.68519" stroke="#353597"
+                                            stroke-width="3" />
                                     </svg>
                                 </a>
                             </button>
@@ -484,7 +488,7 @@
 
         <!-- SECTION - SEGMENTOS E SETORES -->
 
-        <section class="segmentos-setores d-none">
+        <section class="segmentos-setores">
             <div class="section-segmentos-setores container-fluid">
                 <div class="conteudo-section-segmentos-setores container-xl d-flex flex-column position-relative">
 
@@ -495,55 +499,32 @@
                                 scelerisque enim ut ante faucibus lacinia.</strong></p>
                     </div>
 
-                    <div class="swiper-segmentos-setores swiper myswiperSegmentosSetores">
+                </div>
+            </div>
+        </section>
 
-                        <div class="wrapper-segmentos-setores swiper-wrapper d-flex justify-content-center">
+        <!-- SECTION - ESTAÇÃO DE TREM -->
 
-                            <div class="swiper-slide slide-segmentos-setores">
-                                <div class="swiper-card-segmentos-setores d-flex flex-column align-items-center">
-                                    <img src="imagens/agronegocio-segmentos-setores.png"
-                                        alt="imagem de uma plantação representando o agronegócio ">
-                                    <p>Agronegócio</p>
-                                </div>
-                            </div>
+        <section class="estacao-trem">
+            <div class="section-estacao-trem container-fluid">
+                <div class="bg-imagem-estaco-trem">
+                    <div class="conteudo-section-estacao-trem container-xl d-flex flex-column">
 
-                            <div class="swiper-slide slide-segmentos-setores">
-                                <div class="swiper-card-segmentos-setores d-flex flex-column align-items-center">
-                                    <img src="imagens/minerios-segmentos-setores.png"
-                                        alt="imagem de uma plantação representando o agronegócio ">
-                                    <p>Minérios</p>
-                                </div>
-                            </div>
+                        <img src="imagens/estacao-trem.png" alt="foto com uma estação de trem vazia e com um trem passando" class="img-estacao-trem-responsiva img-fluid d-sm-none d-block">
 
-                            <div class="swiper-slide slide-segmentos-setores">
-                                <div class="swiper-card-segmentos-setores d-flex flex-column align-items-center">
-                                    <img src="imagens/combustivel-segmentos-setores.png"
-                                        alt="imagem de uma plantação representando o agronegócio ">
-                                    <p>Combustíveis</p>
-                                </div>
-                            </div>
-
+                        <div class="text-btn-estacao-trem d-flex flex-column align-items-end">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus, quam eu interdum sodales, nulla elit imperdiet orci.</p>
+                            <button class="btn-estacao-trem">
+                                <a href="#">
+                                    <svg class="d-md-block d-none" width="65" height="18" viewBox="0 0 65 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M63 9H1" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                                        <path d="M56 1L64 9L56 17" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                                    </svg>
+                                    Veja nossa locomotiva
+                                </a>
+                            </button>
                         </div>
-
-                        <div class="btn-swiper-segmentos-setores d-flex justify-content-between">
-                            <div class="swiper-button-prev btns-swipers-customs-segmentos">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 2L2 10L10 18" stroke="white" stroke-width="2"
-                                        stroke-linecap="square" />
-                                </svg>
-                            </div>
-
-                            <div class="swiper-button-next btns-swipers-customs-segmentos">
-                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M2 18L10 10L2 2" stroke="white" stroke-width="2" stroke-linecap="square" />
-                                </svg>
-                            </div>
-                        </div>
-
                     </div>
-
                 </div>
             </div>
         </section>
@@ -815,3 +796,45 @@
 </body>
 
 </html>
+
+
+<!-- 
+<div class="swiper-card-segmentos-setores d-flex flex-column align-items-center">
+    <img src="imagens/agronegocio-segmentos-setores.png"
+        alt="imagem de uma plantação representando o agronegócio ">
+    <p>Agronegócio</p>
+</div>
+<div class="swiper-card-segmentos-setores d-flex flex-column align-items-center">
+    <img src="imagens/minerios-segmentos-setores.png"
+        alt="imagem de uma plantação representando o agronegócio ">
+    <p>Minérios</p>
+</div>
+<div class="swiper-card-segmentos-setores d-flex flex-column align-items-center">
+    <img src="imagens/combustivel-segmentos-setores.png"
+        alt="imagem de uma plantação representando o agronegócio ">
+    <p>Combustíveis</p>
+</div> 
+
+    
+
+                    <div class="btn-swiper-segmentos-setores d-flex justify-content-between">
+
+                            <div class="swiper-button-prev">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 2L2 10L10 18" stroke="white" stroke-width="2"
+                                        stroke-linecap="square" />
+                                </svg>
+                            </div>
+
+                            <div class="swiper-button-next">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 18L10 10L2 2" stroke="white" stroke-width="2" stroke-linecap="square" />
+                                </svg>
+                            </div>
+                        </div>
+
+                    </div>
+
+-->

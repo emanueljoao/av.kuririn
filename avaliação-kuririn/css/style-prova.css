@@ -61,6 +61,10 @@ body::-webkit-scrollbar-thumb {
     column-gap: 3vw;
 }
 
+.icon-lupa-header {
+    cursor: pointer;
+}
+
 /*----------------------------- MENU ----------------------------------------*/
 
 .menu {
@@ -160,11 +164,11 @@ body.active-overflow {
 
 .section-busca {
     background-color: rgba(255, 255, 255, 0.85);
-    width: 100vw;
+    width: 0;
     height: 100vh;
     position: fixed;
-    overflow: auto;
-    opacity: 1;
+    overflow: hidden;
+    opacity: 0;
     right: 0;
     top: 0;
 }
@@ -175,8 +179,44 @@ body.active-overflow {
     width: 100%;
 }
 
-.input-de-busca {
+.div-conjunto-busca {
+    position: relative;
     max-width: 736px;
+    width: 100%;
+    margin-bottom: 19px;
+}
+
+.fechar-busca{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: -60px;
+    right: -31px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-fechar-busca {
+    width: 28px;
+    display: inline-flex;
+}
+
+.conteudo-fechar-busca div {
+    height: 25.46px;
+    width: 2px;
+    background-color: #756E6E;
+}
+
+.line-x-1 {
+    transform: rotate(45deg) translate(100%, 0%);
+}
+
+.line-x-2 {
+    transform: rotate(-45deg) translate(-75%, 5%);
+}
+
+.input-de-busca {
     width: 100%;
     height: 67px;
     border-radius: 3px;
@@ -191,7 +231,12 @@ body.active-overflow {
 .input-de-busca input {
     height: 56px;
     border: none;
+    max-width: 415px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    padding-left: 20px;
+    outline: 0;
 }
 
 .btn-buscar-site {
@@ -206,6 +251,10 @@ body.active-overflow {
 .btn-buscar-site a {
     text-decoration: none;
     color: #fff;
+    display: flex;
+    column-gap: 13px;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-buscar-site svg path {
@@ -524,20 +573,6 @@ h1 {
     color: #756E6E;
 }
 
-.swiper-segmentos-setores {
-    margin: 0 !important;
-    position: static !important;
-}
-
-.wrapper-segmentos-setores {
-    column-gap: 130px;
-}
-
-.slide-segmentos-setores {
-    max-width: 200px !important;
-    width: 100%;
-}
-
 .swiper-card-segmentos-setores {
     max-height: 264px;
     height: 100%;
@@ -551,24 +586,76 @@ h1 {
     text-align: center;
 }
 
-.btn-swiper-segmentos-setores {
-    position: absolute;
-    top: 67%;
-    width: 100%;
+/* width: 55px !important;
+height: 55px !important;
+border: 2px solid black;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center; */
+
+
+
+/* stroke: #000; */
+
+/* SECTION - ESTAÇÃO DE TREM */
+
+.section-estacao-trem {
+    padding: 30px;
+    height: 656px;
 }
 
-.btns-swipers-customs-segmentos {
-    width: 55px !important;
-    height: 55px !important;
-    border: 2px solid black;
-    border-radius: 50%;
+.bg-imagem-estaco-trem {
+    background-image: linear-gradient(to left, #4848c5, #4848c500), url(../imagens/estacao-trem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.conteudo-section-estacao-trem {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.text-btn-estacao-trem {
+    row-gap: 39px;
+    padding-bottom: 92px;
+}
+
+.text-btn-estacao-trem p {
+    max-width: 497px;
+    width: 100%;
+    text-align: end;
+    color: #fff;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.btn-estacao-trem {
+    height: 57px;
+    max-width: 378px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background-color: #FF7C1E;
+    box-shadow: rgba(0, 0, 0, 0.30);
+}
+
+.btn-estacao-trem a {
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 17px;
+    text-decoration: none;
+    color: #fff;
 }
 
-.btns-swipers-customs-segmentos svg path {
-    stroke: #000;
+.img-estacao-trem-responsiva {
+    border-radius: 3px;
 }
 
 /* SECTION - FALE CONOSCO */

@@ -57,9 +57,12 @@
     }
 
     /* SECTION - SEGMENTOS E SETORES */
+    
+    /* SECTION - ESTAÇÃO DE TREM */
 
-    .wrapper-segmentos-setores {
-        column-gap: 62px;
+    .text-btn-estacao-trem {
+        padding-right: 80px;
+        padding-bottom: 82px;
     }
 
     /* SECTION - FALE CONOSCO */
@@ -87,6 +90,13 @@
     .navigation-pagination {
         height: 100%;
         left: 30px;
+    }
+
+    /* SECTION - ESTAÇÃO DE TREM */
+
+    .text-btn-estacao-trem {
+        padding-right: 60px;
+        padding-bottom: 82px;
     }
 
     /* SECTION - FALE CONOSCO */
@@ -185,7 +195,8 @@
     }
 
     .bg-image-quem-somos {
-        background-image: #4848C6;
+        background-image: none;
+        background-color: #4848C6;
     }
 
     .conteudo-section-quem-somos h2 {
@@ -212,6 +223,48 @@
         margin-top: 17px;
     }
 
+    /* SECTION - ESTAÇÃO DE TREM */
+
+    .text-btn-estacao-trem {
+        padding-right: 40px;
+        padding-bottom: 82px;
+    }
+
+    /* .section-estacao-trem {
+        padding: 0;
+        height: 587px;
+    }
+
+    .bg-imagem-estaco-trem {
+        background-image: none;
+        background-color: #4848c5;
+    }
+
+    .conteudo-section-estacao-trem {
+        box-sizing: border-box;
+        padding: 17px;
+        height: fit-content;
+        align-items: center;
+        row-gap: 19px;
+    }
+
+    .text-btn-estacao-trem {
+        width: 100%;
+        column-gap: 19px;
+        align-items: center !important;
+        padding-bottom: 20px;
+    }
+
+    .text-btn-estacao-trem p {
+        font-size: 16px;
+        text-align: start;
+        line-height: 26px;
+        max-width: 100%;
+    }
+
+    .btn-estacao-trem {
+        max-width: 100%;
+    } */
     /* SECTION - FALE CONOSCO */
 
     .container-section-fale-conosco {
@@ -319,13 +372,14 @@
 
     /* SECTION - QUEM SOMOS */
 
-    
     .section-quem-somos {
         padding: 0px;
+        height: 587px;
     }
 
     .bg-image-quem-somos {
-        background-image: #4848C6;
+        background-image: none;
+        background-color: #4848C6;
     }
 
     .conteudo-section-quem-somos h2 {
@@ -350,6 +404,47 @@
     .btn-conheca-trenzao {
         max-width: 100%;
         margin-top: 17px;
+    }
+
+    /* SECTION - ESTAÇÃO DE TREM */
+
+    .section-estacao-trem {
+        padding: 0;
+        height: 587px;
+    }
+
+    .bg-imagem-estaco-trem {
+        background-image: none;
+        background-color: #4848c5;
+    }
+
+    .conteudo-section-estacao-trem {
+        padding: 17px;
+        box-sizing: border-box;
+        height: fit-content;
+        align-items: center;
+        row-gap: 19px;
+    }
+
+    .text-btn-estacao-trem {
+        width: 100%;
+        row-gap: 19px;
+        align-items: center !important;
+        padding-bottom: 20px;
+    }
+
+    .img-estacao-trem-responsiva {
+        min-height: 352px;
+    }
+
+    .btn-estacao-trem {
+        max-width: 100%;
+    }
+
+    .text-btn-estacao-trem p {
+        font-size: 15px;
+        text-align: start;
+        line-height: 26px;
     }
 
     /* SECTION - FALE CONOSCO */

@@ -186,7 +186,7 @@ body.active-overflow {
     margin-bottom: 19px;
 }
 
-.fechar-busca{
+.fechar-busca {
     height: 40px;
     width: 40px;
     position: absolute;
@@ -550,7 +550,13 @@ h1 {
 
 /* SECTION - SEGMETNOS E SETORES */
 
+.section-segmentos-setores {
+    padding: 225px 0 109px 0;
+}
+
 .conteudo-section-segmentos-setores {
+    padding: 0 30px;
+    box-sizing: border-box;
     row-gap: 95px;
 }
 
@@ -573,11 +579,6 @@ h1 {
     color: #756E6E;
 }
 
-.swiper-card-segmentos-setores {
-    max-height: 264px;
-    height: 100%;
-}
-
 .swiper-card-segmentos-setores p {
     color: #353597;
     font-size: 28px;
@@ -586,17 +587,30 @@ h1 {
     text-align: center;
 }
 
-/* width: 55px !important;
-height: 55px !important;
-border: 2px solid black;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center; */
+.btn-swiper-segmentos-setores {
+    width: 100%;
+    top: 60%;
+    align-self: center;
+}
 
+.swiper-button-next-custom, .swiper-button-prev-custom {
+    width: 55px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.swiper-button-next-custom svg path{
+    stroke: #000;
+}
 
-/* stroke: #000; */
+.swiper-button-prev-custom svg path {
+    stroke: #000;
+}
+
 
 /* SECTION - ESTAÇÃO DE TREM */
 
@@ -658,6 +672,129 @@ align-items: center; */
     border-radius: 3px;
 }
 
+/* SECTION - NOVIDADES DO BLOG */
+
+.section-novidades-do-blog {
+    padding: 104px 0;
+}
+
+.conteudo-section-novidades-do-blog {
+    row-gap: 50px;
+}
+
+.conteudo-section-novidades-do-blog h2 {
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 44px;
+    color: #353597;
+    align-self: flex-start;
+}
+
+.conteudo-section-novidades-do-blog strong {
+    font-weight: 900;
+}
+
+.conteudo-section-novidades-do-blog a {
+    text-decoration: none;
+}
+
+.conteudo-section-novidades-do-blog .card {
+    border: none;
+}
+
+.conteudo-section-novidades-do-blog .card .card-img-top {
+    border-radius: 0;
+}
+
+.card-bg-novidades-blog {
+    height: 299px;
+    background-size: cover;
+}
+
+.card-bg-pessoa {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.26), transparent), url(../imagens/img-novidades-blog-pessoa.png);
+    background-repeat: no-repeat;
+}
+
+.card-bg-estacao {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.26), transparent), url(../imagens/img-novidades-blog-estacao.png);
+    background-repeat: no-repeat;
+}
+
+.card-bg-trilhos {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.26), transparent), url(../imagens/img-novidades-trilhos.png);
+    background-repeat: no-repeat;
+}
+
+.card-bg-novidades-blog p {
+    padding-left: 20px;
+    padding-bottom: 23px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    margin: 0;
+}
+
+.conteudo-section-novidades-do-blog .card-body {
+    padding: 24px 0 21px 0;
+}
+
+.conteudo-section-novidades-do-blog .card-text {
+    max-width: 342px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #756E6E;
+    letter-spacing: 0.016px;
+    font-weight: 500;
+}
+
+.btns-novidades-blog-leia-mais {
+    color: #FF7C1E;
+    background-color: #fff;
+    display: flex;
+    column-gap: 9px;
+    border: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-novidades-blog-leia-mais svg path {
+    stroke: #FF7C1E;
+}
+
+.btn-novidades-do-blog {
+    max-width: 361px;
+    width: 100%;
+}
+
+.btn-novidades-do-blog a {
+    color: #fff;
+    display: flex;
+    column-gap: 17px;
+    align-items: center;
+}
+
+.btns-swipers-novidades-do-blog {
+    column-gap: 23px;
+}
+
+.btns-swipers-customs-novidades-blog {
+    width: 55px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-swipers-customs-novidades-blog svg path {
+    stroke: black;
+}
+
 /* SECTION - FALE CONOSCO */
 
 .container-section-fale-conosco {
@@ -704,7 +841,7 @@ align-items: center; */
     height: 57px;
 }
 
-.btn-fale-conosco { 
+.btn-fale-conosco {
     max-width: 310px;
     width: 100%;
 }
@@ -790,6 +927,7 @@ footer {
 .arrow-icon {
     transition: .5s ease-in-out all;
 }
+
 .arrow-icon.rotated {
     transform: rotate(-180deg);
 }
@@ -807,7 +945,7 @@ footer {
     margin: 0;
 }
 
-.ul-accordion-footer.active{
+.ul-accordion-footer.active {
     height: 170px;
     overflow: auto;
     opacity: 1;
@@ -845,7 +983,8 @@ footer {
     padding: 25px 30px 20px 30px;
 }
 
-.direitos-reservados, .cookies {
+.direitos-reservados,
+.cookies {
     color: #fff;
     font-size: 15px;
     line-height: 31px;

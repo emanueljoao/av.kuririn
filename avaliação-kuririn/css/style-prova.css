@@ -267,6 +267,38 @@ body.active-overflow {
 
 /*############################### MAIN ######################################*/
 
+/* SECTION - SOCIAL MEDIA */
+
+.section-social-media {
+    height: 182px;
+    width: 49px;
+    background-color: rgba(255, 255, 255, 0.90);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-section-social-media svg path {
+    stroke: #353597;
+}
+
+.conteudo-section-social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-section-social-media hr {
+    color: #353597;
+    width: 29px;
+    height: 0.7px;
+}
+
 /* SECTION - SOLUÇÃO DE MOBILIDADE */
 
 .swiper-card {
@@ -294,7 +326,7 @@ body.active-overflow {
     top: 235px;
 }
 
-h1 {
+.title-banner h1 {
     font-size: 64px;
     line-height: 72px;
     font-weight: lighter;
@@ -551,7 +583,7 @@ h1 {
 /* SECTION - SEGMETNOS E SETORES */
 
 .section-segmentos-setores {
-    padding: 225px 0 109px 0;
+    padding: 134px 0 109px 0;
 }
 
 .conteudo-section-segmentos-setores {
@@ -589,11 +621,13 @@ h1 {
 
 .btn-swiper-segmentos-setores {
     width: 100%;
-    top: 60%;
+    top: calc(130px + 200px);
     align-self: center;
+    padding: 0 30px;
 }
 
-.conteudo-section-segmentos-setores .swiper-button-next-custom, .conteudo-section-segmentos-setores .swiper-button-prev-custom {
+.conteudo-section-segmentos-setores .swiper-button-next-custom,
+.conteudo-section-segmentos-setores .swiper-button-prev-custom {
     width: 55px;
     height: 55px;
     border: 2px solid black;
@@ -603,7 +637,7 @@ h1 {
     align-items: center;
 }
 
-.conteudo-section-segmentos-setores .swiper-button-next-custom svg path{
+.conteudo-section-segmentos-setores .swiper-button-next-custom svg path {
     stroke: #000;
 }
 
@@ -712,17 +746,17 @@ h1 {
 }
 
 .card-bg-pessoa {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.26), transparent), url(../imagens/img-novidades-blog-pessoa.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.26), transparent), url(../imagens/img-novidades-blog-pessoa.png);
     background-repeat: no-repeat;
 }
 
 .card-bg-estacao {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.26), transparent), url(../imagens/img-novidades-blog-estacao.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.26), transparent), url(../imagens/img-novidades-blog-estacao.png);
     background-repeat: no-repeat;
 }
 
 .card-bg-trilhos {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.26), transparent), url(../imagens/img-novidades-trilhos.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.26), transparent), url(../imagens/img-novidades-trilhos.png);
     background-repeat: no-repeat;
 }
 
@@ -747,6 +781,10 @@ h1 {
     color: #756E6E;
     letter-spacing: 0.016px;
     font-weight: 500;
+}
+
+.btns-swiper-novidades-blog {
+    row-gap: 34px;
 }
 
 .btns-novidades-blog-leia-mais {
@@ -1012,4 +1050,171 @@ footer {
 #up-page-md-break {
     margin-top: calc(19px - 77px);
     margin-bottom: 18px;
+}
+
+/*********************************************** FALE CONOSCO - PAGE ********************************************/
+
+/* SECTION - TITLE IMAGE */
+
+.section-title-image {
+    background-image: linear-gradient(to right, #4848c5, transparent), url(../imagens/title-img-fale-conosco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 95px;
+    height: calc(570px + 95px);
+    background-position: center;
+}
+
+.conteudo-section-title-image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-indent: 125px;
+    align-items: center;
+}
+
+.conteudo-section-title-image h1 {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* SECTION - TEXT SOMOS REFERÊNCIA */
+
+
+.conteudo-section-text-somos-referencia {
+    padding-top: 60px;
+    padding-bottom: 38px;
+}
+
+.conteudo-section-text-somos-referencia p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+    max-width: 924px;
+}
+
+/* SECTION - FORMULÁRIO FALE CONOSCO */
+
+.conteudo-section-form-fale-conosco {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.titulo-dos-inputs {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #161616;
+}
+
+.inputs-fale-conosco {
+    column-gap: 30px;
+}
+
+.inputs-fale-conosco label {
+    margin: 15px 0 3px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #161616;
+}
+
+.inputs-fale-conosco input {
+    height: 57px;
+    max-width: 543px;
+    width: 100%;
+    border: 2px solid #756E6E;
+    border-radius: 3px;
+}
+
+.inputs-fale-conosco textarea {
+    height: 251px;
+    max-width: 543px;
+    width: 100%;
+    border: 2px solid #756E6E;
+    border-radius: 3px
+}
+
+.checkbox-btn-enviar {
+    margin-top: 23px;
+    row-gap: 15px;
+}
+
+.div-checkbox {
+    column-gap: 10px;
+}
+
+.checkbox-btn-enviar input[type="checkbox"] {
+    width: 26px;
+    height: 26px;
+    border-radius: 0;
+}
+
+.checkbox-btn-enviar input[type="checkbox"]::before {
+    background-color: #353597;
+}
+
+.checkbox-btn-enviar label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #756E6E;
+}
+
+.checkbox-btn-enviar label a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #756E6E;
+}
+
+.btn-envia-fale-conosco {
+    max-width: 213px;
+    width: 100%;
+}
+
+.div-btn-enviar-text {
+    column-gap: 21px;
+}
+
+.text-btn-enviar-fale-conosco {
+    max-width: 689px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #756E6E;
+}
+
+.section-mapa {
+    padding: 0;
+}
+
+/* SECTION - PERGUNTAS FREQUENTES */
+
+.section-perguntas-frequentes {
+    padding: 210px 0;
+}
+
+.title-perguntas-frequentes h2 {
+    color: #353597;
+    font-size: 48px;
+    line-height: 44px;
+    font-weight: 200;
+}
+
+.title-perguntas-frequentes h2 strong {
+    font-weight: 800;
+}
+
+.title-perguntas-frequentes p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
 }

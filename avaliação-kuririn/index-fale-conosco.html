@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style-prova.css">
+    <link rel="stylesheet" href="css/style-media-query.css">
+    <script type="module" src="javascripts/comp-header.js"></script>
+    <script defer src="javascripts/scipt-menu.js"></script>
+    <script defer src="javascripts/script-busca.js"></script>
+    <script type="module" src="javascripts/comp-footer.js"></script>
+    <script defer src="javascripts/accordion.js"></script>
+    <script defer src="javascripts/comp-fale-conosco.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Fale Conosco</title>
+</head>
+<body>
+
+    <!--################# HEADER ###################-->
+
+    <main-header></main-header>
+
+    <!--################### MAIN ####################-->
+
+    <main>
+
+        <!-- SECTION - TITLE IMAGE -->
+
+        <section class="title-image">
+            <div class="section-title-image container-fluid">
+                <div class="conteudo-section-title-image container-xl">
+
+                    <h1>FALE CONOSCO</h1>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION - TEXT SOMOS REFERÊNCIA -->
+
+        <section class="text-somos-referencia">
+            <div class="section-text-somos-referencia container-fluid">
+                <div class="conteudo-section-text-somos-referencia container-xl">
+                    <p>Somos referência em logística de ativos ferroviários, locação de vagões, locomotivas e terminais de cargas. Para saber tudo que podemos fazer pelo seu negócio, entre em contato com um de nossos especialistas!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION - FORMULÁRIO FALE CONOSCO -->
+
+        <section class="form-fale-conosco">
+            <div class="section-form-fale-conosco container-fluid">
+                <div class="conteudo-section-form-fale-conosco container-xl d-flex flex-column">
+
+                    <p class="titulo-dos-inputs align-self-lg-start align-self-center">Dúvidas de como a TREMZÃO pode te ajudar? Entre em contato!</p>
+                    
+                    <div class="inputs-fale-conosco d-flex flex-md-row flex-column align-items-center">
+
+                        <div class="four-inputs col">
+                            <label for="nome">Nome Completo*</label><br>
+                            <input type="text" name="nome" id="id-nome"><br>
+
+                            <label for="telefone">Telefone*</label><br>
+                            <input type="tel" name="telefone" id="id-telefone"><br>
+
+                            <label for="email">E-mail*</label><br>
+                            <input type="email" name="email" id="id-email"><br>
+
+                            <label for="empresa">Empresa*</label><br>
+                            <input type="text" name="empresa" id="id-empresa"><br>
+                        </div>
+
+                        <div class="input-textarea col">
+                            <label for="cargo">Cargo*</label><br>
+                            <input type="text" name="cargo" id="id-cargo"><br>
+
+                            <label for="mensagem-comentario">Mensagem*</label><br>
+                            <textarea name="mensagem-comentario" id="id-mensagem-comentario"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="checkbox-btn-enviar d-flex flex-column">
+                        <div class="div-checkbox d-flex align-items-center">
+                            <input type="checkbox" name="concordo-politicas" id="id-concordo-politicas">
+                            <label for="concordo-politicas">Li e concordo com a <a href="#">Política de Privacidade</a>. concedento  concedendo o uso dos meus dados.</label>
+                        </div>
+                        <div class="div-btn-enviar-text d-flex flex-sm-row flex-column">
+                            <button class="oranges-btns btn-envia-fale-conosco d-flex">
+                                <svg class="d-sm-block d-none" width="65" height="18" viewBox="0 0 65 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M63 9H1" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                                    <path d="M56 1L64 9L56 17" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                                </svg>
+                                Enviar
+                            </button>
+                            <p class="text-btn-enviar-fale-conosco">Assim que recebida, sua mensagem será encaminhada à equipe responsável e respondida o mais breve possível. *Campos obrigatórios</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION - PERGUNTAS FREQUENTES -->
+
+        <section class="perguntas-frequentes">
+            <div class="section-perguntas-frequentes container-fluid">
+                <div class="conteudo-section-perguntas-frequentes container-xl">
+
+                    <div class="title-perguntas-frequentes row">
+                        <h2>PERGUNTAS <strong>FREQUENTES</strong></h2>
+                        <p>Tire suas dúvidas com algumas perguntas feitas frequentemente pelos clientes.</p>
+                    </div>
+
+                    <div class="accordion-perguntas-frequentes">
+
+                        <div class="item-accordion-fale-conosco">
+                            <div>
+                                <div class="elipse-icon-accordion">
+                                    <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.90918 1.09094L5.27282 5.45458L9.63645 1.09094" stroke="white" stroke-opacity="0.4" stroke-linecap="square"/>
+                                    </svg>
+                                </div>
+                                Quais os tipos de vagões que a TREMZÃO trabalha? 
+                                <div class="text-accordion-fale-conosco">
+                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-accordion-fale-conosco">
+                            <div>
+                                <div></div> Quais os tipos de vagões que a TREMZÃO trabalha? 
+                                <div class="text-accordion-fale-conosco">
+                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-accordion-fale-conosco">
+                            <div>
+                                <div></div> Quais os tipos de vagões que a TREMZÃO trabalha? 
+                                <div class="text-accordion-fale-conosco">
+                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-accordion-fale-conosco">
+                            <div>
+                                <div></div> Quais os tipos de vagões que a TREMZÃO trabalha? 
+                                <div class="text-accordion-fale-conosco">
+                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION - MAPA -->
+
+        <section class="mapa">
+            <div class="section-mapa container-xl">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.6290761080027!2d-51.40838732507362!3d-22.14011381092081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f45ab3079f31%3A0xb8f68139a7e43d96!2sOxigenweb%20-%20Ag%C3%AAncia%20Digital!5e0!3m2!1spt-BR!2sbr!4v1727720740227!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!--################# FOOTER ####################-->
+
+    <main-footer></main-footer>
+    
+</body>
+</html>

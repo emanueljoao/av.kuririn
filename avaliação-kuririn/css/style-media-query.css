@@ -30,6 +30,12 @@
         padding-left: 0;
     }
 
+    /* SECTION - SEGMENTOS E SETORES */
+
+    .section-segmentos-setores {
+        padding: 120px 0 41px 0;
+    }
+
     /* SECTION - NOVIDADES DO BLOG */
 
     .conteudo-section-novidades-do-blog {
@@ -107,6 +113,16 @@
         height: 100%;
         left: 30px;
     }
+    
+    /* SECTION - SEGMENTOS E SETORES */
+
+    .section-segmentos-setores {
+        padding: 134px 0 59px 0;
+    }
+
+    .btn-swiper-segmentos-setores {
+        top: calc(178px + 175px);
+    }
 
     /* SECTION - ESTAÇÃO DE TREM */
 
@@ -145,6 +161,20 @@
 
     .direitos-reservados {
         margin-bottom: 7px;
+    }
+
+    /******************************* FALE CONOSCO - PAGE *************************/
+
+    .inputs-fale-conosco div {
+        width: 100%;
+    }
+
+    .inputs-fale-conosco input {
+        max-width: 100%;
+    }
+    
+    .inputs-fale-conosco textarea {
+        max-width: 100%;
     }
 
 }
@@ -245,48 +275,23 @@
         margin-top: 17px;
     }
 
+    /* SECTION - SEGMENTOS E SETORES */
+
+    .section-segmentos-setores {
+        padding: 134px 0 59px 0;
+    }
+
+    .btn-swiper-segmentos-setores {
+        top: calc(178px + 175px);
+        padding: 0 10px;
+    }
+
     /* SECTION - ESTAÇÃO DE TREM */
 
     .text-btn-estacao-trem {
         padding-right: 40px;
         padding-bottom: 82px;
     }
-
-    /* .section-estacao-trem {
-        padding: 0;
-        height: 587px;
-    }
-
-    .bg-imagem-estaco-trem {
-        background-image: none;
-        background-color: #4848c5;
-    }
-
-    .conteudo-section-estacao-trem {
-        box-sizing: border-box;
-        padding: 17px;
-        height: fit-content;
-        align-items: center;
-        row-gap: 19px;
-    }
-
-    .text-btn-estacao-trem {
-        width: 100%;
-        column-gap: 19px;
-        align-items: center !important;
-        padding-bottom: 20px;
-    }
-
-    .text-btn-estacao-trem p {
-        font-size: 16px;
-        text-align: start;
-        line-height: 26px;
-        max-width: 100%;
-    }
-
-    .btn-estacao-trem {
-        max-width: 100%;
-    } */
 
     /* SECTION - NOVIDADES DO BLOG */
 
@@ -341,6 +346,20 @@
 
     .div-redes-sociais-footer {
         margin-left: 0;
+    }
+
+    /******************************* FALE CONOSCO - PAGE *************************/
+
+    .inputs-fale-conosco div {
+        width: 100%;
+    }
+
+    .inputs-fale-conosco input {
+        max-width: 100%;
+    }
+    
+    .inputs-fale-conosco textarea {
+        max-width: 100%;
     }
 
 }
@@ -412,7 +431,7 @@
 
     .section-quem-somos {
         padding: 0px;
-        height: 587px;
+        height: fit-content;
     }
 
     .bg-image-quem-somos {
@@ -447,8 +466,8 @@
     /* SECTION - SEGMENTOS E SETORES */
 
     .section-segmentos-setores {
-        padding: 225px 0 139px 0;
-    }
+        padding: 73px 0 60px 0;
+    }    
 
     .conteudo-section-segmentos-setores {
         row-gap: 20px;
@@ -555,5 +574,65 @@
 
     .div-redes-sociais-footer {
         margin-left: 0;
+    }
+
+    /******************************* FALE CONOSCO - PAGE *************************/
+
+    .conteudo-section-title-image {
+        text-indent: 0;
+        justify-content: center;
+    }
+
+    .conteudo-section-title-image h1 {
+        font-size: 34px;
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .conteudo-section-text-somos-referencia p {
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .titulo-dos-inputs {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .inputs-fale-conosco div {
+        width: 100%;
+    }
+
+    .inputs-fale-conosco input {
+        max-width: 100%;
+    }
+    
+    .inputs-fale-conosco textarea {
+        max-width: 100%;
+    }
+
+    .checkbox-btn-enviar label {
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    .checkbox-btn-enviar label a {
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .div-btn-enviar-text {
+        row-gap: 12px;
+    }
+
+    .div-btn-enviar-text .btn-envia-fale-conosco {
+        max-width: 100%;
+    }
+
+    .text-btn-enviar-fale-conosco {
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
     }
 }

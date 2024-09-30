@@ -100,6 +100,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .conteudo-menu {
+    z-index: 10000000000;
     display: flex;
     background-color: #f2f2f2;
     height: calc(100% - 95px);
@@ -116,7 +117,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .conteudo-menu.active {
-    z-index: 3;
     width: 100%;
     overflow: auto;
     opacity: 1;
@@ -593,7 +593,7 @@ h1 {
     align-self: center;
 }
 
-.swiper-button-next-custom, .swiper-button-prev-custom {
+.conteudo-section-segmentos-setores .swiper-button-next-custom, .conteudo-section-segmentos-setores .swiper-button-prev-custom {
     width: 55px;
     height: 55px;
     border: 2px solid black;
@@ -603,11 +603,11 @@ h1 {
     align-items: center;
 }
 
-.swiper-button-next-custom svg path{
+.conteudo-section-segmentos-setores .swiper-button-next-custom svg path{
     stroke: #000;
 }
 
-.swiper-button-prev-custom svg path {
+.conteudo-section-segmentos-setores .swiper-button-prev-custom svg path {
     stroke: #000;
 }
 

@@ -1,6 +1,7 @@
-function accordionFooter() {
-    // Seleciona o contêiner pai mais próximo
-    const accordionContainer = event.currentTarget.closest('.listas-footer');
+// ACCORDION FOOTER
+function accordionFooter(accordion) {
+    
+    const accordionContainer = accordion.currentTarget.closest('.listas-footer');
     
     const listAccordion = accordionContainer.querySelector(".ul-accordion-footer");
     
@@ -16,3 +17,4 @@ function accordionFooter() {
 document.querySelectorAll('.accordion-footer').forEach(accordion => {
     accordion.addEventListener('click', accordionFooter);
 });
+

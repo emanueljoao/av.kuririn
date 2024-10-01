@@ -1218,3 +1218,165 @@ footer {
     letter-spacing: 0.016px;
     color: #756E6E;
 }
+
+.accordion-perguntas-frequentes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.item-accordion-fale-conosco {
+    background: #F1F1F1;
+    border-radius: 10px;
+    padding: 44px 37px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+
+.btn-text-click-accordion {
+    display: flex;
+    column-gap: 17px;
+    width: 100%;
+    align-items: center;
+}
+
+.btn-text-click-accordion p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+    margin: 0;
+}
+
+.elipse-icon-accordion {
+    border-radius: 50%;
+    background-color: #FF7C1E;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.3);
+}
+
+.text-accordion-fale-conosco {
+    max-width: 923px;
+}
+
+.text-accordion-fale-conosco p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+    padding-left: calc(84px - 37px);
+    display: none;
+}
+
+.elipse-icon-accordion svg path {
+    stroke: white;
+    stroke-opacity: 1;
+}
+
+/* SECTION - REDES SOCIAIS FALE CONOSCO */
+
+.section-redes-sociais-fale-conosco {
+    padding: 90px 0;
+}
+
+.title-and-social-medias-fale-conosco {
+    margin-bottom: 37px;
+}
+
+.title-and-social-medias-fale-conosco h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    color: #353597;
+}
+
+.title-and-social-medias-fale-conosco strong {
+    font-weight: 800;
+}
+
+.title-redes-socias-fale-conosco {
+    display: flex;
+    column-gap: 76px;
+}
+
+.conteudo-section-redes-sociais-fale-conosco .swiper-slide {
+    max-width: 283.89px;
+    max-height: 283.89px;
+}
+
+.btn-swiper-redes-sociais-fale-conosco {
+    margin-top: 43.11px;
+    column-gap: 23px;
+}
+
+.btn-swiper-redes-sociais-fale-conosco .swiper-button-next-custom,
+.btn-swiper-redes-sociais-fale-conosco .swiper-button-prev-custom {
+    width: 55px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-swiper-redes-sociais-fale-conosco .swiper-button-next-custom svg path {
+    stroke: #000;
+}
+
+.btn-swiper-redes-sociais-fale-conosco .swiper-button-prev-custom svg path {
+    stroke: #000;
+}
+
+/* SECTION - CONTATO E LOCALIZAÇÃO */
+
+.section-contato-localizacao {
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+    margin: 91px 0 84px 0;
+}
+
+.item-contato-location {
+    max-width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.div-contato-local-icons {
+    max-height: 95px;
+    max-width: 95px;
+    width: 100%;
+    height: 100%;
+    background-color: #353597;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.endereco {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.016px;
+    color: #353597;
+    margin: 0;
+    text-align: center;
+}
+
+.cep {
+    font-size: 18px;
+    letter-spacing: 0.016px;
+    font-weight: 300;
+    color: #353597;
+    margin: 0;
+    text-align: center;
+}

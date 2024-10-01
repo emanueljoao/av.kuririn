@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style-prova.css">
     <link rel="stylesheet" href="css/style-media-query.css">
+    <!-- complemento header -->
     <script type="module" src="javascripts/comp-header.js"></script>
+    <!-- js de menu -->
     <script defer src="javascripts/scipt-menu.js"></script>
+    <!-- js de busca -->
     <script defer src="javascripts/script-busca.js"></script>
+    <!-- complemento da section redes sociais que fca na lateral -->
+    <script type="module" src="javascripts/comp-sociais-medias.js"></script>
+    <!-- accordion da página fale conosco -->
+    <script src="javascripts/accordion-fale-conosco.js"></script>
+    <!-- complemento do footer -->
     <script type="module" src="javascripts/comp-footer.js"></script>
+    <!-- accordion do footer -->
     <script defer src="javascripts/accordion.js"></script>
-    <script defer src="javascripts/comp-fale-conosco.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Fale Conosco</title>
 </head>
+
 <body>
 
     <!--################# HEADER ###################-->
@@ -29,6 +39,10 @@
     <!--################### MAIN ####################-->
 
     <main>
+
+        <!-- SECTION - REDES SOCIAIS -->
+
+        <section-social-media></section-social-media>
 
         <!-- SECTION - TITLE IMAGE -->
 
@@ -47,7 +61,9 @@
         <section class="text-somos-referencia">
             <div class="section-text-somos-referencia container-fluid">
                 <div class="conteudo-section-text-somos-referencia container-xl">
-                    <p>Somos referência em logística de ativos ferroviários, locação de vagões, locomotivas e terminais de cargas. Para saber tudo que podemos fazer pelo seu negócio, entre em contato com um de nossos especialistas!
+                    <p>Somos referência em logística de ativos ferroviários, locação de vagões, locomotivas e terminais
+                        de cargas. Para saber tudo que podemos fazer pelo seu negócio, entre em contato com um de nossos
+                        especialistas!
                     </p>
                 </div>
             </div>
@@ -59,8 +75,9 @@
             <div class="section-form-fale-conosco container-fluid">
                 <div class="conteudo-section-form-fale-conosco container-xl d-flex flex-column">
 
-                    <p class="titulo-dos-inputs align-self-lg-start align-self-center">Dúvidas de como a TREMZÃO pode te ajudar? Entre em contato!</p>
-                    
+                    <p class="titulo-dos-inputs align-self-lg-start align-self-center">Dúvidas de como a TREMZÃO pode te
+                        ajudar? Entre em contato!</p>
+
                     <div class="inputs-fale-conosco d-flex flex-md-row flex-column align-items-center">
 
                         <div class="four-inputs col">
@@ -90,17 +107,21 @@
                     <div class="checkbox-btn-enviar d-flex flex-column">
                         <div class="div-checkbox d-flex align-items-center">
                             <input type="checkbox" name="concordo-politicas" id="id-concordo-politicas">
-                            <label for="concordo-politicas">Li e concordo com a <a href="#">Política de Privacidade</a>. concedento  concedendo o uso dos meus dados.</label>
+                            <label for="concordo-politicas">Li e concordo com a <a href="#">Política de Privacidade</a>.
+                                concedento concedendo o uso dos meus dados.</label>
                         </div>
                         <div class="div-btn-enviar-text d-flex flex-sm-row flex-column">
                             <button class="oranges-btns btn-envia-fale-conosco d-flex">
-                                <svg class="d-sm-block d-none" width="65" height="18" viewBox="0 0 65 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M63 9H1" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
-                                    <path d="M56 1L64 9L56 17" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
+                                <svg class="d-sm-block d-none" width="65" height="18" viewBox="0 0 65 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M63 9H1" stroke="white" stroke-linecap="square" stroke-linejoin="round" />
+                                    <path d="M56 1L64 9L56 17" stroke="white" stroke-linecap="square"
+                                        stroke-linejoin="round" />
                                 </svg>
                                 Enviar
                             </button>
-                            <p class="text-btn-enviar-fale-conosco">Assim que recebida, sua mensagem será encaminhada à equipe responsável e respondida o mais breve possível. *Campos obrigatórios</p>
+                            <p class="text-btn-enviar-fale-conosco">Assim que recebida, sua mensagem será encaminhada à
+                                equipe responsável e respondida o mais breve possível. *Campos obrigatórios</p>
                         </div>
                     </div>
 
@@ -122,58 +143,241 @@
                     <div class="accordion-perguntas-frequentes">
 
                         <div class="item-accordion-fale-conosco">
-                            <div>
+                            <div class="btn-text-click-accordion">
                                 <div class="elipse-icon-accordion">
-                                    <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M0.90918 1.09094L5.27282 5.45458L9.63645 1.09094" stroke="white" stroke-opacity="0.4" stroke-linecap="square"/>
+                                    <svg class="arrow-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.90918 1.09094L5.27282 5.45458L9.63645 1.09094" stroke="white"
+                                            stroke-opacity="0.4" stroke-linecap="square" />
                                     </svg>
                                 </div>
-                                Quais os tipos de vagões que a TREMZÃO trabalha? 
-                                <div class="text-accordion-fale-conosco">
-                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
-                                </div>
+                                <p>Quais os tipos de vagões que a TREMZÃO trabalha?</p>
+                            </div>
+
+                            <div class="text-accordion-fale-conosco">
+                                <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente,
+                                    para mobilidade logística em diversos setores e segmentos.</p>
                             </div>
                         </div>
 
                         <div class="item-accordion-fale-conosco">
-                            <div>
-                                <div></div> Quais os tipos de vagões que a TREMZÃO trabalha? 
-                                <div class="text-accordion-fale-conosco">
-                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
+                            <div class="btn-text-click-accordion">
+                                <div class="elipse-icon-accordion">
+                                    <svg class="arrow-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.90918 1.09094L5.27282 5.45458L9.63645 1.09094" stroke="white"
+                                            stroke-opacity="0.4" stroke-linecap="square" />
+                                    </svg>
                                 </div>
+                                <p>A TREMZÃO faz manutenção dos vagões e locomotivas?
+                                </p>
+                            </div>
+
+                            <div class="text-accordion-fale-conosco">
+                                <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente,
+                                    para mobilidade logística em diversos setores e segmentos.</p>
                             </div>
                         </div>
 
                         <div class="item-accordion-fale-conosco">
-                            <div>
-                                <div></div> Quais os tipos de vagões que a TREMZÃO trabalha? 
-                                <div class="text-accordion-fale-conosco">
-                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
+                            <div class="btn-text-click-accordion">
+                                <div class="elipse-icon-accordion">
+                                    <svg class="arrow-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.90918 1.09094L5.27282 5.45458L9.63645 1.09094" stroke="white"
+                                            stroke-opacity="0.4" stroke-linecap="square" />
+                                    </svg>
                                 </div>
+                                <p>Qual a vida útil dos vagões e locomotivas?</p>
+                            </div>
+
+                            <div class="text-accordion-fale-conosco">
+                                <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente,
+                                    para mobilidade logística em diversos setores e segmentos.</p>
                             </div>
                         </div>
 
                         <div class="item-accordion-fale-conosco">
-                            <div>
-                                <div></div> Quais os tipos de vagões que a TREMZÃO trabalha? 
-                                <div class="text-accordion-fale-conosco">
-                                    <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente, para mobilidade logística em diversos setores e segmentos.</p>
+                            <div class="btn-text-click-accordion">
+                                <div class="elipse-icon-accordion">
+                                    <svg class="arrow-icon" width="11" height="7" viewBox="0 0 11 7" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.90918 1.09094L5.27282 5.45458L9.63645 1.09094" stroke="white"
+                                            stroke-opacity="0.4" stroke-linecap="square" />
+                                    </svg>
                                 </div>
+                                <p>Quais informações são necessárias para ser calculado o preço do aluguel?</p>
+                            </div>
+
+                            <div class="text-accordion-fale-conosco">
+                                <p>Trabalhamos com todos os tipos de vagões para atender às necessidades do cliente,
+                                    para mobilidade logística em diversos setores e segmentos.</p>
                             </div>
                         </div>
-
-
                     </div>
 
                 </div>
             </div>
         </section>
 
+        <!-- SECTION - REDES SOCIAIS -->
+
+        <section class="redes-sociais-fale-conosco">
+            <div class="section-redes-sociais-fale-conosco container-fluid">
+                <div class="conteudo-section-redes-sociais-fale-conosco container-xl">
+
+                    <div class="title-and-social-medias-fale-conosco col-12 d-flex justify-content-between">
+                        <h2>REDES <strong>SOCIAIS</strong></h2>
+                        <div class="title-redes-socias-fale-conosco">
+                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.2085 1H7.34368C3.72464 1 0.789673 4.02694 0.789673 7.75938V15.8706C0.789673 19.6031 3.72464 22.63 7.34368 22.63H15.2085C18.8275 22.63 21.7625 19.6031 21.7625 15.8706V7.75938C21.7625 4.02694 18.8275 1 15.2085 1ZM19.7963 15.8706C19.7963 18.4798 17.7383 20.6022 15.2085 20.6022H7.34368C4.81383 20.6022 2.75588 18.4798 2.75588 15.8706V7.75938C2.75588 5.15026 4.81383 3.02782 7.34368 3.02782H15.2085C17.7383 3.02782 19.7963 5.15026 19.7963 7.75938V15.8706Z"
+                                    fill="#353597" />
+                                <path
+                                    d="M11.2767 6.4077C8.38108 6.4077 6.03352 8.82882 6.03352 11.8152C6.03352 14.8016 8.38108 17.2227 11.2767 17.2227C14.1724 17.2227 16.5199 14.8016 16.5199 11.8152C16.5199 8.82882 14.1724 6.4077 11.2767 6.4077ZM11.2767 15.1949C9.47028 15.1949 7.99972 13.6783 7.99972 11.8152C7.99972 9.95088 9.47028 8.43551 11.2767 8.43551C13.0832 8.43551 14.5537 9.95088 14.5537 11.8152C14.5537 13.6783 13.0832 15.1949 11.2767 15.1949Z"
+                                    fill="#353597" />
+                                <path
+                                    d="M17.0437 6.40818C17.3332 6.40818 17.568 6.16608 17.568 5.86742C17.568 5.56877 17.3332 5.32667 17.0437 5.32667C16.7541 5.32667 16.5193 5.56877 16.5193 5.86742C16.5193 6.16608 16.7541 6.40818 17.0437 6.40818Z"
+                                    fill="#353597" />
+                                <path
+                                    d="M15.2085 1H7.34368C3.72464 1 0.789673 4.02694 0.789673 7.75938V15.8706C0.789673 19.6031 3.72464 22.63 7.34368 22.63H15.2085C18.8275 22.63 21.7625 19.6031 21.7625 15.8706V7.75938C21.7625 4.02694 18.8275 1 15.2085 1ZM19.7963 15.8706C19.7963 18.4798 17.7383 20.6022 15.2085 20.6022H7.34368C4.81383 20.6022 2.75588 18.4798 2.75588 15.8706V7.75938C2.75588 5.15026 4.81383 3.02782 7.34368 3.02782H15.2085C17.7383 3.02782 19.7963 5.15026 19.7963 7.75938V15.8706Z"
+                                    stroke="#353597" stroke-width="0.5" />
+                                <path
+                                    d="M11.2767 6.4077C8.38108 6.4077 6.03352 8.82882 6.03352 11.8152C6.03352 14.8016 8.38108 17.2227 11.2767 17.2227C14.1724 17.2227 16.5199 14.8016 16.5199 11.8152C16.5199 8.82882 14.1724 6.4077 11.2767 6.4077ZM11.2767 15.1949C9.47028 15.1949 7.99972 13.6783 7.99972 11.8152C7.99972 9.95088 9.47028 8.43551 11.2767 8.43551C13.0832 8.43551 14.5537 9.95088 14.5537 11.8152C14.5537 13.6783 13.0832 15.1949 11.2767 15.1949Z"
+                                    stroke="#353597" stroke-width="0.5" />
+                                <path
+                                    d="M17.0437 6.40818C17.3332 6.40818 17.568 6.16608 17.568 5.86742C17.568 5.56877 17.3332 5.32667 17.0437 5.32667C16.7541 5.32667 16.5193 5.56877 16.5193 5.86742C16.5193 6.16608 16.7541 6.40818 17.0437 6.40818Z"
+                                    stroke="#353597" stroke-width="0.5" />
+                            </svg>
+
+                            <svg width="11" height="19" viewBox="0 0 11 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.7897 6.53125H7.03967V4.15625C7.03967 3.5009 7.59983 2.96875 8.28967 2.96875H9.53967V0H7.03967C4.96858 0 3.28967 1.59496 3.28967 3.5625V6.53125H0.789673V9.5H3.28967V19H7.03967V9.5H9.53967L10.7897 6.53125Z"
+                                    fill="#353597" />
+                            </svg>
+
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.7845 19.7904V19.7894H19.7896V12.5318C19.7896 8.98155 19.0254 6.24609 14.8742 6.24609C12.8788 6.24609 11.54 7.3412 10.9932 8.37911H10.9355V6.57746H6.99976V19.7894H11.0978V13.2476C11.0978 11.5253 11.4245 9.8597 13.5575 9.8597C15.6596 9.8597 15.6905 11.8252 15.6905 13.3584V19.7904H19.7845Z"
+                                    fill="#353597" />
+                                <path d="M4.42966 6.57715H0.326477V19.7891H4.42966V6.57715Z" fill="#353597" />
+                                <path
+                                    d="M2.37626 0C1.0647 0 0 1.0647 0 2.37626C0 3.68782 1.0647 4.77468 2.37626 4.77468C3.68781 4.77468 4.75252 3.68782 4.75252 2.37626C4.752 1.0647 3.6873 0 2.37626 0Z"
+                                    fill="#353597" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="swiper myswiperFaleConosco row">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img src="imagens/img-fale-conosco-trem-ensolarado.png"
+                                    alt="imagem de um trem, andando em meio de um clima ensolarado">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="imagens/img-fale-conosco-trem-montanha.png"
+                                    alt="imagem de um trem, saindo de um tunel no meio da montanha">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="imagens/img-fale-conosco-entrada-trem.png"
+                                    alt="imagem lateral de um trem na estação de metro">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="imagens/img-fale-conosco-escada.png"
+                                    alt="imagem de uma escada de uma estação de trem, com uma pessoa no meio dela">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="imagens/img-fale-conosco-cidade.png"
+                                    alt="imagem de uma paisagem de uma cidade">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="btn-swiper-redes-sociais-fale-conosco d-flex">
+
+                        <div class="swiper-button-prev-custom">
+                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 2L2 10L10 18" stroke="white" stroke-width="2" stroke-linecap="square" />
+                            </svg>
+                        </div>
+
+                        <div class="swiper-button-next-custom">
+                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 18L10 10L2 2" stroke="white" stroke-width="2" stroke-linecap="square" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION - CONTATO E LOCALIZAÇÃO -->
+
+        <section class="contato-localizacao">
+            <div class="section-contato-localizacao">
+                <div class="conteudo-section-contato-localizacao d-flex justify-content-around w-100">
+
+                    <div class="item-contato-location">
+                        <div class="div-contato-local-icons">
+                            <svg width="25" height="34" viewBox="0 0 25 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.9082 3.09015C16.1405 -1.03005 8.85925 -1.03005 4.09151 3.09015C-0.410151 6.98165 -1.31147 13.3897 1.95801 18.2678L12.4999 34L23.0417 18.2678C26.3112 13.3897 25.4108 6.98165 20.9082 3.09015ZM12.5489 15.7522C10.2171 15.7522 8.3271 13.9554 8.3271 11.7384C8.3271 9.52153 10.2171 7.72466 12.5489 7.72466C14.8808 7.72466 16.7708 9.52153 16.7708 11.7384C16.7708 13.9554 14.8808 15.7522 12.5489 15.7522Z" fill="white"/>
+                                </svg>                                
+                        </div>
+                        <address class="endereco">Av. Oxigenweb, 2024 | 1º Trem, O2web, São Paulo-SP</address>
+                        <address class="cep">CEP 00000-000</address>
+                    </div>
+
+                    <div class="item-contato-location">
+                        <div class="div-contato-local-icons">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.00190861 6.63294C-0.0345433 5.54654 0.451154 4.3728 1.45801 3.39925C2.32695 2.5582 3.17224 1.69457 4.03132 0.843703C4.17122 0.705326 4.31899 0.572838 4.47367 0.451145C5.26083 -0.164189 6.11992 -0.154375 6.8657 0.507085C7.34549 0.932028 7.79769 1.38838 8.25087 1.84178C9.48925 3.0803 10.7404 4.30704 11.9502 5.57304C12.7404 6.39937 12.7492 7.2738 11.969 8.10209C11.0567 9.07073 10.0951 9.9952 9.13557 10.9187C8.25186 11.7686 8.15334 12.2563 8.66071 13.3751C9.64491 15.545 11.0981 17.388 12.6911 19.1339C14.6043 21.2302 16.7284 23.0811 19.1756 24.5434C19.6938 24.8525 20.2327 25.1293 20.7726 25.4011C21.5213 25.779 22.1666 25.6759 22.7686 25.0841C23.6917 24.1763 24.605 23.2568 25.5251 22.3451C25.6828 22.189 25.8424 22.033 26.0177 21.8975C26.7773 21.3126 27.6561 21.3195 28.3388 21.9859C30.0245 23.6317 31.7003 25.2892 33.3485 26.9723C34.2026 27.8438 34.2174 28.7644 33.3899 29.6614C32.3623 30.7752 31.3042 31.8656 30.2077 32.9127C29.1358 33.9353 27.7901 34.1002 26.3704 33.954C24.0365 33.7135 21.8918 32.8872 19.8101 31.8695C15.6279 29.8262 11.9355 27.1117 8.76711 23.7151C5.51304 20.2262 2.79688 16.3792 1.10039 11.8854C0.497457 10.2896 0.014716 8.66639 0.00190861 6.63294Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <p class="endereco">(11) <strong>0000-0000</strong></p>
+                    </div>
+
+                    <div class="item-contato-location">
+                        <div class="div-contato-local-icons">
+                            <svg width="36" height="27" viewBox="0 0 36 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.075 13.7432L0.398479 2.06665C0.166244 2.54811 0.0351562 3.08784 0.0351562 3.65831V23.2057C0.0351562 23.9397 0.252017 24.6218 0.623432 25.1947L12.075 13.7432Z" fill="white"/>
+                                <path d="M14.5111 13.3175C14.9878 13.7933 15.5331 14.1478 16.1174 14.3848C16.7016 14.6219 17.3231 14.7409 17.9461 14.7409C18.5684 14.7409 19.1907 14.6219 19.7749 14.3848C20.3591 14.1478 20.9053 13.7941 21.3811 13.3175L34.1816 0.517877C33.6321 0.189349 32.9905 0 32.3051 0H3.69399C2.98029 0 2.31434 0.205532 1.75195 0.558336L14.5111 13.3175Z" fill="white"/>
+                                <path d="M22.4235 15.105C21.8474 15.5995 21.2089 15.9871 20.5349 16.2597C19.7055 16.5956 18.8259 16.7639 17.9463 16.7639C17.0667 16.7639 16.1863 16.5964 15.3577 16.2597C14.7063 15.996 14.0873 15.6253 13.5266 15.1544L2.1543 26.525C2.622 26.7427 3.14393 26.8649 3.69336 26.8649H32.3036C32.8539 26.8649 33.375 26.7427 33.8427 26.525L22.4235 15.105Z" fill="white"/>
+                                <path d="M35.5636 1.99628L23.8701 13.6898L35.3751 25.1947C35.7465 24.6218 35.9634 23.9397 35.9634 23.2058V3.65834C35.9634 3.05954 35.8185 2.49554 35.5636 1.99628Z" fill="white"/>
+                            </svg>                                
+                        </div>
+                        <a class="endereco" href="#">contato@tremzao.com.br</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
         <!-- SECTION - MAPA -->
 
         <section class="mapa">
             <div class="section-mapa container-xl">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.6290761080027!2d-51.40838732507362!3d-22.14011381092081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f45ab3079f31%3A0xb8f68139a7e43d96!2sOxigenweb%20-%20Ag%C3%AAncia%20Digital!5e0!3m2!1spt-BR!2sbr!4v1727720740227!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.6290761080027!2d-51.40838732507362!3d-22.14011381092081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9493f45ab3079f31%3A0xb8f68139a7e43d96!2sOxigenweb%20-%20Ag%C3%AAncia%20Digital!5e0!3m2!1spt-BR!2sbr!4v1727720740227!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 
@@ -182,6 +386,24 @@
     <!--################# FOOTER ####################-->
 
     <main-footer></main-footer>
-    
+
+
+    <!-- swipers -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // SWIPER - SECTION REDES SOCIAIS - FALE CONOSCO PAGE
+            var swiperFaleConoscoPage = new Swiper(".myswiperFaleConosco", {
+                slidesPerView: "auto",
+                spaceBetween: 1,
+                navigation: {
+                    nextEl: ".swiper-button-next-custom",
+                    prevEl: ".swiper-button-prev-custom",
+                }
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
+
 </html>

@@ -1380,3 +1380,19 @@ footer {
     margin: 0;
     text-align: center;
 }
+
+/***************************************** POLITICA E PRIVACIDADE PAGE ***************************************************/
+
+/* SECTION - TITLE IMAGE */
+
+.section-title-image-politica-privacidade {
+    background-image: url(../imagens/title-img-politica-de-privacidade.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 95px;
+}
+
+.conteudo-section-title-image-politica-privacidade {
+    
+}

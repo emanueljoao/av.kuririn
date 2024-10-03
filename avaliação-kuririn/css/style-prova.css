@@ -1554,7 +1554,6 @@ footer {
 .conjunto-tilte-resultados-busca {
     margin-top: 36px;
     margin-bottom: 42px;
-    padding-left: 125px;
 }
 
 .conjunto-tilte-resultados-busca h1 {
@@ -1669,12 +1668,319 @@ footer {
     border: 2px solid #756E6E;
     padding: 17px 19px;
     border-radius: 3px;
+    cursor: pointer;
+    max-width: 257px;
+    max-height: 57px;
+    height: 100%;
+    width: 257px;
 }
 
-.is-custom-select::before {
-    content: url(../icons-svgs/front-arrow-down.svg) #756E6E;
-    width: 16px;
-    height: 8px;
-    display: block;
-    di
+.svg-select {
+    right: 19px;
+    top: 45%;
+    z-index: -1;
+}
+
+.svg-select path {
+    stroke: #756E6E;
+    stroke-opacity: 1;
+}
+
+.is-select option slot {
+    cursor: pointer;
+}
+
+/* SECTION - OPÇÕES DE BUSCA */
+
+.section-filter-options {
+    padding-bottom: 123px;
+}
+
+.conteudo-section-filter-options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 147px;
+}
+
+.todos-itens-options {
+    display: flex;
+    flex-wrap: wrap;
+    columns: 3;
+    gap: 65px 30px;
+}
+
+.tema-search {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #353597;
+    margin-bottom: 32px;
+}
+
+.item-option {
+    max-width: 352px;
+    width: 100%;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.title-assunto {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+    margin-bottom: 1px;
+}
+
+.description-assunto {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+    margin-bottom: 9px;
+}
+
+.ver-assunto-resultados-busca {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.ver-assunto-resultados-busca svg path {
+    stroke: #FF7C1E;
+    stroke-opacity: 1;
+}
+
+.ver-assunto-resultados-busca p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #FF7C1E;
+    margin: 0;
+}
+
+/*********************************************** PAGE TRANSPORTES NO BRASIL ***************************************************/
+
+.section-transportes-brasil {
+    display: flex;
+    align-items: end;
+    padding: 0;
+    height: 570px;
+}
+
+.bg-title-img-transportes-brasil {
+    background-image: linear-gradient(to right, #4848C6, transparent), url(../imagens/title-img-transporte-no-brasil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    max-height: 475px;
+    height: 100%;
+    width: 100%;
+}
+
+.conjunto-tilte-transportes-brasil h1 {
+    max-width: 638px;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin: 84px 0 65px 0;
+}
+
+.conteudo-section-transportes-brasil {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.location-page-transportes-brasil {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+}
+
+.data-post-transportes-brasil {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+}
+
+/* MAIN TEXT TRANSPORTES BRASIL */
+
+.section-main-text-transportes-brasil-aside {
+    margin-top: 61px;
+}
+
+.main-text-transportes-brasil {
+    max-width: 829px;
+}
+
+.main-text-transportes-brasil h2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #161616;
+}
+
+.normal-text-transportes-brasil {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #756E6E;
+}
+
+.start-main-text {
+    margin-bottom: 61px;
+}
+
+.second-main-text {
+    margin-bottom: 83px;
+}
+
+/* REDES SOCIAIS TRANSPORTES DO BRASIL */
+
+.title-comentarios {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #353597;
+    margin: 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.all-social-media {
+    margin-top: 16px;
+    margin-bottom: 75px;
+    column-gap: 25px;
+}
+
+.elipse-social-media {
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball-pinterest {
+    background-color: #CB2027;
+}
+
+.ball-twitter {
+    background-color: #03A9F4;
+}
+
+.ball-facebook {
+    background-color: #1976D2;
+}
+
+.ball-linkedin {
+    background-color: #0077B5;
+}
+
+/* COMETÁRIOS */
+
+.section-deixe-comentario{
+    margin-bottom: 105px;
+}
+
+.title-deixe-comentario {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #353597;
+    margin: 0;
+}
+
+.text-inputs-comentarios {
+    margin-top: 15px;
+    column-gap: 31px;
+}
+
+.inputs-textarea-comentarios {
+    row-gap: 40px;
+}
+
+.inputs-comentarios-edit label,
+.textarea-transportes-brasil label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #161616;
+}
+
+.inputs-comentarios-edit {
+    max-width: 399px;
+    width: 100%;
+}
+
+.inputs-comentarios-edit input {
+    width: 100%;
+    border: 2px solid #756E6E;
+    border-radius: 3px;
+    height: 57px;
+}
+
+.textarea-transportes-brasil textarea {
+    max-width: 829px;
+    width: 100%;
+    border: 2px solid #756E6E;
+    border-radius: 3px;
+}
+
+.checkbox-btn-enviar .checkbox-todos label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #756E6E;
+}
+
+/* aside transportes brasil */
+
+.conteudo-aside-transportes-brasil {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #353597;
+    row-gap: 54px;
+    margin-left: 30px;
+}
+
+.assuntos-aside-transportes-brasil {
+    row-gap: 5px;
+}
+
+.item-assuntos-rows {
+    gap: 5px;
+}
+
+.item-assuntos-aside-transportes-brasil {
+    background-color: #FF7C1E;
+    border-radius: 100px;
+    padding: 1px 24px;
+    width: fit-content;
+}
+
+.item-assuntos-aside-transportes-brasil a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    text-decoration: none;
+}
+
+.outras-noticias {
+    row-gap: 21px;
 }

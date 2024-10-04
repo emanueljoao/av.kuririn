@@ -1817,6 +1817,7 @@ footer {
 
 .section-main-text-transportes-brasil-aside {
     margin-top: 61px;
+    margin-bottom: 100px;
 }
 
 .main-text-transportes-brasil {
@@ -1891,7 +1892,7 @@ footer {
 
 /* COMETÁRIOS */
 
-.section-deixe-comentario{
+.section-deixe-comentario {
     margin-bottom: 105px;
 }
 
@@ -1937,6 +1938,8 @@ footer {
     width: 100%;
     border: 2px solid #756E6E;
     border-radius: 3px;
+    max-height: 251px;
+    height: 100vh;
 }
 
 .checkbox-btn-enviar .checkbox-todos label {
@@ -1983,4 +1986,326 @@ footer {
 
 .outras-noticias {
     row-gap: 21px;
+}
+
+/* comentários adicionados */
+
+.local-de-adicao {
+    display: flex;
+    flex-direction: column;
+    row-gap: 31px;
+    margin-top: 31px;
+}
+
+.comentario-do-usuario {
+    align-items: center;
+    column-gap: 16px;
+}
+
+.nome-de-usuario {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    color: #756E6E;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.mensagem-do-usuario {
+    margin: 0;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #756E6E;
+}
+
+.carregar-mais-comentarios {
+    margin-top: 61px;
+    column-gap: 9px;
+    align-items: center;
+}
+
+.carregar-mais-comentarios svg path {
+    stroke: #FF7C1E;
+}
+
+.carregar-mais-comentarios p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #FF7C1E;
+    margin: 0;
+}
+
+/* SECTION - NOVIDADES POR EMAIL */
+
+.section-novidades-por-email {
+    margin-bottom: 111px;
+}
+
+.conteudo-section-novidades-por-email {
+    background-color: #353597;
+    height: 275px;
+    box-sizing: border-box;
+    padding: 75px 95px 79px 95px;
+}
+
+.conteudo-section-novidades-por-email h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+.conteudo-section-novidades-por-email h2 strong {
+    font-weight: 800;
+}
+
+.inputs-novidades-por-email {
+    column-gap: 30px;
+}
+
+.inputs-novidades-por-email input {
+    max-width: 383px;
+    width: 100%;
+    height: 57px;
+    border-radius: 3px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 18.24px;
+}
+
+.inputs-novidades-por-email input::placeholder {
+    color: #000;
+}
+
+.inputs-novidades-por-email button {
+    max-width: 290px;
+    width: 100%;
+    height: 57px;
+    border-radius: 3px;
+}
+
+.conteudo-section-leia-tambem h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    text-align: center;
+    color: #353597;
+}
+
+.conteudo-section-leia-tambem strong {
+    font-weight: 800;
+}
+
+/* SECTION - LEIA TAMBÉM */
+
+.conjunto-de-cards {
+    margin-top: 45px;
+    margin-bottom: 82px;
+    column-gap: 30px;
+}
+
+.conteudo-section-leia-tambem .card {
+    max-width: 352px;
+    border: none;
+    padding: 0;
+}
+
+.conteudo-section-leia-tambem .card-img-top {
+    max-height: 299px;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-card-leia-tambem {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.div-data-acima-img {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) -61.2%, rgba(0, 0, 0, 0) 44.45%);
+}
+
+.div-data-acima-img p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+    margin: 0 0 23px 20px;
+}
+
+.conteudo-section-leia-tambem .card-body {
+    padding: 24px 0;
+}
+
+.conteudo-section-leia-tambem .card-body {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+}
+
+.carregar-mais-comentarios {
+    margin-top: 21px;
+}
+
+/************************************************** BLOG PAGE *****************************************************************/
+
+.section-title-img-blog {
+    display: flex;
+    align-items: end;
+    padding: 0;
+    height: 570px;
+}
+
+.bg-image-blog {
+    background-image: linear-gradient(to right, #4848C6, transparent), url(../imagens/title-image-blog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    max-height: 475px;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo-section-title-img-blog {
+    height: 100%;
+}
+
+.conteudo-section-title-img-blog h1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-indent: 76px;
+}
+
+.lines-absolute-blog-page {
+    position: absolute;
+    height: 100vh;
+    border: 1px solid #000000;
+    margin: 0;
+}
+
+.lines-absolute-blog-page-left {
+    bottom: 0;
+    left: 58px;
+}
+
+.lines-absolute-blog-page-center {
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+}
+
+.lines-absolute-blog-page-right {
+    bottom: 0;
+    right: 58px;
+}
+
+/* SECTION - FILTER BUTTONS */
+
+.section-filter-buttons {
+    margin-top: 60px;
+    margin-bottom: 42px;
+}
+
+.conjunto-filter-btns {
+    gap: 15px;
+}
+
+.btns-filters {
+    background-color: #FF7C1E;
+    text-align: center;
+    width: fit-content;
+    height: 31px;
+    padding: 0 24px;
+    color: #fff;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btns-filters:hover {
+    background-color: #353597;
+    transition: 0.4s ease;
+}
+
+.btns-filters.active {
+    background-color: #353597;
+}
+
+/* SECTION - CARDS DO BLOG */
+
+.categoria-blog-option {
+    gap: 51px 30px;
+}
+
+.categoria-blog-option .card {
+    max-width: 352px;
+    border: none;
+    padding: 0;
+}
+
+.categoria-blog-option .card-img-top {
+    max-height: 299px;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-card-leia-tambem {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.div-data-acima-img {
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) -61.2%, rgba(0, 0, 0, 0) 44.45%);
+}
+
+.div-data-acima-img p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+    margin: 0 0 23px 20px;
+}
+
+.categoria-blog-option .card-body {
+    padding: 24px 0;
+}
+
+.categoria-blog-option .card-body {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+}
+
+.conteudo-section-cards-blog .oranges-btns {
+    max-width: 380px;
+    width: 100%;
+    filter: drop-shadow(0px 25px 40px rgba(0, 0, 0, 0.15));
+    column-gap: 17px;
+    align-self: center;
+    margin-bottom: 102px;
+    margin-top: 92px;
 }

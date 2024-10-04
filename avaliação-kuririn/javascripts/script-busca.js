@@ -1,7 +1,6 @@
 const sectionBusca = document.querySelector('.section-busca')
 const fecharBusca = document.querySelector('.fechar-busca')
 const iconBusca = document.querySelector('.icon-lupa-header')
-console.log(iconBusca)
 
 function buscarPesquisa() {
     sectionBusca.classList.add('active')

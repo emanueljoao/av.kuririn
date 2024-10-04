@@ -2049,6 +2049,8 @@ footer {
     height: 275px;
     box-sizing: border-box;
     padding: 75px 95px 79px 95px;
+    z-index: 2;
+    position: relative;
 }
 
 .conteudo-section-novidades-por-email h2 {
@@ -2057,6 +2059,7 @@ footer {
     line-height: 44px;
     color: #FFFFFF;
     margin-bottom: 19px;
+    z-index: 1;
 }
 
 .conteudo-section-novidades-por-email h2 strong {
@@ -2065,6 +2068,7 @@ footer {
 
 .inputs-novidades-por-email {
     column-gap: 30px;
+    z-index: 1;
 }
 
 .inputs-novidades-por-email input {
@@ -2191,25 +2195,28 @@ footer {
 
 .lines-absolute-blog-page {
     position: absolute;
-    height: 100vh;
-    border: 1px solid #000000;
+    height: 100%;
+    border: 1px solid #E6E6E6;
     margin: 0;
 }
 
 .lines-absolute-blog-page-left {
     bottom: 0;
     left: 58px;
+    z-index: 3;
 }
 
 .lines-absolute-blog-page-center {
     bottom: 0;
     left: 50%;
     right: 50%;
+    z-index: 0;
 }
 
 .lines-absolute-blog-page-right {
     bottom: 0;
     right: 58px;
+    z-index: 3;
 }
 
 /* SECTION - FILTER BUTTONS */

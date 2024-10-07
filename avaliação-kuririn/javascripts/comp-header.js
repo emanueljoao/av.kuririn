@@ -5,7 +5,7 @@ class header extends HTMLElement {
 
                 <!-- SECTION - NAV BAR -->
 
-                <section class="section-nav-bar position-fixed w-100 z-3">
+                <section class="section-nav-bar position-fixed w-100">
 
                     <div class="conteudo-section-nav-bar container-xl d-flex align-items-center justify-content-between">
 

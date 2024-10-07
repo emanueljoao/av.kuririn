@@ -113,7 +113,7 @@
         height: 100%;
         left: 30px;
     }
-    
+
     /* SECTION - SEGMENTOS E SETORES */
 
     .section-segmentos-setores {
@@ -172,11 +172,49 @@
     .inputs-fale-conosco input {
         max-width: 100%;
     }
-    
+
     .inputs-fale-conosco textarea {
         max-width: 100%;
     }
 
+    /***************************** PRODUTOS E SERVIÇOS - PAGE ********************/
+
+    /* SECTION - O QUE FAZEMOS */
+
+    .text-oque-fazemos-left,
+    .text-oque-fazemos-right {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    .text-oque-fazemos-left p,
+    .text-oque-fazemos-right p {
+        max-width: 100%;
+    }
+
+    .conteudo-section-poder-escolha h2 {
+        text-align: center;
+    }
+
+    .conteudo-section-poder-escolha ul {
+        padding-left: 0;
+    }
+
+    /* SECTION - O QUE FAZEMOS */
+
+    .text-oque-fazemos-left {
+        margin-top: 64px;
+        margin-bottom: 0;
+        margin-right: 0;
+        row-gap: 31px;
+    }
+    
+    .text-oque-fazemos-right {
+        margin-top: 44px;
+        margin-bottom: 82px;
+        margin-left: 0;
+        row-gap: 31px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.08px) {
@@ -311,6 +349,8 @@
     /* SECTION - FALE CONOSCO */
 
     .container-section-fale-conosco {
+        z-index: 4;
+        position: relative;
         padding: 65px 0px;
     }
 
@@ -357,9 +397,49 @@
     .inputs-fale-conosco input {
         max-width: 100%;
     }
-    
+
     .inputs-fale-conosco textarea {
         max-width: 100%;
+    }
+
+    /***************************** PRODUTOS E SERVIÇOS - PAGE ********************/
+
+    .conteudo-section-poder-escolha h2 {
+        text-align: center;
+    }
+
+    .conteudo-section-poder-escolha ul {
+        padding-left: 0;
+    }
+
+    /* SECTION - O QUE FAZEMOS */
+
+        /* SECTION - O QUE FAZEMOS */
+
+        .text-oque-fazemos-left,
+        .text-oque-fazemos-right {
+            max-width: 750px;
+            width: 100%;
+        }
+    
+        .text-oque-fazemos-left p,
+        .text-oque-fazemos-right p {
+            max-width: 100%;
+        }
+    
+
+    .text-oque-fazemos-left {
+        margin-top: 64px;
+        margin-bottom: 0;
+        margin-right: 0;
+        row-gap: 31px;
+    }
+    
+    .text-oque-fazemos-right {
+        margin-top: 44px;
+        margin-bottom: 82px;
+        margin-left: 0;
+        row-gap: 31px;
     }
 
 }
@@ -467,7 +547,7 @@
 
     .section-segmentos-setores {
         padding: 73px 0 60px 0;
-    }    
+    }
 
     .conteudo-section-segmentos-setores {
         row-gap: 20px;
@@ -537,6 +617,8 @@
     /* SECTION - FALE CONOSCO */
 
     .container-section-fale-conosco {
+        z-index: 4;
+        position: relative;
         padding: 65px 0px;
     }
 
@@ -607,7 +689,7 @@
     .inputs-fale-conosco input {
         max-width: 100%;
     }
-    
+
     .inputs-fale-conosco textarea {
         max-width: 100%;
     }
@@ -616,7 +698,7 @@
         font-weight: 400;
         font-size: 10px;
     }
-    
+
     .checkbox-btn-enviar label a {
         font-weight: 400;
         font-size: 10px;
@@ -634,5 +716,79 @@
         font-weight: 400;
         font-size: 10px;
         text-align: center;
+    }
+
+    /***************************** PRODUTOS E SERVIÇOS - PAGE ********************/
+
+    /* SECTION - TITLE IMAGE */
+
+    .conteudo-section-title-img-produtos-servicos h1 {
+        font-size: 40px;
+        line-height: 48px;
+        text-indent: 0;
+        text-align: center;
+    }
+
+    /* SECTION - O QUE FAZEMOS */
+
+    .text-oque-fazemos-left {
+        margin-top: 64px;
+        margin-bottom: 0;
+        margin-right: 0;
+        row-gap: 31px;
+    }
+    
+    .text-oque-fazemos-right {
+        margin-top: 31px;
+        margin-bottom: 82px;
+        margin-left: 0;
+        row-gap: 31px;
+    }
+
+    .text-oque-fazemos-left h2 {
+        font-size: 30px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+
+    .conteudo-section-oque-fazemos p {
+        font-weight: 400;
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    /* SECTION - PODER DE ESCOLHA */
+
+    .section-poder-escolha {
+        padding: 0;
+    }
+
+    .conteudo-section-poder-escolha {
+        padding: 78px 10px;
+    }
+
+
+    .conteudo-section-poder-escolha h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 28px;
+    }
+
+    .conteudo-section-poder-escolha ul {
+        padding-left: 0;
+    }
+
+    .conteudo-section-poder-escolha li {
+        font-size: 12px;
+        line-height: 24px;
+        white-space: normal;
+    }
+
+    .check-poder-escolha {
+        background-color: #4848C6;
+    }
+
+    .check-poder-escolha svg path {
+        stroke: #fff;
     }
 }

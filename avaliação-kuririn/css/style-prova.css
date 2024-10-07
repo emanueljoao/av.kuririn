@@ -26,6 +26,7 @@ body::-webkit-scrollbar-thumb {
 /*############################## HEADER #####################################*/
 
 .section-nav-bar {
+    z-index: 8;
     background-color: #fff;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.10);
 }
@@ -172,6 +173,7 @@ body.active-overflow {
     opacity: 0;
     right: 0;
     top: 0;
+    z-index: 1000;
 }
 
 .section-busca.active {
@@ -845,6 +847,7 @@ body.active-overflow {
 }
 
 .conteudo-section-fale-conosco {
+    position: relative;
     row-gap: 22px;
 }
 
@@ -888,6 +891,8 @@ body.active-overflow {
 /*############################## FOOTER #####################################*/
 
 footer {
+    position: relative;
+    z-index: 3;
     background-color: #353597;
 }
 
@@ -2228,6 +2233,8 @@ footer {
 
 .conjunto-filter-btns {
     gap: 15px;
+    position: relative;
+    z-index: 3;
 }
 
 .btns-filters {
@@ -2259,6 +2266,8 @@ footer {
 
 .categoria-blog-option {
     gap: 51px 30px;
+    position: relative;
+    z-index: 3;
 }
 
 .categoria-blog-option .card {
@@ -2315,4 +2324,268 @@ footer {
     align-self: center;
     margin-bottom: 102px;
     margin-top: 92px;
+}
+
+/*********************************** PRODUTOS E SERVIÇOS PAGE *******************************************/
+
+.section-title-img-produtos-servicos {
+    display: flex;
+    align-items: end;
+    padding: 0;
+    height: 570px;
+}
+
+.bg-image-produtos-servicos {
+    background-image: linear-gradient(to right, #4848C6, transparent), url(../imagens/title-img-produtos-servicos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 475px;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo-section-title-img-produtos-servicos {
+    height: 100%;
+}
+
+.conteudo-section-title-img-produtos-servicos h1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-indent: 76px;
+    position: relative;
+    z-index: 1;
+}
+
+/* SECTION - O QUE FAZEMOS */
+
+.text-oque-fazemos-left,
+.text-oque-fazemos-right {
+    max-width: 543px;
+    position: relative;
+    z-index: 3;
+}
+
+.text-oque-fazemos-left {
+    margin-top: 64px;
+    margin-bottom: 67px;
+    margin-right: 15px;
+    row-gap: 31px;
+    max-height: 884px;
+}
+
+.text-oque-fazemos-right {
+    margin-top: 44px;
+    margin-bottom: 82px;
+    margin-left: 15px;
+    row-gap: 74px;
+    max-height: 889px;
+}
+
+.text-oque-fazemos-left h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    color: #353597;
+    margin-bottom: 42px;
+}
+
+.text-oque-fazemos-left strong {
+    font-weight: 800;
+}
+
+.text-oque-fazemos-left p,
+.text-oque-fazemos-right p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+    max-width: 537px;
+}
+
+/* SECTION - PODER DE ESCOLHA */
+
+.conteudo-section-poder-escolha {
+    position: relative;
+    z-index: 3;
+    background-color: #4848C6;
+    box-sizing: border-box;
+    padding: 78px 0;
+    max-width: 1309px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.conteudo-section-poder-escolha h2 {
+    max-width: 501px;
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.conteudo-section-poder-escolha strong {
+    font-weight: 800;
+}
+
+.conteudo-section-poder-escolha ul {
+    display: flex;
+    row-gap: 5px;
+    flex-direction: column;
+    padding-left: 76px;
+    white-space: nowrap;
+}
+
+.conteudo-section-poder-escolha li {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.check-poder-escolha {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SECTION - QUEBRA CABEÇA */
+
+.conteudo-section-quebra-cabeca {
+    max-height: 722px;
+    padding: 69px 66px 65px 66px;
+    max-width: 1116px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    columns: 2;
+    gap: 160px;
+    row-gap: 160px;
+    margin-top: 87px;
+    margin-bottom: 90px;
+}
+
+.quebra-cabeca-horizontal {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 1116px;
+}
+
+.quebra-cabeca-vertical {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1116px;
+}
+
+.title-quebra-cabeca {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #353597;
+    margin-bottom: 12px;
+}
+
+.text-normal-quebra-cabeca {
+    max-height: 188px;
+    max-width: 388px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #756E6E;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+.text-quebra-cabeca-margin {
+    padding-top: 156px;
+}
+
+/* SECTION - SERVIÇOS DIFERENCIADOS */
+
+.section-servicos-diferenciados {
+    height: 693px;
+    padding: 0 30px;
+}
+
+.bg-img-servicos-diferenciados {
+    background-image: linear-gradient(to left, #4848C6, rgba(72, 72, 197, 0.30), transparent), url(../imagens/img-servicos-diferenciados.png);
+    height: 100%;
+}
+
+.conjunto-conteudo-servicos-diferenciados {
+    max-width: 448px;
+    max-height: 369px;
+    color: #fff;
+    margin-right: 95px;
+    margin-bottom: 148px;
+}
+
+.conjunto-conteudo-servicos-diferenciados h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.conjunto-conteudo-servicos-diferenciados p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+}
+
+/* SECTION - NOSSA EXPERIÊNCIA */
+
+.section-nossa-experiencia {
+    margin-top: 118px;
+}
+
+.conteudo-section-nossa-experiencia h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    color: #353597;
+    margin-bottom: 42px;
+}
+
+.conteudo-section-nossa-experiencia strong {
+    font-weight: 800;
+}
+
+.text-nossa-experiencia {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+}
+
+.nesses-17-anos {
+    background-color: #353597;
+    width: 382px;
+    height: 382px;
+    border-radius: 50%;
+}
+
+.text-nesses-17-anos {
+    color: #fff;
+    line-height: 52px;
+    font-size: 48px;
 }

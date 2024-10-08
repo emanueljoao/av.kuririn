@@ -2555,6 +2555,7 @@ footer {
 
 .section-nossa-experiencia {
     margin-top: 118px;
+    padding-bottom: 82px;
 }
 
 .conteudo-section-nossa-experiencia h2 {
@@ -2577,15 +2578,256 @@ footer {
     color: #756E6E;
 }
 
+.conjunto-nesses-17-anos {
+    margin-top: 128px;
+}
+
 .nesses-17-anos {
     background-color: #353597;
     width: 382px;
     height: 382px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-nesses-17-anos {
     color: #fff;
     line-height: 52px;
+    font-size: 42px;
+    font-weight: 200;
+    text-align: center;
+    max-width: 285px;
+    max-height: 208px;
+    margin: 0;
+}
+
+.text-nesses-17-anos strong {
+    font-weight: 900;
+}
+
+.text-nesses-17-anos strong span {
+    background-color: #fff;
+    color: #353597;
+    padding: 0 12px;
+}
+
+.line-nossa-experiencia {
+    position: absolute;
+    border: 1px solid #E6E6E6;
+    max-width: 100vw;
+    margin: 0;
+    bottom: 0;
+}
+
+.elipse-small-17-anos {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: #4848C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens-17-anos p {
+    color: #4848C6;
+    margin: 0;
+}
+
+.itens-17-anos-left p {
+    margin-right: 10px;
+}
+
+.itens-17-anos-right p {
+    margin-left: 10px;
+}
+
+.item-margin-17 {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 17px;
+    width: 220px;
+}
+
+.item-margin-32-top {
+    top: 0;
+    right: -32px;
+    width: 220px;
+}
+
+.item-margin-32-bottom {
+    bottom: 0;
+    right: -32px;
+    width: 220px;
+}
+
+.item-margin-32-top-right {
+    top: 0;
+    left: -32px;
+    width: 292px;
+}
+
+.item-margin-17-right {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 17px;
+    width: 348px;
+}
+
+.item-margin-32-bottom-right {
+    bottom: 0;
+    left: -32px;
+    width: 369px;
+}
+
+/* SECTION - NOSSOS PRODUTOS */
+
+.title-nossos-produtos h2 {
     font-size: 48px;
+    line-height: 44px;
+    color: #353597;
+    font-weight: 200;
+    margin-left: 95px;
+    margin-bottom: 19px;
+}
+
+.title-nossos-produtos strong {
+    font-weight: 800;
+}
+
+.bg-img-nossos-produtos {
+    background-image: linear-gradient(to right, #4848C6, transparent), url(../imagens/img-trem-produtos-servicos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 634px;
+}
+
+.conteudo-section-nossos-produtos {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+}
+
+.conteudo-section-nossos-produtos h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.conteudo-section-nossos-produtos p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+}
+
+.conjunto-text-nossos-produtos {
+    max-width: 542px;
+    margin-bottom: 115px;
+    margin-left: 95px;
+}
+
+/* SECTION - TIPOS DE VAGÕES */
+
+.section-tipos-vagoes {
+    margin-top: 138px;
+}
+
+.conjunto-title-btns-swiper h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    color: #353597;
+    margin: 0;
+}
+
+.conjunto-title-btns-swiper strong {
+    font-weight: 800;
+}
+
+.btns-swipers-tipos-vagoes {
+    column-gap: 23px;
+    margin-bottom: 15px;
+}
+
+.conteudo-swiper-tipos-vagoes .swiper-slide {
+    max-width: 543px;
+}
+
+.conteudo-swiper-tipos-vagoes .card {
+    border: none;
+    border-radius: 0;
+}
+
+.conteudo-swiper-tipos-vagoes .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.conteudo-swiper-tipos-vagoes .card-title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.016px;
+    color: #161616;
+}
+
+.conteudo-swiper-tipos-vagoes .card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+}
+
+.div-lupa-aumentativa {
+    width: 30%;
+    height: 50%;
+    bottom: 0;
+    background: linear-gradient(68.4deg, #353597 -9.63%, rgba(53, 53, 151, 0) 25.46%, transparent);
+}
+
+.container-lupa-aumentativa {
+    margin: 0 0 18px 18px;
+}
+
+/* SECTION - TERMINAL DE CARGAS */
+
+.bg-imagem-terminal-de-cargas {
+    background-image: linear-gradient(to right, #4848C6, transparent), url(../imagens/img-terminal-de-cargas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 633px;
+}
+
+.conteudo-section-terminal-de-cargas {
+    height: 100%;
+}
+
+.conteudo-section-terminal-de-cargas h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 44px;
+    color: #FFFFFF;
+    max-width: 573px;
+}
+
+.conteudo-section-terminal-de-cargas p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+    max-width: 512px;
+}
+
+.conjunto-terminal-de-cargas {
+    margin-left: 95px;
+    margin-bottom: 115px;
 }

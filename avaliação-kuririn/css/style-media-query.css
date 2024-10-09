@@ -241,13 +241,13 @@
         top: 118px;
     }
 
-    .text-h1 {
+    .title-banner .text-h1 {
         font-size: 41px;
         line-height: 40px;
         margin-bottom: 2px;
     }
 
-    h1 {
+    .title-banner h1 {
         font-size: 44px;
         line-height: 43px;
         margin-bottom: 7px;
@@ -469,13 +469,13 @@
         top: 118px;
     }
 
-    .text-h1 {
+    .title-banner .text-h1 {
         font-size: 41px;
         line-height: 40px;
         margin-bottom: 2px;
     }
 
-    h1 {
+    .title-banner h1 {
         font-size: 44px;
         line-height: 43px;
         margin-bottom: 7px;

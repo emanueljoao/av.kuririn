@@ -12,26 +12,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style-prova.css">
     <link rel="stylesheet" href="css/style-media-query.css">
-    <!-- complemento header -->
-    <script type="module" src="javascripts/comp-header.js"></script>
     <!-- js de menu -->
     <script defer src="javascripts/scipt-menu.js"></script>
     <!-- js de busca -->
     <script defer src="javascripts/script-busca.js"></script>
-    <!-- complemento da section redes sociais que fica na lateral -->
-    <script type="module" src="javascripts/comp-sociais-medias.js"></script>
-    <!-- swiper tipos de vagão -->
-    <script src="javascripts/aumentar-img-tipos-de-vagoes.js"></script>
+    <!-- js - accordion images -->
+     <script defer src="javascripts/script-accordion-images.js"></script>
     <!-- complemento da section fale conosco -->
     <script src="javascripts/comp-fale-conosco.js"></script>
-    <!-- complemento do footer -->
-    <script type="module" src="javascripts/comp-footer.js"></script>
     <!-- accordion do footer -->
     <script defer src="javascripts/accordion.js"></script>
     <!-- script - scrool down page -->
     <script defer src="javascripts/top-down-page.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Segmentos e Setores</title>
+
 </head>
 
 <body>
@@ -54,16 +49,18 @@
                     </div>
                 </div>
 
-                <a href="#"><img src="imagens/logo-tremzao.png" alt="logo da empresa tremzão"
+                <a href="index.html"><img src="imagens/logo-tremzao.png" alt="logo da empresa tremzão"
                         class="img-tremzao-header img-fluid"></a>
 
                 <nav class="d-xl-block d-none">
                     <ul class="lista-nav-bar list-unstyled d-flex">
                         <li class="item-list"><a class="nav-ancor" href="index.html">Home</a></li>
                         <li class="item-list"><a class="nav-ancor" href="#">Quem Somos</a></li>
-                        <li class="item-list"><a class="nav-ancor" href="#">Produtos e Serviços</a></li>
-                        <li class="item-list"><a class="nav-ancor" href="#">Segmentos e Setores</a></li>
-                        <li class="item-list"><a class="nav-ancor" href="#">Blog</a></li>
+                        <li class="item-list"><a class="nav-ancor" href="index-produtos-servicos.html">Produtos e
+                                Serviços</a></li>
+                        <li class="item-list"><a class="nav-ancor" href="index-segmentos-setores.html">Segmentos e
+                                Setores</a></li>
+                        <li class="item-list"><a class="nav-ancor" href="index-blog-page.html">Blog</a></li>
                         <li class="item-list"><a class="nav-ancor" href="index-fale-conosco.html">Fale Conosco</a></li>
                     </ul>
                 </nav>
@@ -114,9 +111,11 @@
                     <ul class="lista-nav-bar list-unstyled d-flex flex-column align-items-center">
                         <li class="item-list-menu"><a class="nav-ancor-menu" href="index.html">Home</a></li>
                         <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Quem Somos</a></li>
-                        <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Produtos e Serviços</a></li>
-                        <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Segmentos e Setores</a></li>
-                        <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Blog</a></li>
+                        <li class="item-list-menu"><a class="nav-ancor-menu"
+                                href="index-produtos-servicos.html">Produtos e Serviços</a></li>
+                        <li class="item-list-menu"><a class="nav-ancor-menu"
+                                href="index-segmentos-setores.html">Segmentos e Setores</a></li>
+                        <li class="item-list-menu"><a class="nav-ancor-menu" href="index-blog-page.html">Blog</a></li>
                         <li class="item-list-menu"><a class="nav-ancor-menu" href="index-fale-conosco.html">Fale
                                 Conosco</a></li>
                     </ul>
@@ -267,10 +266,13 @@
                         <h1>SEGMENTOS E SETORES</h1>
 
                         <div class="div-down-page position-absolute" id="scrollToBottom">
-                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.7854 8.82617L8.3547 1.39547L0.923994 8.82617" stroke="white" stroke-linecap="square"/>
-                                <path d="M8.35498 17L8.35498 2.51013" stroke="white" stroke-linecap="square" stroke-linejoin="round"/>
-                            </svg>                                
+                            <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.7854 8.82617L8.3547 1.39547L0.923994 8.82617" stroke="white"
+                                    stroke-linecap="square" />
+                                <path d="M8.35498 17L8.35498 2.51013" stroke="white" stroke-linecap="square"
+                                    stroke-linejoin="round" />
+                            </svg>
                         </div>
 
                     </div>
@@ -290,6 +292,180 @@
 
                     <p class="two-texts-bold">Confira os segmentos e setores que atuamos e contate um dos nossos
                         especialistas para saber como obter vantagem competitiva na sua empresa com a TREMZÃO!</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION - ACCORDION IMAGE -->
+
+        <section class="accordion-image">
+            <div class="section-accordion-image container-fluid">
+                <div class="conteudo-section-accordion-image container-xl d-flex justify-content-center flex-column">
+
+                    <div class="all-images d-flex justify-content-center">
+
+
+                        <div class="item-all-images item-all-images-colheita">
+                            
+                            <div class="gradient-image-accordion">
+                                <div class="text-dad-all-images">
+                                    <p class="">Agronegócio</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="item-all-images item-all-images-mineracao">
+
+                            <div class="gradient-image-accordion">
+                                <div class="text-dad-all-images">
+                                    <p class="">Mineração</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="item-all-images item-all-images-gasosa active">                            
+
+                            <div class="gradient-image-accordion active">
+                                <div class="text-dad-all-images active">
+                                    <p class="active">Combustíveis</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="item-all-images item-all-images-siderurgia">
+
+                            <div class="gradient-image-accordion">
+                                <div class="text-dad-all-images">
+                                    <p class="">Siderurgia</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="item-all-images item-all-images-pinos">
+
+                            <div class="gradient-image-accordion">
+                                <div class="text-dad-all-images">
+                                    <p class="">Produtos Industrializados</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION - CASES DE SUCESSO -->
+
+        <section class="cases-de-sucesso">
+            <div class="section-cases-de-sucesso container-fluid">
+                <div class="conteudo-cases-de-sucesso container-xl">
+
+                    <div class="conjunto-title-cases-de-sucesso">
+
+                        <h2>CASES DE <strong>SUCESSO</strong></h2>
+
+                        <p>Conheça alguns cases de quem confia nos serviços e melhoraram sua logística de escoamento de
+                            mercadorias e ativos ferroviários, obtendo resultados financeiros de destaque.</p>
+
+                    </div>
+
+                    <div class="swiper myswiperCasesDeSucesso row">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                                <div class="item-swiper-cases d-flex">
+
+                                    <img src="imagens/imagem-cases-de-sucesso-item.png"
+                                        alt="imagem de uma cabine em um vagão de trem com uma mesa de jantar preparada para ser usada">
+
+                                    <div class="description-item-cases">
+
+                                        <p class="text-one-cases">Vagão com a TREMZÃO</p>
+
+                                        <p class="text-two-cases">Parceria com a TREMZÃO</p>
+
+                                        <p class="text-three-cases">
+                                            <strong>Cliente:</strong> IMCOPA - Importação, Exportação e Indústria de
+                                            Óleos Ltda. <br>
+                                            <strong>Material Rodante:</strong> 249 VAGÕES HFS <br>
+                                            <strong>Fabricante:</strong> RANDON S.A <br>
+                                            <strong>PRODUTO:</strong> SOJA <br>
+                                            <strong>Objetivo:</strong> Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Phasellus
+                                            faucibus, quam eu interdum sodales, nulla elit imperdiet orci, et
+                                            sollicitudin felis ex vitae neque. Nunc scelerisque enim ut ante faucibus
+                                            lacinia. Integer quis lorem pretium, laoreet lectus quis, consequat dui.
+                                            Praesent a tempus arcu.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="item-swiper-cases d-flex">
+
+                                    <img src="imagens/imagem-cases-de-sucesso-item.png"
+                                        alt="imagem de uma cabine em um vagão de trem com uma mesa de jantar preparada para ser usada">
+
+                                    <div class="description-item-cases">
+
+                                        <p class="text-one-cases">Vagão com a TREMZÃO</p>
+
+                                        <p class="text-two-cases">Parceria com a TREMZÃO</p>
+
+                                        <p class="text-three-cases">
+                                            <strong>Cliente:</strong> IMCOPA - Importação, Exportação e Indústria de
+                                            Óleos Ltda. <br>
+                                            <strong>Material Rodante:</strong> 249 VAGÕES HFS <br>
+                                            <strong>Fabricante:</strong> RANDON S.A <br>
+                                            <strong>PRODUTO:</strong> SOJA <br>
+                                            <strong>Objetivo:</strong> Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Phasellus
+                                            faucibus, quam eu interdum sodales, nulla elit imperdiet orci, et
+                                            sollicitudin felis ex vitae neque. Nunc scelerisque enim ut ante faucibus
+                                            lacinia. Integer quis lorem pretium, laoreet lectus quis, consequat dui.
+                                            Praesent a tempus arcu.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="btns-swipers-tipos-vagoes d-flex position-absolute">
+                            <div class="swiper-button-prev-custom btns-swipers-customs-novidades-blog">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 2L2 10L10 18" stroke="white" stroke-width="2"
+                                        stroke-linecap="square" />
+                                </svg>
+                            </div>
+
+                            <div class="swiper-button-next-custom btns-swipers-customs-novidades-blog">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 18L10 10L2 2" stroke="white" stroke-width="2" stroke-linecap="square" />
+                                </svg>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
@@ -633,6 +809,16 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiperCasesDeSucesso = new Swiper(".myswiperCasesDeSucesso", {
+            slidesPerView: 1,
+            navigation: {
+                nextEl: ".swiper-button-next-custom",
+                prevEl: ".swiper-button-prev-custom",
+            }
+        });
+    </script>
 
 </body>
 

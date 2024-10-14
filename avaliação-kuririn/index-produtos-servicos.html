@@ -12,20 +12,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style-prova.css">
     <link rel="stylesheet" href="css/style-media-query.css">
-    <!-- complemento header -->
-    <script type="module" src="javascripts/comp-header.js"></script>
     <!-- js de menu -->
     <script defer src="javascripts/scipt-menu.js"></script>
     <!-- js de busca -->
     <script defer src="javascripts/script-busca.js"></script>
-    <!-- complemento da section redes sociais que fica na lateral -->
-    <script type="module" src="javascripts/comp-sociais-medias.js"></script>
     <!-- swiper tipos de vagão -->
     <script src="javascripts/aumentar-img-tipos-de-vagoes.js"></script>
+    <!-- js overlay -->
+     <script defer src="javascripts/script-overlay.js"></script>
     <!-- complemento da section fale conosco -->
     <script src="javascripts/comp-fale-conosco.js"></script>
-    <!-- complemento do footer -->
-    <script type="module" src="javascripts/comp-footer.js"></script>
     <!-- accordion do footer -->
     <script defer src="javascripts/accordion.js"></script>
     <!-- script - scrool down page -->
@@ -54,16 +50,16 @@
                     </div>
                 </div>
 
-                <a href="#"><img src="imagens/logo-tremzao.png" alt="logo da empresa tremzão"
+                <a href="index.html"><img src="imagens/logo-tremzao.png" alt="logo da empresa tremzão"
                         class="img-tremzao-header img-fluid"></a>
 
                 <nav class="d-xl-block d-none">
                     <ul class="lista-nav-bar list-unstyled d-flex">
                         <li class="item-list"><a class="nav-ancor" href="index.html">Home</a></li>
                         <li class="item-list"><a class="nav-ancor" href="#">Quem Somos</a></li>
-                        <li class="item-list"><a class="nav-ancor" href="#">Produtos e Serviços</a></li>
-                        <li class="item-list"><a class="nav-ancor" href="#">Segmentos e Setores</a></li>
-                        <li class="item-list"><a class="nav-ancor" href="#">Blog</a></li>
+                        <li class="item-list"><a class="nav-ancor" href="index-produtos-servicos.html">Produtos e Serviços</a></li>
+                        <li class="item-list"><a class="nav-ancor" href="index-segmentos-setores.html">Segmentos e Setores</a></li>
+                        <li class="item-list"><a class="nav-ancor" href="index-blog-page.html">Blog</a></li>
                         <li class="item-list"><a class="nav-ancor" href="index-fale-conosco.html">Fale Conosco</a></li>
                     </ul>
                 </nav>
@@ -114,9 +110,9 @@
                     <ul class="lista-nav-bar list-unstyled d-flex flex-column align-items-center">
                         <li class="item-list-menu"><a class="nav-ancor-menu" href="index.html">Home</a></li>
                         <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Quem Somos</a></li>
-                        <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Produtos e Serviços</a></li>
-                        <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Segmentos e Setores</a></li>
-                        <li class="item-list-menu"><a class="nav-ancor-menu" href="#">Blog</a></li>
+                        <li class="item-list-menu"><a class="nav-ancor-menu" href="index-produtos-servicos.html">Produtos e Serviços</a></li>
+                        <li class="item-list-menu"><a class="nav-ancor-menu" href="index-segmentos-setores.html">Segmentos e Setores</a></li>
+                        <li class="item-list-menu"><a class="nav-ancor-menu" href="index-blog-page.html">Blog</a></li>
                         <li class="item-list-menu"><a class="nav-ancor-menu" href="index-fale-conosco.html">Fale
                                 Conosco</a></li>
                     </ul>
@@ -720,7 +716,7 @@
 
                                 <div class="card">
 
-                                    <div class="card-img-top position-relative">
+                                    <div class="imagem-ampliada card-img-top position-relative">
 
                                         <img src="imagens/tipos-de-vagao-trem-azul-amarelo.png"
                                             alt="iamgem de um trem azul e amarelo no deserto"
@@ -766,7 +762,7 @@
 
                                 <div class="card">
 
-                                    <div class="card-img-top position-relative">
+                                    <div class="imagem-ampliada card-img-top position-relative">
 
                                         <img src="imagens/tipos-de-vagoes-metro-vermelho.png"
                                             alt="imagem de um trem vermelho passando de baixo de uma passarela"
@@ -812,7 +808,7 @@
 
                                 <div class="card">
 
-                                    <div class="card-img-top position-relative">
+                                    <div class="imagem-ampliada card-img-top position-relative">
 
                                         <img src="imagens/tipos-de-vagoes-homen-no-celular-no-metro.png"
                                             alt="imagem de um homem careca escutando musica no celular com fone de ouvido no mêtro"
@@ -861,6 +857,8 @@
                 </div>
             </div>
         </section>
+
+        <div class="overlay" id="overlay"></div>
 
         <!-- SECTION - TERMINAL DE CARGAS -->
 

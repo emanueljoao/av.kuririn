@@ -2933,6 +2933,8 @@ body.blur-hidden {
     z-index: 1;
 }
 
+/* SECTION - TWO TEXTS */
+
 .section-two-texts {
     margin-top: 71px;
     margin-bottom: 39px;
@@ -3191,4 +3193,377 @@ body.blur-hidden {
 
 .section-fale-conosco a {
     text-decoration: none;
+}
+
+/****************************************** QUEM SOMOS PAGE *************************************************/
+
+.section-title-image-quem-somos {
+    display: flex;
+    align-items: end;
+    padding: 0;
+    height: 570px;
+}
+
+.bg-title-image-quem-somos {
+    background-image: linear-gradient(to right, #4848C6, transparent), url(../imagens/title-img-quem-somos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 475px;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo-section-title-image-quem-somos {
+    height: 100%;
+}
+
+.conteudo-section-title-image-quem-somos h1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-indent: 76px;
+    position: relative;
+    z-index: 1;
+}
+
+/* SECTION - TREMZAO NEGOCIOS */
+
+.section-tremzao-negocios {
+    padding: 30px;
+}
+
+.bg-tremzao-negocios {
+    background-image: url(../imagens/bg-img-tremzao-negocios.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.conteudo-section-tremzao-negocios {
+    height: 661px;
+}
+
+.conjunto-tremzao-negocios {
+    background-color: rgba(255, 255, 255, 0.85);
+    max-width: 526px;
+    color: #353597;
+    box-sizing: border-box;
+    padding: 60px 34px 43px 44px;
+}
+
+.conjunto-tremzao-negocios h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 57px;
+    color: #353597;
+    margin-bottom: 11px;
+}
+
+.conjunto-tremzao-negocios strong {
+    font-weight: 800;
+}
+
+.text-tremzao-negocios {
+    max-height: 215px;
+    max-width: 414px;
+}
+
+.conjunto-tremzao-negocios p {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.016px;
+}
+
+.margin-first-tremzao-negocios {
+    margin-bottom: 36px;
+}
+
+/* SECTION - MISSÃO, VISÃO E VALORES */
+
+.section-missao-visao-valores {
+    margin-top: calc(152px - 30px);
+    margin-bottom: 152px;
+}
+
+.conteudo-section-missao-visao-valores h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    text-align: center;
+    color: #353597;
+}
+
+.conteudo-section-missao-visao-valores strong {
+    font-weight: 800;
+}
+
+.conjunto-mvv {
+    column-gap: 30px;
+    margin-top: 54px;
+}
+
+.item-conjunto-mvv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #353597;
+    row-gap: 10px;
+}
+
+.text-title-mvv {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.text-normal-mvv {
+    max-width: 357px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.016px;
+    color: #353597;
+    margin: 0;
+}
+
+/* SECTION - NOSSA HISTÓRIA */
+
+.section-nossa-historia {
+    background-image: url(../imagens/bg-img-nossa-history.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 106px
+}
+
+.bg-color-nossa-historia {
+    background-color: rgba(255, 255, 255, 0.77);
+}
+
+.conteudo-section-nossa-historia {
+    padding: 110px 0;
+}
+
+.conteudo-section-nossa-historia h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    color: #353597;
+    margin-bottom: 25px;
+    padding: 0 15px;
+}
+
+.conteudo-section-nossa-historia > p {
+    padding: 0 15px;
+}
+
+.conteudo-section-nossa-historia strong {
+    font-weight: 800;
+}
+
+.conteudo-section-nossa-historia p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+    max-width: 846px;
+}
+
+.myswiperNossaHistoria {
+    margin-top: calc(95px - 1rem);
+    height: 168px;
+}
+
+.myswiperNossaHistoria .div-bg-trilho {
+    top: 50%;
+    transform: translateY(-50%);
+    align-self: center;
+}
+
+.div-bg-trilho {
+    background-image: url(../imagens/trilhos-trem-nossa-historia.png);
+    height: 61px;
+    width: 100%;
+}
+
+.circle-orange {
+    position: absolute;
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    background-color: #FF7C1E;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conteudo-section-nossa-historia .btns-swipers-tipos-vagoes {
+    margin-top: 36px;
+}
+
+.conteudo-section-nossa-historia .btns-swipers-tipos-vagoes p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.016px;
+    color: #756E6E;
+}
+
+.myswiperNossaHistoria .swiper-slide {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.vagoes {
+    position: relative;
+    z-index: 3;
+    height: 69.72px;
+    width: 198.75px;
+    background-color: #353597;
+    border-radius: 26px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ligacao-vagao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 15.35px;
+    background-color: #1A1A5B;
+}
+
+.arrows-vagao {
+    height: 15px;
+    width: 15px;
+    background-color: #1A1A5B;
+    transform: rotate(45deg);
+}
+
+/* SECTION - NOSSA EQUIPE */
+
+.section-nossa-equipe {
+    margin-bottom: calc(105px - 30px);
+}
+
+.title-nss-equipe {
+    display: flex;
+}
+
+.conteudo-section-nossa-equipe h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    color: #353597;
+}
+
+/* text-indent: calc((1296 - 543px * 2 -30) / 2) */
+.conteudo-section-nossa-equipe strong {
+    font-weight: 800;
+}
+
+.conjunto-nossa-equipe {
+    margin-top: 28px;
+    gap: 30px 28px;
+}
+
+.separacao-nss-equipe {
+    display: flex;
+    gap: 30px 28px;
+    width: 100%;
+    justify-content: center;
+}
+
+.item-nossa-equipe {
+    border-radius: 110px;
+    background-color: #353597;
+    padding: 9px;
+    column-gap: 20px;
+    max-width: 543px;
+    width: 100%;
+}
+
+.emp-name {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.emp-cargo {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.016px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* SECTION - GRUPO TREMZÃO */
+
+.section-gp-tremzao {
+    box-sizing: border-box;
+    padding: 30px;
+    height: 871px;
+}
+
+.bg-imgs-gp-tremzao {
+    background-image: linear-gradient(to left, rgba(72, 72, 198, 1), rgba(72, 72, 198, 1), rgba(72, 72, 198, 0.33), transparent), url(../imagens/bg-img-gp-tremzao.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudo-section-gp-tremzao {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.conjunto-gp-tremzao {
+    max-width: 460px;
+    margin: 120px 0;
+}
+
+.conjunto-gp-tremzao h2 {
+    font-weight: 275;
+    font-size: 48px;
+    line-height: 44px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.conjunto-gp-tremzao strong {
+    font-weight: 800;
+}
+
+.conjunto-gp-tremzao p {
+    color: #fff;
+    text-align: end;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.016px;
+}
+
+.btn-gp-tremzao {
+    max-width: 400px;
+    width: 100%;
+    align-self: flex-end;
 }

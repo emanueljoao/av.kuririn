@@ -65,6 +65,14 @@
         margin: 0 125px;
     }
 
+    /************ QUEM SOMOS PAGE ***********/
+
+    /* SECTION - GRUPO TREMZÃO */
+
+    .conteudo-section-nossa-equipe h2 {
+        text-indent: 90px;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -125,6 +133,28 @@
 
     .container-section-fale-conosco {
         padding: 93px 157px 98px 157px;
+    }
+
+    /********************* QUEM SOMOS PAGE *****************************/
+
+    /* SECTION - NOSSA HISTÓRIA */
+
+    .conteudo-section-nossa-historia h2 {
+        margin-left: 125px;
+    }
+    
+    .conteudo-section-nossa-historia > p {
+        margin-left: 125px;
+    }
+
+    .btns-swipers-tipos-vagoes > div {
+        padding: 0 15px;
+    }
+
+    /* SECTION - GRUPO TREMZÃO */
+
+    .conjunto-gp-tremzao {
+        margin-right: calc(95px - calc(var(--bs-gutter-x) * .5) );
     }
 
 }
@@ -258,6 +288,14 @@
         margin-bottom: 82px;
         margin-left: 0;
         row-gap: 31px;
+    }
+
+    /********************* QUEM SOMOS PAGE *****************************/
+
+    /* SECTION - GRUPO TREMZÃO */
+
+    .conjunto-gp-tremzao {
+        margin-right: calc(70px - calc(var(--bs-gutter-x) * .5) );
     }
 }
 
@@ -496,6 +534,21 @@
         row-gap: 31px;
     }
 
+    /* SECTION - GRUPO TREMZÃO */
+
+    .bg-imgs-gp-tremzao {
+        background-image: none;
+        background-color: #4848C6;
+    }
+
+    /********************* QUEM SOMOS PAGE *****************************/
+
+    /* SECTION - GRUPO TREMZÃO */
+
+    .conjunto-gp-tremzao {
+        margin-right: calc(30px - calc(var(--bs-gutter-x) * .5) );
+    }
+
 }
 
 @media (max-width: 575.09px) {
@@ -512,6 +565,12 @@
 
     .conteudo-menu {
         height: calc(100% - 65px);
+    }
+
+    .div-down-page {
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     /*################################# MAIN ##############################*/
@@ -872,4 +931,141 @@
     .check-poder-escolha svg path {
         stroke: #fff;
     }
+
+    /***************** QUEM SOMOS PAGE *************/
+
+    /* SECTION - TITLE IMAGE */
+
+    .section-title-image-quem-somos {
+        height: calc(570px - 65px);
+    }
+
+    .bg-title-image-quem-somos {
+        background-position: top center;
+    }
+
+    .conteudo-section-title-image-quem-somos {
+        justify-content: center;
+    }
+
+    .conteudo-section-title-image-quem-somos h1 {
+        font-size: 40px;
+        line-height: 48px;
+        text-indent: 0;
+    }
+
+    /* SECTION - TREMZAO NEGÓCIOS */
+
+    .section-tremzao-negocios {
+        padding: 0;
+    }
+
+    .bg-tremzao-negocios {
+        background-image: none;
+    }
+
+    .conteudo-section-tremzao-negocios {
+        height: 430px;
+    }
+
+    .conjunto-tremzao-negocios {
+        background-color: rgb(200, 200, 200, 0.60);
+        padding: 20px 15px;
+    }
+
+    .conjunto-tremzao-negocios h2 {
+        font-size: 30px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .conjunto-tremzao-negocios p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .margin-first-tremzao-negocios {
+        margin-bottom: 16px;
+    }
+
+    /* SECTION - MISSÃO, VISÃO E VALORES */
+
+    .section-missao-visao-valores {
+        margin-top: calc(80px - 30px);
+    }
+
+    .conteudo-section-missao-visao-valores h2 {
+        font-size: 36px;
+        line-height: 32px;
+    }
+
+    /* SECTION - NOSSA HISTÓRIA */
+
+    .conteudo-section-nossa-historia h2 {
+        font-size: 34px;
+        line-height: 32px;
+        margin-bottom: 5px;
+    }
+    
+
+    /* SECTION - NOSSA EQUIPE */
+
+    .conteudo-section-nossa-equipe h2 {
+        font-size: 36px;
+        line-height: 28px;
+    }
+
+    .item-nossa-equipe {
+        flex-direction: column;
+        border-radius: 5px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .item-nossa-equipe img {
+        max-width: 142px;
+        max-height: 142px;
+    }
+
+    .text-name-cargo {
+        text-align: center;
+    }
+    
+    .bg-imgs-gp-tremzao {
+        background-image: none;
+        background-color: #4848C6;
+    }
+
+    /* SECTION - GRUPO TREMZÃO */
+
+    .section-gp-tremzao {
+        padding: 15px;
+        height: 789px;
+    }
+
+    .conteudo-section-gp-tremzao {
+        justify-content: center;
+    }
+
+    .conjunto-gp-tremzao {
+        margin: 20px 0;
+    }
+    
+    .conjunto-gp-tremzao h2 {
+        text-align: center;
+        font-size: 32px;
+        line-height: 28px;
+    }
+
+    .conjunto-gp-tremzao p {
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .btn-gp-tremzao {
+        align-self: center;
+    }
+
 }
